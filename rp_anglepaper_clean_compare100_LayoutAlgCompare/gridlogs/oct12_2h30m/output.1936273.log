@@ -1,0 +1,1569 @@
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2015 The MathWorks, Inc.
+                   R2015a (8.5.0.197613) 64-bit (glnxa64)
+                             February 12, 2015
+
+ 
+To get started, type one of these: helpwin, helpdesk, or demo.
+For product information, visit www.mathworks.com.
+ 
+
+	Academic License
+
+
+img1 =
+
+125.pgm.atts
+
+
+img2 =
+
+dummy
+
+
+minGap =
+
+    20
+
+
+startTime =
+
+12-Oct-2015 20:32:31
+
+## Starting Data/125.pgm.atts
+
+ 711 longest primitives returned (326 lines, 385 arcs read, but returning only 3000 max elements for computational reasons)
+
+ Time taken by traditional algorithm = 600.628902 (sec)
+dimRedAlg =
+
+PCA
+
+
+dimRedAlg =
+
+LDA
+
+
+dimRedAlg =
+
+MDS
+
+
+dimRedAlg =
+
+ProbPCA
+
+
+dimRedAlg =
+
+FactorAnalysis
+
+
+dimRedAlg =
+
+Sammon
+
+
+dimRedAlg =
+
+Isomap
+
+Constructing neighborhood graph...
+Computing shortest paths...
+Constructing low-dimensional embedding...
+
+ Wanted to embed 693 magnets embedded 693 magnet
+ #*#*# ERROR: Failed Execution. Alg: Isomap, File: Data/125.pgm.atts
+
+magnetVisionException = 
+
+  MException with properties:
+
+    identifier: 'MATLAB:badsubscript'
+       message: 'Index exceeds matrix dimensions.'
+         cause: {}
+         stack: [3x1 struct]
+
+
+dimRedAlg =
+
+LandmarkIsomap
+
+
+ Wanted to embed 693 magnets embedded 693 magnet
+ #*#*# ERROR: Failed Execution. Alg: LandmarkIsomap, File: Data/125.pgm.atts
+
+magnetVisionException = 
+
+  MException with properties:
+
+    identifier: 'MATLAB:badsubscript'
+       message: 'Index exceeds matrix dimensions.'
+         cause: {}
+         stack: [3x1 struct]
+
+
+dimRedAlg =
+
+LLE
+
+
+ Wanted to embed 693 magnets embedded 693 magnet
+ #*#*# ERROR: Failed Execution. Alg: LLE, File: Data/125.pgm.atts
+
+magnetVisionException = 
+
+  MException with properties:
+
+    identifier: 'MATLAB:badsubscript'
+       message: 'Index exceeds matrix dimensions.'
+         cause: {}
+         stack: [3x1 struct]
+
+
+dimRedAlg =
+
+Laplacian
+
+
+ Wanted to embed 711 magnets embedded 711 magnet
+ Writing coordinates of magnets in text file Coords.txt
+ Image mask in VisionDots.bmp
+ Relaxing nanodisk array with pi/4 orientation as initial states for all disks and external field along x.
+ Time Taken = 5.497000 picoseconds
+ Relaxing nanodisk array with pi/4 orientation as initial states for all disks and external field along y.
+ Time Taken = 15.020000 picoseconds
+ Time taken by nanomagnet computing = 0.355779 (sec)
+ Detection Rate 0.596091 at 0.094958 false alarm
+dimRedAlg =
+
+HessianLLE
+
+
+ #*#*# ERROR: Failed Execution. Alg: HessianLLE, File: Data/125.pgm.atts
+
+magnetVisionException = 
+
+  MException with properties:
+
+    identifier: 'MATLAB:eigs:AminusBSingular'
+       message: 'The shifted operator is singular. The shift is an eigenva...'
+         cause: {0x1 cell}
+         stack: [8x1 struct]
+
+
+dimRedAlg =
+
+LTSA
+
+Find nearest neighbors...
+Compute local information matrices for all datapoints...
+Construct alignment matrix...
+Perform eigenanalysis...
+
+ #*#*# ERROR: Failed Execution. Alg: LTSA, File: Data/125.pgm.atts
+
+magnetVisionException = 
+
+  MException with properties:
+
+    identifier: 'MATLAB:eigs:AminusBSingular'
+       message: 'The shifted operator is singular. The shift is an eigenva...'
+         cause: {0x1 cell}
+         stack: [8x1 struct]
+
+
+dimRedAlg =
+
+DiffusionMaps
+
+
+ Wanted to embed 711 magnets embedded 711 magnet
+ Writing coordinates of magnets in text file Coords.txt
+ Image mask in VisionDots.bmp
+ Relaxing nanodisk array with pi/4 orientation as initial states for all disks and external field along x.
+ Time Taken = 14.685000 picoseconds
+ Relaxing nanodisk array with pi/4 orientation as initial states for all disks and external field along y.
+ Time Taken = 5.934000 picoseconds
+ Time taken by nanomagnet computing = 1.081094 (sec)
+ Detection Rate 0.331432 at 0.080080 false alarm
+dimRedAlg =
+
+KernelPCA
+
+
+ Wanted to embed 711 magnets embedded 711 magnet
+ Writing coordinates of magnets in text file Coords.txt
+ Image mask in VisionDots.bmp
+ Relaxing nanodisk array with pi/4 orientation as initial states for all disks and external field along x.
+ Time Taken = 65.762000 picoseconds
+ Relaxing nanodisk array with pi/4 orientation as initial states for all disks and external field along y.
+ Time Taken = 4.876000 picoseconds
+ Time taken by nanomagnet computing = 2.161540 (sec)
+ Detection Rate 0.514450 at 0.097801 false alarm
+dimRedAlg =
+
+SNE
+
+
+ Wanted to embed 711 magnets embedded 711 magnet
+ Writing coordinates of magnets in text file Coords.txt
+ Image mask in VisionDots.bmp
+ Relaxing nanodisk array with pi/4 orientation as initial states for all disks and external field along x.
+ Time Taken = 7.036000 picoseconds
+ Relaxing nanodisk array with pi/4 orientation as initial states for all disks and external field along y.
+ Time Taken = 21.063000 picoseconds
+ Time taken by nanomagnet computing = 141.564108 (sec)
+ Detection Rate 0.423134 at 0.093016 false alarm
+dimRedAlg =
+
+SymSNE
+
+
+ Wanted to embed 711 magnets embedded 711 magnet
+ Writing coordinates of magnets in text file Coords.txt
+ Image mask in VisionDots.bmp
+ Relaxing nanodisk array with pi/4 orientation as initial states for all disks and external field along x.
+ Time Taken = 16.023000 picoseconds
+ Relaxing nanodisk array with pi/4 orientation as initial states for all disks and external field along y.
+ Time Taken = 9.409000 picoseconds
+ Time taken by nanomagnet computing = 128.540117 (sec)
+ Detection Rate 0.469144 at 0.118461 false alarm
+dimRedAlg =
+
+tSNE
+
+Computed P-values 500 of 711 datapoints...
+Mean value of sigma: 0.44201
+Minimum value of sigma: 0.15301
+Maximum value of sigma: 1.4608
+
+ Wanted to embed 711 magnets embedded 711 magnet
+ Writing coordinates of magnets in text file Coords.txt
+ Image mask in VisionDots.bmp
+ Relaxing nanodisk array with pi/4 orientation as initial states for all disks and external field along x.
+ Time Taken = 3.213000 picoseconds
+ Relaxing nanodisk array with pi/4 orientation as initial states for all disks and external field along y.
+ Time Taken = 3.831000 picoseconds
+ Time taken by nanomagnet computing = 39.971159 (sec)
+ Detection Rate 0.433130 at 0.094816 false alarm
+dimRedAlg =
+
+NPE
+
+
+ Wanted to embed 711 magnets embedded 711 magnet
+ Writing coordinates of magnets in text file Coords.txt
+ Image mask in VisionDots.bmp
+ Relaxing nanodisk array with pi/4 orientation as initial states for all disks and external field along x.
+ Time Taken = 15.486000 picoseconds
+ Relaxing nanodisk array with pi/4 orientation as initial states for all disks and external field along y.
+ Time Taken = 2.700000 picoseconds
+ Time taken by nanomagnet computing = 1.212961 (sec)
+ Detection Rate 0.469273 at 0.057146 false alarm
+dimRedAlg =
+
+LPP
+
+
+ Wanted to embed 711 magnets embedded 711 magnet
+ Writing coordinates of magnets in text file Coords.txt
+ Image mask in VisionDots.bmp
+ Relaxing nanodisk array with pi/4 orientation as initial states for all disks and external field along x.
+ Time Taken = 17.538000 picoseconds
+ Relaxing nanodisk array with pi/4 orientation as initial states for all disks and external field along y.
+ Time Taken = 10.120000 picoseconds
+ Time taken by nanomagnet computing = 3.498895 (sec)
+ Detection Rate 0.445819 at 0.094200 false alarm
+dimRedAlg =
+
+SPE
+
+
+ Wanted to embed 711 magnets embedded 711 magnet
+ Writing coordinates of magnets in text file Coords.txt
+ Image mask in VisionDots.bmp
+ Relaxing nanodisk array with pi/4 orientation as initial states for all disks and external field along x.
+ Time Taken = 4.421000 picoseconds
+ Relaxing nanodisk array with pi/4 orientation as initial states for all disks and external field along y.
+ Time Taken = 6.121000 picoseconds
+ Time taken by nanomagnet computing = 8.620734 (sec)
+ Detection Rate 0.507978 at 0.075199 false alarm
+dimRedAlg =
+
+LLTSA
+
+
+ #*#*# ERROR: Failed Execution. Alg: LLTSA, File: Data/125.pgm.atts
+
+magnetVisionException = 
+
+  MException with properties:
+
+    identifier: 'MATLAB:eigs:ARPACKroutineErrorMinus14'
+       message: 'Error with ARPACK routine dneupd:
+ dnaupd did not find an...'
+         cause: {0x1 cell}
+         stack: [7x1 struct]
+
+
+dimRedAlg =
+
+CCA
+
+Running normal LLE...
+Running Conformal Eigenmaps...
+CSDP OUTPUT =============================================================================
+Iedge :18104, ivertex: 54054
+Elements time: 0.519991 
+Factor time: 0.000805 
+Other time: 0.182603 
+Total time: 0.703399 
+=========================================================================================
+
+ Wanted to embed 693 magnets embedded 693 magnet
+ #*#*# ERROR: Failed Execution. Alg: CCA, File: Data/125.pgm.atts
+
+magnetVisionException = 
+
+  MException with properties:
+
+    identifier: 'MATLAB:badsubscript'
+       message: 'Index exceeds matrix dimensions.'
+         cause: {}
+         stack: [3x1 struct]
+
+
+dimRedAlg =
+
+MVU
+
+Running normal LLE...
+Running Maximum Variance Unfolding...
+CSDP OUTPUT =============================================================================
+Iedge :6111, ivertex: 8316
+Elements time: 0.473907 
+Factor time: 0.000789 
+Other time: 0.147823 
+Total time: 0.622519 
+=========================================================================================
+
+ Wanted to embed 693 magnets embedded 693 magnet
+ #*#*# ERROR: Failed Execution. Alg: MVU, File: Data/125.pgm.atts
+
+magnetVisionException = 
+
+  MException with properties:
+
+    identifier: 'MATLAB:badsubscript'
+       message: 'Index exceeds matrix dimensions.'
+         cause: {}
+         stack: [3x1 struct]
+
+
+dimRedAlg =
+
+LandmarkMVU
+
+Elements time: 3.114617 
+Factor time: 0.763865 
+Other time: 2.476591 
+Total time: 6.355073 
+Elements time: 2.298722 
+Factor time: 0.610439 
+Other time: 1.761293 
+Total time: 4.670453 
+
+ Wanted to embed 711 magnets embedded 711 magnet
+ Writing coordinates of magnets in text file Coords.txt
+ Image mask in VisionDots.bmp
+ Relaxing nanodisk array with pi/4 orientation as initial states for all disks and external field along x.
+ Time Taken = 6.661000 picoseconds
+ Relaxing nanodisk array with pi/4 orientation as initial states for all disks and external field along y.
+ Time Taken = 7.703000 picoseconds
+ Time taken by nanomagnet computing = 13.247625 (sec)
+ Detection Rate 0.356488 at 0.088230 false alarm
+dimRedAlg =
+
+FastMVU
+
+Elements time: 0.000977 
+Factor time: 0.000054 
+Other time: 0.006130 
+Total time: 0.007161 
+
+ Wanted to embed 693 magnets embedded 693 magnet
+ #*#*# ERROR: Failed Execution. Alg: FastMVU, File: Data/125.pgm.atts
+
+magnetVisionException = 
+
+  MException with properties:
+
+    identifier: 'MATLAB:badsubscript'
+       message: 'Index exceeds matrix dimensions.'
+         cause: {}
+         stack: [3x1 struct]
+
+
+dimRedAlg =
+
+LLC
+
+Running EM algorithm and compute local factor analyzers...
+.................... 
+Constructing mixture of factor analyzers...
+[Warning: Matrix badly scaled: results may be inaccurate. Maybe you should use
+more iterations in the EM-algorithm. Using a lower number of factor analyzers
+might also overcome this problem.] 
+[> In llc (line 89)
+  In run_llc (line 57)
+  In compute_mapping (line 214)
+  In MagnetVision (line 62)
+  In main (line 121)
+  In rp_gridMain_Run2Img (line 11)] 
+[Warning: The shifted operator has small reciprocal condition estimate: 0.000000
+indicating that sigma is near an exact eigenvalue. The algorithm may not
+converge unless you try a new value for sigma.
+] 
+[> In eigs/checkInputs/LUfactorAminusSigmaB (line 998)
+  In eigs/checkInputs (line 809)
+  In eigs (line 93)
+  In llc (line 99)
+  In run_llc (line 57)
+  In compute_mapping (line 214)
+  In MagnetVision (line 62)
+  In main (line 121)
+  In rp_gridMain_Run2Img (line 11)] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.929596e-17.] 
+[> In eigs/AminusSigmaBsolve (line 1213)
+  In eigs>@(v)AminusSigmaBsolve(Bmtimes(v)) (line 149)
+  In eigs (line 264)
+  In llc (line 99)
+  In run_llc (line 57)
+  In compute_mapping (line 214)
+  In MagnetVision (line 62)
+  In main (line 121)
+  In rp_gridMain_Run2Img (line 11)] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.929596e-17.] 
+[> In eigs/AminusSigmaBsolve (line 1213)
+  In eigs>@(v)AminusSigmaBsolve(Bmtimes(v)) (line 149)
+  In eigs (line 267)
+  In llc (line 99)
+  In run_llc (line 57)
+  In compute_mapping (line 214)
+  In MagnetVision (line 62)
+  In main (line 121)
+  In rp_gridMain_Run2Img (line 11)] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.929596e-17.] 
+[> In eigs/AminusSigmaBsolve (line 1213)
+  In eigs>@(v)AminusSigmaBsolve(Bmtimes(v)) (line 149)
+  In eigs (line 267)
+  In llc (line 99)
+  In run_llc (line 57)
+  In compute_mapping (line 214)
+  In MagnetVision (line 62)
+  In main (line 121)
+  In rp_gridMain_Run2Img (line 11)] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.929596e-17.] 
+[> In eigs/AminusSigmaBsolve (line 1213)
+  In eigs>@(v)AminusSigmaBsolve(Bmtimes(v)) (line 149)
+  In eigs (line 267)
+  In llc (line 99)
+  In run_llc (line 57)
+  In compute_mapping (line 214)
+  In MagnetVision (line 62)
+  In main (line 121)
+  In rp_gridMain_Run2Img (line 11)] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.929596e-17.] 
+[> In eigs/AminusSigmaBsolve (line 1213)
+  In eigs>@(v)AminusSigmaBsolve(Bmtimes(v)) (line 149)
+  In eigs (line 267)
+  In llc (line 99)
+  In run_llc (line 57)
+  In compute_mapping (line 214)
+  In MagnetVision (line 62)
+  In main (line 121)
+  In rp_gridMain_Run2Img (line 11)] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.929596e-17.] 
+[> In eigs/AminusSigmaBsolve (line 1213)
+  In eigs>@(v)AminusSigmaBsolve(Bmtimes(v)) (line 149)
+  In eigs (line 267)
+  In llc (line 99)
+  In run_llc (line 57)
+  In compute_mapping (line 214)
+  In MagnetVision (line 62)
+  In main (line 121)
+  In rp_gridMain_Run2Img (line 11)] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.929596e-17.] 
+[> In eigs/AminusSigmaBsolve (line 1213)
+  In eigs>@(v)AminusSigmaBsolve(Bmtimes(v)) (line 149)
+  In eigs (line 267)
+  In llc (line 99)
+  In run_llc (line 57)
+  In compute_mapping (line 214)
+  In MagnetVision (line 62)
+  In main (line 121)
+  In rp_gridMain_Run2Img (line 11)] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.929596e-17.] 
+[> In eigs/AminusSigmaBsolve (line 1213)
+  In eigs>@(v)AminusSigmaBsolve(Bmtimes(v)) (line 149)
+  In eigs (line 267)
+  In llc (line 99)
+  In run_llc (line 57)
+  In compute_mapping (line 214)
+  In MagnetVision (line 62)
+  In main (line 121)
+  In rp_gridMain_Run2Img (line 11)] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.929596e-17.] 
+[> In eigs/AminusSigmaBsolve (line 1213)
+  In eigs>@(v)AminusSigmaBsolve(Bmtimes(v)) (line 149)
+  In eigs (line 267)
+  In llc (line 99)
+  In run_llc (line 57)
+  In compute_mapping (line 214)
+  In MagnetVision (line 62)
+  In main (line 121)
+  In rp_gridMain_Run2Img (line 11)] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.929596e-17.] 
+[> In eigs/AminusSigmaBsolve (line 1213)
+  In eigs>@(v)AminusSigmaBsolve(Bmtimes(v)) (line 149)
+  In eigs (line 267)
+  In llc (line 99)
+  In run_llc (line 57)
+  In compute_mapping (line 214)
+  In MagnetVision (line 62)
+  In main (line 121)
+  In rp_gridMain_Run2Img (line 11)] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.929596e-17.] 
+[> In eigs/AminusSigmaBsolve (line 1213)
+  In eigs>@(v)AminusSigmaBsolve(Bmtimes(v)) (line 149)
+  In eigs (line 267)
+  In llc (line 99)
+  In run_llc (line 57)
+  In compute_mapping (line 214)
+  In MagnetVision (line 62)
+  In main (line 121)
+  In rp_gridMain_Run2Img (line 11)] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.929596e-17.] 
+[> In eigs/AminusSigmaBsolve (line 1213)
+  In eigs>@(v)AminusSigmaBsolve(Bmtimes(v)) (line 149)
+  In eigs (line 267)
+  In llc (line 99)
+  In run_llc (line 57)
+  In compute_mapping (line 214)
+  In MagnetVision (line 62)
+  In main (line 121)
+  In rp_gridMain_Run2Img (line 11)] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.929596e-17.] 
+[> In eigs/AminusSigmaBsolve (line 1213)
+  In eigs>@(v)AminusSigmaBsolve(Bmtimes(v)) (line 149)
+  In eigs (line 267)
+  In llc (line 99)
+  In run_llc (line 57)
+  In compute_mapping (line 214)
+  In MagnetVision (line 62)
+  In main (line 121)
+  In rp_gridMain_Run2Img (line 11)] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.929596e-17.] 
+[> In eigs/AminusSigmaBsolve (line 1213)
+  In eigs>@(v)AminusSigmaBsolve(Bmtimes(v)) (line 149)
+  In eigs (line 267)
+  In llc (line 99)
+  In run_llc (line 57)
+  In compute_mapping (line 214)
+  In MagnetVision (line 62)
+  In main (line 121)
+  In rp_gridMain_Run2Img (line 11)] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.929596e-17.] 
+[> In eigs/AminusSigmaBsolve (line 1213)
+  In eigs>@(v)AminusSigmaBsolve(Bmtimes(v)) (line 149)
+  In eigs (line 267)
+  In llc (line 99)
+  In run_llc (line 57)
+  In compute_mapping (line 214)
+  In MagnetVision (line 62)
+  In main (line 121)
+  In rp_gridMain_Run2Img (line 11)] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.929596e-17.] 
+[> In eigs/AminusSigmaBsolve (line 1213)
+  In eigs>@(v)AminusSigmaBsolve(Bmtimes(v)) (line 149)
+  In eigs (line 267)
+  In llc (line 99)
+  In run_llc (line 57)
+  In compute_mapping (line 214)
+  In MagnetVision (line 62)
+  In main (line 121)
+  In rp_gridMain_Run2Img (line 11)] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.929596e-17.] 
+[> In eigs/AminusSigmaBsolve (line 1213)
+  In eigs>@(v)AminusSigmaBsolve(Bmtimes(v)) (line 149)
+  In eigs (line 267)
+  In llc (line 99)
+  In run_llc (line 57)
+  In compute_mapping (line 214)
+  In MagnetVision (line 62)
+  In main (line 121)
+  In rp_gridMain_Run2Img (line 11)] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.929596e-17.] 
+[> In eigs/AminusSigmaBsolve (line 1213)
+  In eigs>@(v)AminusSigmaBsolve(Bmtimes(v)) (line 149)
+  In eigs (line 267)
+  In llc (line 99)
+  In run_llc (line 57)
+  In compute_mapping (line 214)
+  In MagnetVision (line 62)
+  In main (line 121)
+  In rp_gridMain_Run2Img (line 11)] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.929596e-17.] 
+[> In eigs/AminusSigmaBsolve (line 1213)
+  In eigs>@(v)AminusSigmaBsolve(Bmtimes(v)) (line 149)
+  In eigs (line 267)
+  In llc (line 99)
+  In run_llc (line 57)
+  In compute_mapping (line 214)
+  In MagnetVision (line 62)
+  In main (line 121)
+  In rp_gridMain_Run2Img (line 11)] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.929596e-17.] 
+[> In eigs/AminusSigmaBsolve (line 1213)
+  In eigs>@(v)AminusSigmaBsolve(Bmtimes(v)) (line 149)
+  In eigs (line 267)
+  In llc (line 99)
+  In run_llc (line 57)
+  In compute_mapping (line 214)
+  In MagnetVision (line 62)
+  In main (line 121)
+  In rp_gridMain_Run2Img (line 11)] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.929596e-17.] 
+[> In eigs/AminusSigmaBsolve (line 1213)
+  In eigs>@(v)AminusSigmaBsolve(Bmtimes(v)) (line 149)
+  In eigs (line 267)
+  In llc (line 99)
+  In run_llc (line 57)
+  In compute_mapping (line 214)
+  In MagnetVision (line 62)
+  In main (line 121)
+  In rp_gridMain_Run2Img (line 11)] 
+
+ #*#*# ERROR: Failed Execution. Alg: LLC, File: Data/125.pgm.atts
+
+magnetVisionException = 
+
+  MException with properties:
+
+    identifier: 'MATLAB:badsubscript'
+       message: 'Subscript indices must either be real positive integers o...'
+         cause: {}
+         stack: [3x1 struct]
+
+
+dimRedAlg =
+
+GPLVM
+
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  2.718515e-21.] 
+[> In gplvm_grad (line 29)
+  In minimize (line 62)
+  In gplvm (line 39)
+  In compute_mapping (line 208)
+  In MagnetVision (line 62)
+  In main (line 121)
+  In rp_gridMain_Run2Img (line 11)] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  3.178031e-21.] 
+[> In gplvm_grad (line 30)
+  In minimize (line 62)
+  In gplvm (line 39)
+  In compute_mapping (line 208)
+  In MagnetVision (line 62)
+  In main (line 121)
+  In rp_gridMain_Run2Img (line 11)] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  2.718515e-21.] 
+[> In gplvm_grad (line 29)
+  In minimize (line 73)
+  In gplvm (line 39)
+  In compute_mapping (line 208)
+  In MagnetVision (line 62)
+  In main (line 121)
+  In rp_gridMain_Run2Img (line 11)] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  3.178031e-21.] 
+[> In gplvm_grad (line 30)
+  In minimize (line 73)
+  In gplvm (line 39)
+  In compute_mapping (line 208)
+  In MagnetVision (line 62)
+  In main (line 121)
+  In rp_gridMain_Run2Img (line 11)] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  2.718515e-21.] 
+[> In gplvm_grad (line 29)
+  In minimize (line 127)
+  In gplvm (line 39)
+  In compute_mapping (line 208)
+  In MagnetVision (line 62)
+  In main (line 121)
+  In rp_gridMain_Run2Img (line 11)] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  3.178031e-21.] 
+[> In gplvm_grad (line 30)
+  In minimize (line 127)
+  In gplvm (line 39)
+  In compute_mapping (line 208)
+  In MagnetVision (line 62)
+  In main (line 121)
+  In rp_gridMain_Run2Img (line 11)] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  2.718515e-21.] 
+[> In gplvm_grad (line 29)
+  In minimize (line 127)
+  In gplvm (line 39)
+  In compute_mapping (line 208)
+  In MagnetVision (line 62)
+  In main (line 121)
+  In rp_gridMain_Run2Img (line 11)] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  3.178031e-21.] 
+[> In gplvm_grad (line 30)
+  In minimize (line 127)
+  In gplvm (line 39)
+  In compute_mapping (line 208)
+  In MagnetVision (line 62)
+  In main (line 121)
+  In rp_gridMain_Run2Img (line 11)] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  2.718515e-21.] 
+[> In gplvm_grad (line 29)
+  In minimize (line 127)
+  In gplvm (line 39)
+  In compute_mapping (line 208)
+  In MagnetVision (line 62)
+  In main (line 121)
+  In rp_gridMain_Run2Img (line 11)] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  3.178031e-21.] 
+[> In gplvm_grad (line 30)
+  In minimize (line 127)
+  In gplvm (line 39)
+  In compute_mapping (line 208)
+  In MagnetVision (line 62)
+  In main (line 121)
+  In rp_gridMain_Run2Img (line 11)] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  2.718515e-21.] 
+[> In gplvm_grad (line 29)
+  In minimize (line 95)
+  In gplvm (line 39)
+  In compute_mapping (line 208)
+  In MagnetVision (line 62)
+  In main (line 121)
+  In rp_gridMain_Run2Img (line 11)] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  3.178031e-21.] 
+[> In gplvm_grad (line 30)
+  In minimize (line 95)
+  In gplvm (line 39)
+  In compute_mapping (line 208)
+  In MagnetVision (line 62)
+  In main (line 121)
+  In rp_gridMain_Run2Img (line 11)] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  2.718515e-21.] 
+[> In gplvm_grad (line 29)
+  In minimize (line 127)
+  In gplvm (line 39)
+  In compute_mapping (line 208)
+  In MagnetVision (line 62)
+  In main (line 121)
+  In rp_gridMain_Run2Img (line 11)] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  3.178031e-21.] 
+[> In gplvm_grad (line 30)
+  In minimize (line 127)
+  In gplvm (line 39)
+  In compute_mapping (line 208)
+  In MagnetVision (line 62)
+  In main (line 121)
+  In rp_gridMain_Run2Img (line 11)] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  2.718515e-21.] 
+[> In gplvm_grad (line 29)
+  In minimize (line 127)
+  In gplvm (line 39)
+  In compute_mapping (line 208)
+  In MagnetVision (line 62)
+  In main (line 121)
+  In rp_gridMain_Run2Img (line 11)] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  3.178031e-21.] 
+[> In gplvm_grad (line 30)
+  In minimize (line 127)
+  In gplvm (line 39)
+  In compute_mapping (line 208)
+  In MagnetVision (line 62)
+  In main (line 121)
+  In rp_gridMain_Run2Img (line 11)] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  2.718515e-21.] 
+[> In gplvm_grad (line 29)
+  In minimize (line 127)
+  In gplvm (line 39)
+  In compute_mapping (line 208)
+  In MagnetVision (line 62)
+  In main (line 121)
+  In rp_gridMain_Run2Img (line 11)] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  3.178031e-21.] 
+[> In gplvm_grad (line 30)
+  In minimize (line 127)
+  In gplvm (line 39)
+  In compute_mapping (line 208)
+  In MagnetVision (line 62)
+  In main (line 121)
+  In rp_gridMain_Run2Img (line 11)] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  2.718515e-21.] 
+[> In gplvm_grad (line 29)
+  In minimize (line 95)
+  In gplvm (line 39)
+  In compute_mapping (line 208)
+  In MagnetVision (line 62)
+  In main (line 121)
+  In rp_gridMain_Run2Img (line 11)] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  3.178031e-21.] 
+[> In gplvm_grad (line 30)
+  In minimize (line 95)
+  In gplvm (line 39)
+  In compute_mapping (line 208)
+  In MagnetVision (line 62)
+  In main (line 121)
+  In rp_gridMain_Run2Img (line 11)] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  2.718515e-21.] 
+[> In gplvm_grad (line 29)
+  In minimize (line 127)
+  In gplvm (line 39)
+  In compute_mapping (line 208)
+  In MagnetVision (line 62)
+  In main (line 121)
+  In rp_gridMain_Run2Img (line 11)] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  3.178031e-21.] 
+[> In gplvm_grad (line 30)
+  In minimize (line 127)
+  In gplvm (line 39)
+  In compute_mapping (line 208)
+  In MagnetVision (line 62)
+  In main (line 121)
+  In rp_gridMain_Run2Img (line 11)] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  2.718515e-21.] 
+[> In gplvm_grad (line 29)
+  In minimize (line 127)
+  In gplvm (line 39)
+  In compute_mapping (line 208)
+  In MagnetVision (line 62)
+  In main (line 121)
+  In rp_gridMain_Run2Img (line 11)] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  3.178031e-21.] 
+[> In gplvm_grad (line 30)
+  In minimize (line 127)
+  In gplvm (line 39)
+  In compute_mapping (line 208)
+  In MagnetVision (line 62)
+  In main (line 121)
+  In rp_gridMain_Run2Img (line 11)] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  2.718515e-21.] 
+[> In gplvm_grad (line 29)
+  In minimize (line 127)
+  In gplvm (line 39)
+  In compute_mapping (line 208)
+  In MagnetVision (line 62)
+  In main (line 121)
+  In rp_gridMain_Run2Img (line 11)] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  3.178031e-21.] 
+[> In gplvm_grad (line 30)
+  In minimize (line 127)
+  In gplvm (line 39)
+  In compute_mapping (line 208)
+  In MagnetVision (line 62)
+  In main (line 121)
+  In rp_gridMain_Run2Img (line 11)] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  2.718515e-21.] 
+[> In gplvm_grad (line 29)
+  In minimize (line 95)
+  In gplvm (line 39)
+  In compute_mapping (line 208)
+  In MagnetVision (line 62)
+  In main (line 121)
+  In rp_gridMain_Run2Img (line 11)] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  3.178031e-21.] 
+[> In gplvm_grad (line 30)
+  In minimize (line 95)
+  In gplvm (line 39)
+  In compute_mapping (line 208)
+  In MagnetVision (line 62)
+  In main (line 121)
+  In rp_gridMain_Run2Img (line 11)] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  2.718515e-21.] 
+[> In gplvm_grad (line 29)
+  In minimize (line 127)
+  In gplvm (line 39)
+  In compute_mapping (line 208)
+  In MagnetVision (line 62)
+  In main (line 121)
+  In rp_gridMain_Run2Img (line 11)] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  3.178031e-21.] 
+[> In gplvm_grad (line 30)
+  In minimize (line 127)
+  In gplvm (line 39)
+  In compute_mapping (line 208)
+  In MagnetVision (line 62)
+  In main (line 121)
+  In rp_gridMain_Run2Img (line 11)] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  2.718515e-21.] 
+[> In gplvm_grad (line 29)
+  In minimize (line 127)
+  In gplvm (line 39)
+  In compute_mapping (line 208)
+  In MagnetVision (line 62)
+  In main (line 121)
+  In rp_gridMain_Run2Img (line 11)] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  3.178031e-21.] 
+[> In gplvm_grad (line 30)
+  In minimize (line 127)
+  In gplvm (line 39)
+  In compute_mapping (line 208)
+  In MagnetVision (line 62)
+  In main (line 121)
+  In rp_gridMain_Run2Img (line 11)] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  2.718515e-21.] 
+[> In gplvm_grad (line 29)
+  In minimize (line 95)
+  In gplvm (line 39)
+  In compute_mapping (line 208)
+  In MagnetVision (line 62)
+  In main (line 121)
+  In rp_gridMain_Run2Img (line 11)] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  3.178031e-21.] 
+[> In gplvm_grad (line 30)
+  In minimize (line 95)
+  In gplvm (line 39)
+  In compute_mapping (line 208)
+  In MagnetVision (line 62)
+  In main (line 121)
+  In rp_gridMain_Run2Img (line 11)] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  2.718515e-21.] 
+[> In gplvm_grad (line 29)
+  In minimize (line 127)
+  In gplvm (line 39)
+  In compute_mapping (line 208)
+  In MagnetVision (line 62)
+  In main (line 121)
+  In rp_gridMain_Run2Img (line 11)] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  3.178031e-21.] 
+[> In gplvm_grad (line 30)
+  In minimize (line 127)
+  In gplvm (line 39)
+  In compute_mapping (line 208)
+  In MagnetVision (line 62)
+  In main (line 121)
+  In rp_gridMain_Run2Img (line 11)] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  2.718515e-21.] 
+[> In gplvm_grad (line 29)
+  In minimize (line 95)
+  In gplvm (line 39)
+  In compute_mapping (line 208)
+  In MagnetVision (line 62)
+  In main (line 121)
+  In rp_gridMain_Run2Img (line 11)] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  3.178031e-21.] 
+[> In gplvm_grad (line 30)
+  In minimize (line 95)
+  In gplvm (line 39)
+  In compute_mapping (line 208)
+  In MagnetVision (line 62)
+  In main (line 121)
+  In rp_gridMain_Run2Img (line 11)] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  2.718515e-21.] 
+[> In gplvm_grad (line 29)
+  In minimize (line 127)
+  In gplvm (line 39)
+  In compute_mapping (line 208)
+  In MagnetVision (line 62)
+  In main (line 121)
+  In rp_gridMain_Run2Img (line 11)] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  3.178031e-21.] 
+[> In gplvm_grad (line 30)
+  In minimize (line 127)
+  In gplvm (line 39)
+  In compute_mapping (line 208)
+  In MagnetVision (line 62)
+  In main (line 121)
+  In rp_gridMain_Run2Img (line 11)] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  2.718515e-21.] 
+[> In gplvm_grad (line 29)
+  In minimize (line 127)
+  In gplvm (line 39)
+  In compute_mapping (line 208)
+  In MagnetVision (line 62)
+  In main (line 121)
+  In rp_gridMain_Run2Img (line 11)] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  3.178031e-21.] 
+[> In gplvm_grad (line 30)
+  In minimize (line 127)
+  In gplvm (line 39)
+  In compute_mapping (line 208)
+  In MagnetVision (line 62)
+  In main (line 121)
+  In rp_gridMain_Run2Img (line 11)] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  2.718515e-21.] 
+[> In gplvm_grad (line 29)
+  In minimize (line 127)
+  In gplvm (line 39)
+  In compute_mapping (line 208)
+  In MagnetVision (line 62)
+  In main (line 121)
+  In rp_gridMain_Run2Img (line 11)] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  3.178031e-21.] 
+[> In gplvm_grad (line 30)
+  In minimize (line 127)
+  In gplvm (line 39)
+  In compute_mapping (line 208)
+  In MagnetVision (line 62)
+  In main (line 121)
+  In rp_gridMain_Run2Img (line 11)] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  2.718515e-21.] 
+[> In gplvm_grad (line 29)
+  In minimize (line 73)
+  In gplvm (line 39)
+  In compute_mapping (line 208)
+  In MagnetVision (line 62)
+  In main (line 121)
+  In rp_gridMain_Run2Img (line 11)] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  3.178031e-21.] 
+[> In gplvm_grad (line 30)
+  In minimize (line 73)
+  In gplvm (line 39)
+  In compute_mapping (line 208)
+  In MagnetVision (line 62)
+  In main (line 121)
+  In rp_gridMain_Run2Img (line 11)] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  2.718515e-21.] 
+[> In gplvm_grad (line 29)
+  In minimize (line 127)
+  In gplvm (line 39)
+  In compute_mapping (line 208)
+  In MagnetVision (line 62)
+  In main (line 121)
+  In rp_gridMain_Run2Img (line 11)] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  3.178031e-21.] 
+[> In gplvm_grad (line 30)
+  In minimize (line 127)
+  In gplvm (line 39)
+  In compute_mapping (line 208)
+  In MagnetVision (line 62)
+  In main (line 121)
+  In rp_gridMain_Run2Img (line 11)] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  2.718515e-21.] 
+[> In gplvm_grad (line 29)
+  In minimize (line 127)
+  In gplvm (line 39)
+  In compute_mapping (line 208)
+  In MagnetVision (line 62)
+  In main (line 121)
+  In rp_gridMain_Run2Img (line 11)] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  3.178031e-21.] 
+[> In gplvm_grad (line 30)
+  In minimize (line 127)
+  In gplvm (line 39)
+  In compute_mapping (line 208)
+  In MagnetVision (line 62)
+  In main (line 121)
+  In rp_gridMain_Run2Img (line 11)] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  2.718515e-21.] 
+[> In gplvm_grad (line 29)
+  In minimize (line 127)
+  In gplvm (line 39)
+  In compute_mapping (line 208)
+  In MagnetVision (line 62)
+  In main (line 121)
+  In rp_gridMain_Run2Img (line 11)] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  3.178031e-21.] 
+[> In gplvm_grad (line 30)
+  In minimize (line 127)
+  In gplvm (line 39)
+  In compute_mapping (line 208)
+  In MagnetVision (line 62)
+  In main (line 121)
+  In rp_gridMain_Run2Img (line 11)] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  2.718515e-21.] 
+[> In gplvm_grad (line 29)
+  In minimize (line 95)
+  In gplvm (line 39)
+  In compute_mapping (line 208)
+  In MagnetVision (line 62)
+  In main (line 121)
+  In rp_gridMain_Run2Img (line 11)] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  3.178031e-21.] 
+[> In gplvm_grad (line 30)
+  In minimize (line 95)
+  In gplvm (line 39)
+  In compute_mapping (line 208)
+  In MagnetVision (line 62)
+  In main (line 121)
+  In rp_gridMain_Run2Img (line 11)] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  2.718515e-21.] 
+[> In gplvm_grad (line 29)
+  In minimize (line 127)
+  In gplvm (line 39)
+  In compute_mapping (line 208)
+  In MagnetVision (line 62)
+  In main (line 121)
+  In rp_gridMain_Run2Img (line 11)] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  3.178031e-21.] 
+[> In gplvm_grad (line 30)
+  In minimize (line 127)
+  In gplvm (line 39)
+  In compute_mapping (line 208)
+  In MagnetVision (line 62)
+  In main (line 121)
+  In rp_gridMain_Run2Img (line 11)] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  2.718515e-21.] 
+[> In gplvm_grad (line 29)
+  In minimize (line 127)
+  In gplvm (line 39)
+  In compute_mapping (line 208)
+  In MagnetVision (line 62)
+  In main (line 121)
+  In rp_gridMain_Run2Img (line 11)] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  3.178031e-21.] 
+[> In gplvm_grad (line 30)
+  In minimize (line 127)
+  In gplvm (line 39)
+  In compute_mapping (line 208)
+  In MagnetVision (line 62)
+  In main (line 121)
+  In rp_gridMain_Run2Img (line 11)] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  2.718515e-21.] 
+[> In gplvm_grad (line 29)
+  In minimize (line 127)
+  In gplvm (line 39)
+  In compute_mapping (line 208)
+  In MagnetVision (line 62)
+  In main (line 121)
+  In rp_gridMain_Run2Img (line 11)] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  3.178031e-21.] 
+[> In gplvm_grad (line 30)
+  In minimize (line 127)
+  In gplvm (line 39)
+  In compute_mapping (line 208)
+  In MagnetVision (line 62)
+  In main (line 121)
+  In rp_gridMain_Run2Img (line 11)] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  2.718515e-21.] 
+[> In gplvm_grad (line 29)
+  In minimize (line 95)
+  In gplvm (line 39)
+  In compute_mapping (line 208)
+  In MagnetVision (line 62)
+  In main (line 121)
+  In rp_gridMain_Run2Img (line 11)] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  3.178031e-21.] 
+[> In gplvm_grad (line 30)
+  In minimize (line 95)
+  In gplvm (line 39)
+  In compute_mapping (line 208)
+  In MagnetVision (line 62)
+  In main (line 121)
+  In rp_gridMain_Run2Img (line 11)] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  2.718515e-21.] 
+[> In gplvm_grad (line 29)
+  In minimize (line 127)
+  In gplvm (line 39)
+  In compute_mapping (line 208)
+  In MagnetVision (line 62)
+  In main (line 121)
+  In rp_gridMain_Run2Img (line 11)] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  3.178031e-21.] 
+[> In gplvm_grad (line 30)
+  In minimize (line 127)
+  In gplvm (line 39)
+  In compute_mapping (line 208)
+  In MagnetVision (line 62)
+  In main (line 121)
+  In rp_gridMain_Run2Img (line 11)] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  2.718515e-21.] 
+[> In gplvm_grad (line 29)
+  In minimize (line 127)
+  In gplvm (line 39)
+  In compute_mapping (line 208)
+  In MagnetVision (line 62)
+  In main (line 121)
+  In rp_gridMain_Run2Img (line 11)] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  3.178031e-21.] 
+[> In gplvm_grad (line 30)
+  In minimize (line 127)
+  In gplvm (line 39)
+  In compute_mapping (line 208)
+  In MagnetVision (line 62)
+  In main (line 121)
+  In rp_gridMain_Run2Img (line 11)] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  2.718515e-21.] 
+[> In gplvm_grad (line 29)
+  In minimize (line 127)
+  In gplvm (line 39)
+  In compute_mapping (line 208)
+  In MagnetVision (line 62)
+  In main (line 121)
+  In rp_gridMain_Run2Img (line 11)] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  3.178031e-21.] 
+[> In gplvm_grad (line 30)
+  In minimize (line 127)
+  In gplvm (line 39)
+  In compute_mapping (line 208)
+  In MagnetVision (line 62)
+  In main (line 121)
+  In rp_gridMain_Run2Img (line 11)] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  2.718515e-21.] 
+[> In gplvm_grad (line 29)
+  In minimize (line 95)
+  In gplvm (line 39)
+  In compute_mapping (line 208)
+  In MagnetVision (line 62)
+  In main (line 121)
+  In rp_gridMain_Run2Img (line 11)] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  3.178031e-21.] 
+[> In gplvm_grad (line 30)
+  In minimize (line 95)
+  In gplvm (line 39)
+  In compute_mapping (line 208)
+  In MagnetVision (line 62)
+  In main (line 121)
+  In rp_gridMain_Run2Img (line 11)] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  2.718515e-21.] 
+[> In gplvm_grad (line 29)
+  In minimize (line 127)
+  In gplvm (line 39)
+  In compute_mapping (line 208)
+  In MagnetVision (line 62)
+  In main (line 121)
+  In rp_gridMain_Run2Img (line 11)] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  3.178031e-21.] 
+[> In gplvm_grad (line 30)
+  In minimize (line 127)
+  In gplvm (line 39)
+  In compute_mapping (line 208)
+  In MagnetVision (line 62)
+  In main (line 121)
+  In rp_gridMain_Run2Img (line 11)] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  2.718515e-21.] 
+[> In gplvm_grad (line 29)
+  In minimize (line 127)
+  In gplvm (line 39)
+  In compute_mapping (line 208)
+  In MagnetVision (line 62)
+  In main (line 121)
+  In rp_gridMain_Run2Img (line 11)] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  3.178031e-21.] 
+[> In gplvm_grad (line 30)
+  In minimize (line 127)
+  In gplvm (line 39)
+  In compute_mapping (line 208)
+  In MagnetVision (line 62)
+  In main (line 121)
+  In rp_gridMain_Run2Img (line 11)] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  2.718515e-21.] 
+[> In gplvm_grad (line 29)
+  In minimize (line 95)
+  In gplvm (line 39)
+  In compute_mapping (line 208)
+  In MagnetVision (line 62)
+  In main (line 121)
+  In rp_gridMain_Run2Img (line 11)] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  3.178031e-21.] 
+[> In gplvm_grad (line 30)
+  In minimize (line 95)
+  In gplvm (line 39)
+  In compute_mapping (line 208)
+  In MagnetVision (line 62)
+  In main (line 121)
+  In rp_gridMain_Run2Img (line 11)] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  2.718515e-21.] 
+[> In gplvm_grad (line 29)
+  In minimize (line 127)
+  In gplvm (line 39)
+  In compute_mapping (line 208)
+  In MagnetVision (line 62)
+  In main (line 121)
+  In rp_gridMain_Run2Img (line 11)] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  3.178031e-21.] 
+[> In gplvm_grad (line 30)
+  In minimize (line 127)
+  In gplvm (line 39)
+  In compute_mapping (line 208)
+  In MagnetVision (line 62)
+  In main (line 121)
+  In rp_gridMain_Run2Img (line 11)] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  2.718515e-21.] 
+[> In gplvm_grad (line 29)
+  In minimize (line 95)
+  In gplvm (line 39)
+  In compute_mapping (line 208)
+  In MagnetVision (line 62)
+  In main (line 121)
+  In rp_gridMain_Run2Img (line 11)] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  3.178031e-21.] 
+[> In gplvm_grad (line 30)
+  In minimize (line 95)
+  In gplvm (line 39)
+  In compute_mapping (line 208)
+  In MagnetVision (line 62)
+  In main (line 121)
+  In rp_gridMain_Run2Img (line 11)] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  2.718515e-21.] 
+[> In gplvm_grad (line 29)
+  In minimize (line 127)
+  In gplvm (line 39)
+  In compute_mapping (line 208)
+  In MagnetVision (line 62)
+  In main (line 121)
+  In rp_gridMain_Run2Img (line 11)] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  3.178031e-21.] 
+[> In gplvm_grad (line 30)
+  In minimize (line 127)
+  In gplvm (line 39)
+  In compute_mapping (line 208)
+  In MagnetVision (line 62)
+  In main (line 121)
+  In rp_gridMain_Run2Img (line 11)] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  2.718515e-21.] 
+[> In gplvm_grad (line 29)
+  In minimize (line 127)
+  In gplvm (line 39)
+  In compute_mapping (line 208)
+  In MagnetVision (line 62)
+  In main (line 121)
+  In rp_gridMain_Run2Img (line 11)] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  3.178031e-21.] 
+[> In gplvm_grad (line 30)
+  In minimize (line 127)
+  In gplvm (line 39)
+  In compute_mapping (line 208)
+  In MagnetVision (line 62)
+  In main (line 121)
+  In rp_gridMain_Run2Img (line 11)] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  2.718515e-21.] 
+[> In gplvm_grad (line 29)
+  In minimize (line 127)
+  In gplvm (line 39)
+  In compute_mapping (line 208)
+  In MagnetVision (line 62)
+  In main (line 121)
+  In rp_gridMain_Run2Img (line 11)] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  3.178031e-21.] 
+[> In gplvm_grad (line 30)
+  In minimize (line 127)
+  In gplvm (line 39)
+  In compute_mapping (line 208)
+  In MagnetVision (line 62)
+  In main (line 121)
+  In rp_gridMain_Run2Img (line 11)] 
+
+ Wanted to embed 711 magnets embedded 711 magnet
+ Writing coordinates of magnets in text file Coords.txt
+ Image mask in VisionDots.bmp
+ Relaxing nanodisk array with pi/4 orientation as initial states for all disks and external field along x.
+ Time Taken = 17.203000 picoseconds
+ Relaxing nanodisk array with pi/4 orientation as initial states for all disks and external field along y.
+ Time Taken = 2.750000 picoseconds
+ Time taken by nanomagnet computing = 16.942676 (sec)
+ Detection Rate 0.341942 at 0.082781 false alarm
+dimRedAlg =
+
+Autoencoder
+
+Network size: 859  181   72    2
+Initial MSE of reconstructions: 0.18742
+Final MSE of reconstructions: 0.001261
+Initial MSE of reconstructions: 0.050869
+Final MSE of reconstructions: 0.00039378
+Initial MSE of reconstructions: 0.038147
+Final MSE of reconstructions: 0.00050242
+Initial MSE of reconstructions: 0.037971
+Final MSE of reconstructions: 0.00045348
+MSE of initial model: 0.19913
+MSE of final model: 0.90038
+
+ Wanted to embed 711 magnets embedded 711 magnet
+ Writing coordinates of magnets in text file Coords.txt
+ Image mask in VisionDots.bmp
+ Relaxing nanodisk array with pi/4 orientation as initial states for all disks and external field along x.
+ Time Taken = 45.911000 picoseconds
+ Relaxing nanodisk array with pi/4 orientation as initial states for all disks and external field along y.
+ Time Taken = 80.478000 picoseconds
+ Time taken by nanomagnet computing = 1097.053677 (sec)
+ Detection Rate 0.561294 at 0.097233 false alarm
+dimRedAlg =
+
+NCA
+
+
+ Wanted to embed 711 magnets embedded 711 magnet
+ Writing coordinates of magnets in text file Coords.txt
+ Image mask in VisionDots.bmp
+ Relaxing nanodisk array with pi/4 orientation as initial states for all disks and external field along x.
+ Time Taken = 75.960000 picoseconds
+ Relaxing nanodisk array with pi/4 orientation as initial states for all disks and external field along y.
+ Time Taken = 4.065000 picoseconds
+ Time taken by nanomagnet computing = 524.156456 (sec)
+ Detection Rate 0.210317 at 0.091404 false alarm
+dimRedAlg =
+
+MCML
+
+
+ Wanted to embed 711 magnets embedded 711 magnet
+ Writing coordinates of magnets in text file Coords.txt
+ Image mask in VisionDots.bmp
+ Relaxing nanodisk array with pi/4 orientation as initial states for all disks and external field along x.
+ Time Taken = 3.566000 picoseconds
+ Relaxing nanodisk array with pi/4 orientation as initial states for all disks and external field along y.
+ Time Taken = 18.712000 picoseconds
+ Time taken by nanomagnet computing = 1553.475196 (sec)
+ Detection Rate 0.375905 at 0.091120 false alarm
+dimRedAlg =
+
+LMNN
+
+
+ Wanted to embed 711 magnets embedded 711 magnet
+ Writing coordinates of magnets in text file Coords.txt
+ Image mask in VisionDots.bmp
+ Relaxing nanodisk array with pi/4 orientation as initial states for all disks and external field along x.
+ Time Taken = 9.979000 picoseconds
+ Relaxing nanodisk array with pi/4 orientation as initial states for all disks and external field along y.
+ Time Taken = 4.944000 picoseconds
+ Time taken by nanomagnet computing = 605.618918 (sec)
+ Detection Rate 0.393335 at 0.070034 false alarm
+startTime =
+
+12-Oct-2015 20:32:31
+
+
+endTIme =
+
+12-Oct-2015 23:13:40
+
+Elapsed time is 739.835981 seconds.
+
+startTime =
+
+12-Oct-2015 23:13:40
+
+## Starting Data/dummy
+{Error using fscanf
+Invalid file identifier. Use fopen to generate a valid file identifier.
+
+Error in ReadEdgeAttsFile (line 31)
+paren = fscanf(infile, ' %c', 1);
+
+
+Error in main (line 54)
+Lines = ReadEdgeAttsFile (ImageFile);
+
+
+Error in rp_gridMain_Run2Img (line 20)
+	main(['Data' filesep img2], minGap);
+
+} 
+>> 

@@ -1,0 +1,3350 @@
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2015 The MathWorks, Inc.
+                   R2015a (8.5.0.197613) 64-bit (glnxa64)
+                             February 12, 2015
+
+ 
+To get started, type one of these: helpwin, helpdesk, or demo.
+For product information, visit www.mathworks.com.
+ 
+
+	Academic License
+
+
+img1 =
+
+airplane.pgm.atts
+
+
+img2 =
+
+dummy
+
+
+minGap =
+
+    20
+
+
+startTime =
+
+13-Oct-2015 16:59:14
+
+## Starting Data/airplane.pgm.atts
+
+ 525 longest primitives returned (324 lines, 201 arcs read, but returning only 3000 max elements for computational reasons)
+
+ Time taken by traditional algorithm = 426.041210 (sec)
+dimRedAlg =
+
+PCA
+
+
+dimRedAlg =
+
+LDA
+
+
+dimRedAlg =
+
+MDS
+
+
+dimRedAlg =
+
+ProbPCA
+
+
+dimRedAlg =
+
+FactorAnalysis
+
+
+dimRedAlg =
+
+Sammon
+
+
+dimRedAlg =
+
+Isomap
+
+Constructing neighborhood graph...
+Computing shortest paths...
+Constructing low-dimensional embedding...
+
+ Wanted to embed 524 magnets embedded 524 magnet
+ #*#*# ERROR: Failed Execution. Alg: Isomap, File: Data/airplane.pgm.atts
+
+magnetVisionException = 
+
+  MException with properties:
+
+    identifier: 'MATLAB:badsubscript'
+       message: 'Index exceeds matrix dimensions.'
+         cause: {}
+         stack: [3x1 struct]
+
+
+dimRedAlg =
+
+LandmarkIsomap
+
+
+ Wanted to embed 524 magnets embedded 524 magnet
+ #*#*# ERROR: Failed Execution. Alg: LandmarkIsomap, File: Data/airplane.pgm.atts
+
+magnetVisionException = 
+
+  MException with properties:
+
+    identifier: 'MATLAB:badsubscript'
+       message: 'Index exceeds matrix dimensions.'
+         cause: {}
+         stack: [3x1 struct]
+
+
+dimRedAlg =
+
+LLE
+
+
+ Wanted to embed 524 magnets embedded 524 magnet
+ #*#*# ERROR: Failed Execution. Alg: LLE, File: Data/airplane.pgm.atts
+
+magnetVisionException = 
+
+  MException with properties:
+
+    identifier: 'MATLAB:badsubscript'
+       message: 'Index exceeds matrix dimensions.'
+         cause: {}
+         stack: [3x1 struct]
+
+
+dimRedAlg =
+
+Laplacian
+
+
+dimRedAlg =
+
+HessianLLE
+
+
+ #*#*# ERROR: Failed Execution. Alg: HessianLLE, File: Data/airplane.pgm.atts
+
+magnetVisionException = 
+
+  MException with properties:
+
+    identifier: 'MATLAB:eigs:AminusBSingular'
+       message: 'The shifted operator is singular. The shift is an eigenva...'
+         cause: {0x1 cell}
+         stack: [8x1 struct]
+
+
+dimRedAlg =
+
+LTSA
+
+Find nearest neighbors...
+Compute local information matrices for all datapoints...
+Construct alignment matrix...
+Perform eigenanalysis...
+
+ #*#*# ERROR: Failed Execution. Alg: LTSA, File: Data/airplane.pgm.atts
+
+magnetVisionException = 
+
+  MException with properties:
+
+    identifier: 'MATLAB:eigs:AminusBSingular'
+       message: 'The shifted operator is singular. The shift is an eigenva...'
+         cause: {0x1 cell}
+         stack: [8x1 struct]
+
+
+dimRedAlg =
+
+DiffusionMaps
+
+
+dimRedAlg =
+
+KernelPCA
+
+
+dimRedAlg =
+
+SNE
+
+
+dimRedAlg =
+
+SymSNE
+
+
+dimRedAlg =
+
+tSNE
+
+
+dimRedAlg =
+
+NPE
+
+
+dimRedAlg =
+
+LPP
+
+
+dimRedAlg =
+
+SPE
+
+
+dimRedAlg =
+
+LLTSA
+
+
+dimRedAlg =
+
+CCA
+
+Running normal LLE...
+Running Conformal Eigenmaps...
+CSDP OUTPUT =============================================================================
+Iedge :13832, ivertex: 40872
+params->axtol is 7.072302e-316 
+params->atytol is 0.000000e+00 
+params->objtol is 1.048403e+01 
+params->pinftol is 1.973456e-312 
+params->dinftol is 2.192811e-314 
+params->maxiter is 744 
+params->minstepfrac is -2.073082e+307 
+params->maxstepfrac is 5.183843e-270 
+params->minstepp is 0.000000e+00 
+params->minstepd is 1.048403e+01 
+params->usexzgap is 1 
+params->tweakgap is 143143360 
+params->affine is 1 
+params->printlevel is 143144590 
+params->perturbobj is 1.465506e-267 
+params->fastmode is 1831826288 
+1,1,0,64 
+2,1,0,62 
+3,1,0,62 
+4,1,0,62 
+5,1,0,62 
+6,1,0,62 
+7,1,0,62 
+8,1,0,62 
+9,1,0,62 
+10,1,0,64 
+11,1,0,62 
+12,1,0,62 
+13,1,0,62 
+14,1,0,62 
+15,1,0,62 
+16,1,0,62 
+17,1,0,62 
+18,1,0,64 
+19,1,0,62 
+20,1,0,62 
+21,1,0,62 
+22,1,0,62 
+23,1,0,62 
+24,1,0,62 
+25,1,0,64 
+26,1,0,62 
+27,1,0,62 
+28,1,0,62 
+29,1,0,62 
+30,1,0,62 
+31,1,0,64 
+32,1,0,62 
+33,1,0,62 
+34,1,0,62 
+35,1,0,62 
+36,1,0,64 
+37,1,0,62 
+38,1,0,62 
+39,1,0,62 
+40,1,0,64 
+41,1,0,62 
+42,1,0,62 
+43,1,0,64 
+44,1,0,62 
+45,1,0,48 
+46,1,1,1 
+Block 1, Size 93, Fill 287, 3.32 
+Structural density of O 2116, 1.000000e+00 
+Fnorm of Zi is 9.198419e-01 
+constant offset is 0.000000e+00 
+Fnorm of X is 8.968595e+03 
+Fnorm of C is 9.110434e+00 
+pobj is -7.533000e+04 
+dobj is 0.000000e+00 
+gap is 9.067639e+05 
+Iter:  0 Ap: 0.00e+00 Pobj: -7.5330000e+04 Ad: 0.00e+00 Dobj:  0.0000000e+00 
+mystepfrac is 0.000000e+00 
+Relative primal infeasibility is 1.4703011e+03 
+Relative dual infeasibility: 9.1758834e+00 
+Relative duality gap is 1.2037061e+01 
+XZ relative duality gap is 9.0676386e+05 
+-a'*y/||A'(y)-Z|| is -0.000000e+00 
+<C,X>/||A(X)||=-2.561445e+01
+Fnorm of X is 8.968595e+03 
+diagnrm is 3.649942e+03, adding diagadd 0.000000e+00 
+Perturbing C.
+Fnorm of Fd is 9.277215e+01 
+Norm of rhs is 3.449682e+03 
+Norm of dy is 1.067054e+01 
+Fnorm of work1 is 1.279361e+00 
+Before Fd, Fnorm of dZ is 1.341286e+01 
+After Fd, Fnorm of dZ is 9.179614e+01 
+Fnorm of dX is 1.375388e+03 
+Fnorm of dZ is 9.179614e+01 
+linesearch method 2 
+qreig evalue -4.411696e-01 
+qreig evalue 2.497972e-02 
+qreig evalue 9.483139e-02 
+qreig evalue 4.410748e-01 
+qreig evalue 1.011397e+00 
+qreig evalue -4.411737e-01 
+qreig evalue 1.118597e-02 
+qreig evalue 5.683805e-02 
+qreig evalue 9.519876e-02 
+qreig evalue 4.411737e-01 
+qreig evalue 1.011397e+00 
+qreig evalue -4.411737e-01 
+qreig evalue 8.232170e-03 
+qreig evalue 3.957859e-02 
+qreig evalue 7.043032e-02 
+qreig evalue 9.527673e-02 
+qreig evalue 4.411739e-01 
+qreig evalue 1.011397e+00 
+qreig evalue -4.411737e-01 
+qreig evalue 6.837644e-03 
+qreig evalue 2.634887e-02 
+qreig evalue 5.595353e-02 
+qreig evalue 8.281059e-02 
+qreig evalue 9.532963e-02 
+qreig evalue 4.411739e-01 
+qreig evalue 1.011397e+00 
+Stopping here, on tightness j=8 
+maxeigs[1]=-1.000000e+100 
+maxeigs[2]=-1.000000e+100 
+maxeigs[3]=-1.000000e+100 
+maxeigs[4]=-1.000000e+100 
+maxeigs[5]=1.011397e+00 
+maxeigs[6]=1.011397e+00 
+maxeigs[7]=1.011397e+00 
+maxeigs[8]=1.011397e+00 
+maxeig 1.021511e+00 
+Lancoz converged after 8 iters
+eigsearch: alpha=0.000000e+00 
+linesearch method 2 
+qreig evalue -1.139652e-02 
+qreig evalue 5.589252e-01 
+qreig evalue 9.051686e-01 
+qreig evalue 9.750203e-01 
+qreig evalue 1.441170e+00 
+qreig evalue -1.139690e-02 
+qreig evalue 5.588263e-01 
+qreig evalue 9.048012e-01 
+qreig evalue 9.431619e-01 
+qreig evalue 9.888140e-01 
+qreig evalue 1.441174e+00 
+qreig evalue -1.139690e-02 
+qreig evalue 5.588261e-01 
+qreig evalue 9.047233e-01 
+qreig evalue 9.295697e-01 
+qreig evalue 9.604214e-01 
+qreig evalue 9.917678e-01 
+qreig evalue 1.441174e+00 
+qreig evalue -1.139690e-02 
+qreig evalue 5.588261e-01 
+qreig evalue 9.046704e-01 
+qreig evalue 9.171894e-01 
+qreig evalue 9.440465e-01 
+qreig evalue 9.736511e-01 
+qreig evalue 9.931624e-01 
+qreig evalue 1.441174e+00 
+Stopping here, on tightness j=8 
+maxeigs[1]=-1.000000e+100 
+maxeigs[2]=-1.000000e+100 
+maxeigs[3]=-1.000000e+100 
+maxeigs[4]=-1.000000e+100 
+maxeigs[5]=1.441170e+00 
+maxeigs[6]=1.441174e+00 
+maxeigs[7]=1.441174e+00 
+maxeigs[8]=1.441174e+00 
+maxeig 1.455585e+00 
+Lancoz converged after 8 iters
+eigsearch: alpha=0.000000e+00 
+Taking an affine step because parameters.affine=1
+muk is 9.750149e+03 
+muplus is 9.750149e+03 
+New mu is 0.000000e+00 
+mu*n = target duality gap is 0.000000e+00 
+refinement: Relative error in A(X+dX)=a (Fphat) is 2.305873e-13 
+refinement: Before dX+dX1 Relative error in A(X+dX)=a is 2.305873e-13 
+refinement: better
+Fnorm of dX1 is 7.744957e+02
+Fnorm of dZ1 is 6.688339e+00
+refinement: Before adjust dX Relative error in A(X+dX)=a is 2.455296e-13 
+refinement: worse
+Fnorm of dX is 1.907375e+03 
+Fnorm of dZ is 9.203946e+01 
+refinement: After adjust error in A(X+dX)=a is 2.455296e-13 
+refinement: worse
+linesearch method 2 
+qreig evalue -6.501479e-01 
+qreig evalue 5.682681e-02 
+qreig evalue 1.756603e-01 
+qreig evalue 2.156883e-01 
+qreig evalue 1.000138e+00 
+qreig evalue -6.501503e-01 
+qreig evalue 1.888877e-02 
+qreig evalue 8.083398e-02 
+qreig evalue 1.815866e-01 
+qreig evalue 2.603233e-01 
+qreig evalue 1.000140e+00 
+qreig evalue -6.501503e-01 
+qreig evalue 1.235710e-02 
+qreig evalue 5.365671e-02 
+qreig evalue 8.545676e-02 
+qreig evalue 1.816643e-01 
+qreig evalue 2.608783e-01 
+qreig evalue 1.000139e+00 
+qreig evalue -6.501503e-01 
+qreig evalue 1.154624e-02 
+qreig evalue 4.427436e-02 
+qreig evalue 7.200170e-02 
+qreig evalue 8.740027e-02 
+qreig evalue 1.816657e-01 
+qreig evalue 2.608819e-01 
+qreig evalue 1.000139e+00 
+Stopping here, on tightness j=8 
+maxeigs[1]=-1.000000e+100 
+maxeigs[2]=-1.000000e+100 
+maxeigs[3]=-1.000000e+100 
+maxeigs[4]=-1.000000e+100 
+maxeigs[5]=1.000138e+00 
+maxeigs[6]=1.000140e+00 
+maxeigs[7]=1.000139e+00 
+maxeigs[8]=1.000139e+00 
+maxeig 1.010141e+00 
+Lancoz converged after 8 iters
+eigsearch: alpha=0.000000e+00 
+linesearch method 2 
+qreig evalue -1.101175e-02 
+qreig evalue 9.046180e-01 
+qreig evalue 9.788725e-01 
+qreig evalue 9.959736e-01 
+qreig evalue 1.013291e+00 
+qreig evalue -1.101175e-02 
+qreig evalue 9.046179e-01 
+qreig evalue 9.524299e-01 
+qreig evalue 9.796520e-01 
+qreig evalue 9.970689e-01 
+qreig evalue 1.013877e+00 
+qreig evalue -1.101175e-02 
+qreig evalue 9.046171e-01 
+qreig evalue 9.070582e-01 
+qreig evalue 9.778739e-01 
+qreig evalue 9.879756e-01 
+qreig evalue 9.990880e-01 
+qreig evalue 1.014297e+00 
+qreig evalue -1.101175e-02 
+qreig evalue 9.046168e-01 
+qreig evalue 9.063587e-01 
+qreig evalue 9.771733e-01 
+qreig evalue 9.830170e-01 
+qreig evalue 9.930513e-01 
+qreig evalue 9.999969e-01 
+qreig evalue 1.014339e+00 
+Stopping here, on tightness j=8 
+maxeigs[1]=-1.000000e+100 
+maxeigs[2]=-1.000000e+100 
+maxeigs[3]=-1.000000e+100 
+maxeigs[4]=-1.000000e+100 
+maxeigs[5]=1.013291e+00 
+maxeigs[6]=1.013877e+00 
+maxeigs[7]=1.014297e+00 
+maxeigs[8]=1.014339e+00 
+maxeig 1.024482e+00 
+Lancoz converged after 8 iters
+eigsearch: alpha=0.000000e+00 
+After linesearches, alphap=0.000000e+00 alphad=0.000000e+00 
+newrelpinfeas is 1.470301e+03
+limrelpinfeas is 1.470301e+06
+newreldinfeas is 9.175883e+00
+limreldinfeas is 9.175883e+03
+After feas check, alphap=0.000000e+00 alphad=0.000000e+00 
+line search failure in corrector step.
+diagnrm is 3.649942e+03, adding diagadd 5.381546e-15 
+Perturbing C.
+Fnorm of Fd is 9.277215e+01 
+Norm of rhs is 3.449682e+03 
+Norm of dy is 1.067054e+01 
+Fnorm of work1 is 1.279361e+00 
+Before Fd, Fnorm of dZ is 1.341286e+01 
+After Fd, Fnorm of dZ is 9.179614e+01 
+Fnorm of dX is 1.375388e+03 
+Fnorm of dZ is 9.179614e+01 
+linesearch method 2 
+qreig evalue -4.411696e-01 
+qreig evalue 2.497972e-02 
+qreig evalue 9.483139e-02 
+qreig evalue 4.410748e-01 
+qreig evalue 1.011397e+00 
+qreig evalue -4.411737e-01 
+qreig evalue 1.118597e-02 
+qreig evalue 5.683805e-02 
+qreig evalue 9.519876e-02 
+qreig evalue 4.411737e-01 
+qreig evalue 1.011397e+00 
+qreig evalue -4.411737e-01 
+qreig evalue 8.232170e-03 
+qreig evalue 3.957859e-02 
+qreig evalue 7.043032e-02 
+qreig evalue 9.527673e-02 
+qreig evalue 4.411739e-01 
+qreig evalue 1.011397e+00 
+qreig evalue -4.411737e-01 
+qreig evalue 6.837644e-03 
+qreig evalue 2.634887e-02 
+qreig evalue 5.595353e-02 
+qreig evalue 8.281059e-02 
+qreig evalue 9.532963e-02 
+qreig evalue 4.411739e-01 
+qreig evalue 1.011397e+00 
+Stopping here, on tightness j=8 
+maxeigs[1]=-1.000000e+100 
+maxeigs[2]=-1.000000e+100 
+maxeigs[3]=-1.000000e+100 
+maxeigs[4]=-1.000000e+100 
+maxeigs[5]=1.011397e+00 
+maxeigs[6]=1.011397e+00 
+maxeigs[7]=1.011397e+00 
+maxeigs[8]=1.011397e+00 
+maxeig 1.021511e+00 
+Lancoz converged after 8 iters
+eigsearch: alpha=0.000000e+00 
+linesearch method 2 
+qreig evalue -1.139652e-02 
+qreig evalue 5.589252e-01 
+qreig evalue 9.051686e-01 
+qreig evalue 9.750203e-01 
+qreig evalue 1.441170e+00 
+qreig evalue -1.139690e-02 
+qreig evalue 5.588263e-01 
+qreig evalue 9.048012e-01 
+qreig evalue 9.431619e-01 
+qreig evalue 9.888140e-01 
+qreig evalue 1.441174e+00 
+qreig evalue -1.139690e-02 
+qreig evalue 5.588261e-01 
+qreig evalue 9.047233e-01 
+qreig evalue 9.295697e-01 
+qreig evalue 9.604214e-01 
+qreig evalue 9.917678e-01 
+qreig evalue 1.441174e+00 
+qreig evalue -1.139690e-02 
+qreig evalue 5.588261e-01 
+qreig evalue 9.046704e-01 
+qreig evalue 9.171894e-01 
+qreig evalue 9.440465e-01 
+qreig evalue 9.736511e-01 
+qreig evalue 9.931624e-01 
+qreig evalue 1.441174e+00 
+Stopping here, on tightness j=8 
+maxeigs[1]=-1.000000e+100 
+maxeigs[2]=-1.000000e+100 
+maxeigs[3]=-1.000000e+100 
+maxeigs[4]=-1.000000e+100 
+maxeigs[5]=1.441170e+00 
+maxeigs[6]=1.441174e+00 
+maxeigs[7]=1.441174e+00 
+maxeigs[8]=1.441174e+00 
+maxeig 1.455585e+00 
+Lancoz converged after 8 iters
+eigsearch: alpha=0.000000e+00 
+Taking an affine step because parameters.affine=1
+muk is 9.750149e+03 
+muplus is 9.750149e+03 
+New mu is 0.000000e+00 
+mu*n = target duality gap is 0.000000e+00 
+refinement: Relative error in A(X+dX)=a (Fphat) is 2.305873e-13 
+refinement: Before dX+dX1 Relative error in A(X+dX)=a is 2.305873e-13 
+refinement: better
+Fnorm of dX1 is 7.744957e+02
+Fnorm of dZ1 is 6.688339e+00
+refinement: Before adjust dX Relative error in A(X+dX)=a is 2.455296e-13 
+refinement: worse
+Fnorm of dX is 1.907375e+03 
+Fnorm of dZ is 9.203946e+01 
+refinement: After adjust error in A(X+dX)=a is 2.455296e-13 
+refinement: worse
+linesearch method 2 
+qreig evalue -6.501479e-01 
+qreig evalue 5.682681e-02 
+qreig evalue 1.756603e-01 
+qreig evalue 2.156883e-01 
+qreig evalue 1.000138e+00 
+qreig evalue -6.501503e-01 
+qreig evalue 1.888877e-02 
+qreig evalue 8.083398e-02 
+qreig evalue 1.815866e-01 
+qreig evalue 2.603233e-01 
+qreig evalue 1.000140e+00 
+qreig evalue -6.501503e-01 
+qreig evalue 1.235710e-02 
+qreig evalue 5.365671e-02 
+qreig evalue 8.545676e-02 
+qreig evalue 1.816643e-01 
+qreig evalue 2.608783e-01 
+qreig evalue 1.000139e+00 
+qreig evalue -6.501503e-01 
+qreig evalue 1.154624e-02 
+qreig evalue 4.427436e-02 
+qreig evalue 7.200170e-02 
+qreig evalue 8.740027e-02 
+qreig evalue 1.816657e-01 
+qreig evalue 2.608819e-01 
+qreig evalue 1.000139e+00 
+Stopping here, on tightness j=8 
+maxeigs[1]=-1.000000e+100 
+maxeigs[2]=-1.000000e+100 
+maxeigs[3]=-1.000000e+100 
+maxeigs[4]=-1.000000e+100 
+maxeigs[5]=1.000138e+00 
+maxeigs[6]=1.000140e+00 
+maxeigs[7]=1.000139e+00 
+maxeigs[8]=1.000139e+00 
+maxeig 1.010141e+00 
+Lancoz converged after 8 iters
+eigsearch: alpha=0.000000e+00 
+linesearch method 2 
+qreig evalue -1.101175e-02 
+qreig evalue 9.046180e-01 
+qreig evalue 9.788725e-01 
+qreig evalue 9.959736e-01 
+qreig evalue 1.013291e+00 
+qreig evalue -1.101175e-02 
+qreig evalue 9.046179e-01 
+qreig evalue 9.524299e-01 
+qreig evalue 9.796520e-01 
+qreig evalue 9.970689e-01 
+qreig evalue 1.013877e+00 
+qreig evalue -1.101175e-02 
+qreig evalue 9.046171e-01 
+qreig evalue 9.070582e-01 
+qreig evalue 9.778739e-01 
+qreig evalue 9.879756e-01 
+qreig evalue 9.990880e-01 
+qreig evalue 1.014297e+00 
+qreig evalue -1.101175e-02 
+qreig evalue 9.046168e-01 
+qreig evalue 9.063587e-01 
+qreig evalue 9.771733e-01 
+qreig evalue 9.830170e-01 
+qreig evalue 9.930513e-01 
+qreig evalue 9.999969e-01 
+qreig evalue 1.014339e+00 
+Stopping here, on tightness j=8 
+maxeigs[1]=-1.000000e+100 
+maxeigs[2]=-1.000000e+100 
+maxeigs[3]=-1.000000e+100 
+maxeigs[4]=-1.000000e+100 
+maxeigs[5]=1.013291e+00 
+maxeigs[6]=1.013877e+00 
+maxeigs[7]=1.014297e+00 
+maxeigs[8]=1.014339e+00 
+maxeig 1.024482e+00 
+Lancoz converged after 8 iters
+eigsearch: alpha=0.000000e+00 
+After linesearches, alphap=0.000000e+00 alphad=0.000000e+00 
+newrelpinfeas is 1.470301e+03
+limrelpinfeas is 1.470301e+06
+newreldinfeas is 9.175883e+00
+limreldinfeas is 9.175883e+03
+After feas check, alphap=0.000000e+00 alphad=0.000000e+00 
+line search failure in corrector step.
+diagnrm is 3.649942e+03, adding diagadd 5.381546e-14 
+Perturbing C.
+Fnorm of Fd is 9.277215e+01 
+Norm of rhs is 3.449682e+03 
+Norm of dy is 1.067054e+01 
+Fnorm of work1 is 1.279361e+00 
+Before Fd, Fnorm of dZ is 1.341286e+01 
+After Fd, Fnorm of dZ is 9.179614e+01 
+Fnorm of dX is 1.375388e+03 
+Fnorm of dZ is 9.179614e+01 
+linesearch method 2 
+qreig evalue -4.411696e-01 
+qreig evalue 2.497972e-02 
+qreig evalue 9.483139e-02 
+qreig evalue 4.410748e-01 
+qreig evalue 1.011397e+00 
+qreig evalue -4.411737e-01 
+qreig evalue 1.118597e-02 
+qreig evalue 5.683805e-02 
+qreig evalue 9.519876e-02 
+qreig evalue 4.411737e-01 
+qreig evalue 1.011397e+00 
+qreig evalue -4.411737e-01 
+qreig evalue 8.232170e-03 
+qreig evalue 3.957859e-02 
+qreig evalue 7.043032e-02 
+qreig evalue 9.527673e-02 
+qreig evalue 4.411739e-01 
+qreig evalue 1.011397e+00 
+qreig evalue -4.411737e-01 
+qreig evalue 6.837644e-03 
+qreig evalue 2.634887e-02 
+qreig evalue 5.595353e-02 
+qreig evalue 8.281059e-02 
+qreig evalue 9.532963e-02 
+qreig evalue 4.411739e-01 
+qreig evalue 1.011397e+00 
+Stopping here, on tightness j=8 
+maxeigs[1]=-1.000000e+100 
+maxeigs[2]=-1.000000e+100 
+maxeigs[3]=-1.000000e+100 
+maxeigs[4]=-1.000000e+100 
+maxeigs[5]=1.011397e+00 
+maxeigs[6]=1.011397e+00 
+maxeigs[7]=1.011397e+00 
+maxeigs[8]=1.011397e+00 
+maxeig 1.021511e+00 
+Lancoz converged after 8 iters
+eigsearch: alpha=0.000000e+00 
+linesearch method 2 
+qreig evalue -1.139652e-02 
+qreig evalue 5.589252e-01 
+qreig evalue 9.051686e-01 
+qreig evalue 9.750203e-01 
+qreig evalue 1.441170e+00 
+qreig evalue -1.139690e-02 
+qreig evalue 5.588263e-01 
+qreig evalue 9.048012e-01 
+qreig evalue 9.431619e-01 
+qreig evalue 9.888140e-01 
+qreig evalue 1.441174e+00 
+qreig evalue -1.139690e-02 
+qreig evalue 5.588261e-01 
+qreig evalue 9.047233e-01 
+qreig evalue 9.295697e-01 
+qreig evalue 9.604214e-01 
+qreig evalue 9.917678e-01 
+qreig evalue 1.441174e+00 
+qreig evalue -1.139690e-02 
+qreig evalue 5.588261e-01 
+qreig evalue 9.046704e-01 
+qreig evalue 9.171894e-01 
+qreig evalue 9.440465e-01 
+qreig evalue 9.736511e-01 
+qreig evalue 9.931624e-01 
+qreig evalue 1.441174e+00 
+Stopping here, on tightness j=8 
+maxeigs[1]=-1.000000e+100 
+maxeigs[2]=-1.000000e+100 
+maxeigs[3]=-1.000000e+100 
+maxeigs[4]=-1.000000e+100 
+maxeigs[5]=1.441170e+00 
+maxeigs[6]=1.441174e+00 
+maxeigs[7]=1.441174e+00 
+maxeigs[8]=1.441174e+00 
+maxeig 1.455585e+00 
+Lancoz converged after 8 iters
+eigsearch: alpha=0.000000e+00 
+Taking an affine step because parameters.affine=1
+muk is 9.750149e+03 
+muplus is 9.750149e+03 
+New mu is 0.000000e+00 
+mu*n = target duality gap is 0.000000e+00 
+refinement: Relative error in A(X+dX)=a (Fphat) is 3.792952e-13 
+refinement: Before dX+dX1 Relative error in A(X+dX)=a is 3.792952e-13 
+refinement: better
+Fnorm of dX1 is 7.744957e+02
+Fnorm of dZ1 is 6.688339e+00
+refinement: Before adjust dX Relative error in A(X+dX)=a is 3.159093e-13 
+refinement: better
+Fnorm of dX is 1.907375e+03 
+Fnorm of dZ is 9.203946e+01 
+refinement: After adjust error in A(X+dX)=a is 3.159093e-13 
+refinement: better
+linesearch method 2 
+qreig evalue -6.501479e-01 
+qreig evalue 5.682681e-02 
+qreig evalue 1.756603e-01 
+qreig evalue 2.156883e-01 
+qreig evalue 1.000138e+00 
+qreig evalue -6.501503e-01 
+qreig evalue 1.888877e-02 
+qreig evalue 8.083398e-02 
+qreig evalue 1.815866e-01 
+qreig evalue 2.603233e-01 
+qreig evalue 1.000139e+00 
+qreig evalue -6.501503e-01 
+qreig evalue 1.235710e-02 
+qreig evalue 5.365671e-02 
+qreig evalue 8.545676e-02 
+qreig evalue 1.816643e-01 
+qreig evalue 2.608783e-01 
+qreig evalue 1.000139e+00 
+qreig evalue -6.501503e-01 
+qreig evalue 1.154624e-02 
+qreig evalue 4.427436e-02 
+qreig evalue 7.200170e-02 
+qreig evalue 8.740027e-02 
+qreig evalue 1.816657e-01 
+qreig evalue 2.608819e-01 
+qreig evalue 1.000139e+00 
+Stopping here, on tightness j=8 
+maxeigs[1]=-1.000000e+100 
+maxeigs[2]=-1.000000e+100 
+maxeigs[3]=-1.000000e+100 
+maxeigs[4]=-1.000000e+100 
+maxeigs[5]=1.000138e+00 
+maxeigs[6]=1.000139e+00 
+maxeigs[7]=1.000139e+00 
+maxeigs[8]=1.000139e+00 
+maxeig 1.010140e+00 
+Lancoz converged after 8 iters
+eigsearch: alpha=0.000000e+00 
+linesearch method 2 
+qreig evalue -1.101175e-02 
+qreig evalue 9.046180e-01 
+qreig evalue 9.788725e-01 
+qreig evalue 9.959736e-01 
+qreig evalue 1.013291e+00 
+qreig evalue -1.101175e-02 
+qreig evalue 9.046179e-01 
+qreig evalue 9.524299e-01 
+qreig evalue 9.796520e-01 
+qreig evalue 9.970689e-01 
+qreig evalue 1.013877e+00 
+qreig evalue -1.101175e-02 
+qreig evalue 9.046171e-01 
+qreig evalue 9.070582e-01 
+qreig evalue 9.778739e-01 
+qreig evalue 9.879756e-01 
+qreig evalue 9.990880e-01 
+qreig evalue 1.014297e+00 
+qreig evalue -1.101175e-02 
+qreig evalue 9.046168e-01 
+qreig evalue 9.063587e-01 
+qreig evalue 9.771733e-01 
+qreig evalue 9.830170e-01 
+qreig evalue 9.930513e-01 
+qreig evalue 9.999969e-01 
+qreig evalue 1.014339e+00 
+Stopping here, on tightness j=8 
+maxeigs[1]=-1.000000e+100 
+maxeigs[2]=-1.000000e+100 
+maxeigs[3]=-1.000000e+100 
+maxeigs[4]=-1.000000e+100 
+maxeigs[5]=1.013291e+00 
+maxeigs[6]=1.013877e+00 
+maxeigs[7]=1.014297e+00 
+maxeigs[8]=1.014339e+00 
+maxeig 1.024482e+00 
+Lancoz converged after 8 iters
+eigsearch: alpha=0.000000e+00 
+After linesearches, alphap=0.000000e+00 alphad=0.000000e+00 
+newrelpinfeas is 1.470301e+03
+limrelpinfeas is 1.470301e+06
+newreldinfeas is 9.175883e+00
+limreldinfeas is 9.175883e+03
+After feas check, alphap=0.000000e+00 alphad=0.000000e+00 
+line search failure in corrector step.
+diagnrm is 3.649942e+03, adding diagadd 5.381546e-13 
+Perturbing C.
+Fnorm of Fd is 9.277215e+01 
+Norm of rhs is 3.449682e+03 
+Norm of dy is 1.067054e+01 
+Fnorm of work1 is 1.279361e+00 
+Before Fd, Fnorm of dZ is 1.341286e+01 
+After Fd, Fnorm of dZ is 9.179614e+01 
+Fnorm of dX is 1.375388e+03 
+Fnorm of dZ is 9.179614e+01 
+linesearch method 2 
+qreig evalue -4.411696e-01 
+qreig evalue 2.497972e-02 
+qreig evalue 9.483139e-02 
+qreig evalue 4.410748e-01 
+qreig evalue 1.011397e+00 
+qreig evalue -4.411737e-01 
+qreig evalue 1.118597e-02 
+qreig evalue 5.683805e-02 
+qreig evalue 9.519876e-02 
+qreig evalue 4.411737e-01 
+qreig evalue 1.011397e+00 
+qreig evalue -4.411737e-01 
+qreig evalue 8.232170e-03 
+qreig evalue 3.957859e-02 
+qreig evalue 7.043032e-02 
+qreig evalue 9.527673e-02 
+qreig evalue 4.411739e-01 
+qreig evalue 1.011397e+00 
+qreig evalue -4.411737e-01 
+qreig evalue 6.837644e-03 
+qreig evalue 2.634887e-02 
+qreig evalue 5.595353e-02 
+qreig evalue 8.281059e-02 
+qreig evalue 9.532963e-02 
+qreig evalue 4.411739e-01 
+qreig evalue 1.011397e+00 
+Stopping here, on tightness j=8 
+maxeigs[1]=-1.000000e+100 
+maxeigs[2]=-1.000000e+100 
+maxeigs[3]=-1.000000e+100 
+maxeigs[4]=-1.000000e+100 
+maxeigs[5]=1.011397e+00 
+maxeigs[6]=1.011397e+00 
+maxeigs[7]=1.011397e+00 
+maxeigs[8]=1.011397e+00 
+maxeig 1.021511e+00 
+Lancoz converged after 8 iters
+eigsearch: alpha=0.000000e+00 
+linesearch method 2 
+qreig evalue -1.139652e-02 
+qreig evalue 5.589252e-01 
+qreig evalue 9.051686e-01 
+qreig evalue 9.750203e-01 
+qreig evalue 1.441170e+00 
+qreig evalue -1.139690e-02 
+qreig evalue 5.588263e-01 
+qreig evalue 9.048012e-01 
+qreig evalue 9.431619e-01 
+qreig evalue 9.888140e-01 
+qreig evalue 1.441174e+00 
+qreig evalue -1.139690e-02 
+qreig evalue 5.588261e-01 
+qreig evalue 9.047233e-01 
+qreig evalue 9.295697e-01 
+qreig evalue 9.604214e-01 
+qreig evalue 9.917678e-01 
+qreig evalue 1.441174e+00 
+qreig evalue -1.139690e-02 
+qreig evalue 5.588261e-01 
+qreig evalue 9.046704e-01 
+qreig evalue 9.171894e-01 
+qreig evalue 9.440465e-01 
+qreig evalue 9.736511e-01 
+qreig evalue 9.931624e-01 
+qreig evalue 1.441174e+00 
+Stopping here, on tightness j=8 
+maxeigs[1]=-1.000000e+100 
+maxeigs[2]=-1.000000e+100 
+maxeigs[3]=-1.000000e+100 
+maxeigs[4]=-1.000000e+100 
+maxeigs[5]=1.441170e+00 
+maxeigs[6]=1.441174e+00 
+maxeigs[7]=1.441174e+00 
+maxeigs[8]=1.441174e+00 
+maxeig 1.455585e+00 
+Lancoz converged after 8 iters
+eigsearch: alpha=0.000000e+00 
+Taking an affine step because parameters.affine=1
+muk is 9.750149e+03 
+muplus is 9.750149e+03 
+New mu is 0.000000e+00 
+mu*n = target duality gap is 0.000000e+00 
+refinement: Relative error in A(X+dX)=a (Fphat) is 2.978440e-12 
+refinement: Before dX+dX1 Relative error in A(X+dX)=a is 2.978440e-12 
+refinement: better
+Fnorm of dX1 is 7.744957e+02
+Fnorm of dZ1 is 6.688339e+00
+refinement: Before adjust dX Relative error in A(X+dX)=a is 4.865946e-13 
+refinement: better
+Fnorm of dX is 1.907375e+03 
+Fnorm of dZ is 9.203946e+01 
+refinement: After adjust error in A(X+dX)=a is 4.865946e-13 
+refinement: better
+linesearch method 2 
+qreig evalue -6.501479e-01 
+qreig evalue 5.682681e-02 
+qreig evalue 1.756603e-01 
+qreig evalue 2.156883e-01 
+qreig evalue 1.000138e+00 
+qreig evalue -6.501503e-01 
+qreig evalue 1.888877e-02 
+qreig evalue 8.083398e-02 
+qreig evalue 1.815866e-01 
+qreig evalue 2.603233e-01 
+qreig evalue 1.000139e+00 
+qreig evalue -6.501503e-01 
+qreig evalue 1.235710e-02 
+qreig evalue 5.365671e-02 
+qreig evalue 8.545676e-02 
+qreig evalue 1.816643e-01 
+qreig evalue 2.608783e-01 
+qreig evalue 1.000139e+00 
+qreig evalue -6.501503e-01 
+qreig evalue 1.154624e-02 
+qreig evalue 4.427436e-02 
+qreig evalue 7.200170e-02 
+qreig evalue 8.740027e-02 
+qreig evalue 1.816657e-01 
+qreig evalue 2.608819e-01 
+qreig evalue 1.000139e+00 
+Stopping here, on tightness j=8 
+maxeigs[1]=-1.000000e+100 
+maxeigs[2]=-1.000000e+100 
+maxeigs[3]=-1.000000e+100 
+maxeigs[4]=-1.000000e+100 
+maxeigs[5]=1.000138e+00 
+maxeigs[6]=1.000139e+00 
+maxeigs[7]=1.000139e+00 
+maxeigs[8]=1.000139e+00 
+maxeig 1.010140e+00 
+Lancoz converged after 8 iters
+eigsearch: alpha=0.000000e+00 
+linesearch method 2 
+qreig evalue -1.101175e-02 
+qreig evalue 9.046180e-01 
+qreig evalue 9.788725e-01 
+qreig evalue 9.959736e-01 
+qreig evalue 1.013291e+00 
+qreig evalue -1.101175e-02 
+qreig evalue 9.046179e-01 
+qreig evalue 9.524299e-01 
+qreig evalue 9.796520e-01 
+qreig evalue 9.970689e-01 
+qreig evalue 1.013877e+00 
+qreig evalue -1.101175e-02 
+qreig evalue 9.046171e-01 
+qreig evalue 9.070582e-01 
+qreig evalue 9.778739e-01 
+qreig evalue 9.879756e-01 
+qreig evalue 9.990880e-01 
+qreig evalue 1.014297e+00 
+qreig evalue -1.101175e-02 
+qreig evalue 9.046168e-01 
+qreig evalue 9.063587e-01 
+qreig evalue 9.771733e-01 
+qreig evalue 9.830170e-01 
+qreig evalue 9.930513e-01 
+qreig evalue 9.999969e-01 
+qreig evalue 1.014339e+00 
+Stopping here, on tightness j=8 
+maxeigs[1]=-1.000000e+100 
+maxeigs[2]=-1.000000e+100 
+maxeigs[3]=-1.000000e+100 
+maxeigs[4]=-1.000000e+100 
+maxeigs[5]=1.013291e+00 
+maxeigs[6]=1.013877e+00 
+maxeigs[7]=1.014297e+00 
+maxeigs[8]=1.014339e+00 
+maxeig 1.024482e+00 
+Lancoz converged after 8 iters
+eigsearch: alpha=0.000000e+00 
+After linesearches, alphap=0.000000e+00 alphad=0.000000e+00 
+newrelpinfeas is 1.470301e+03
+limrelpinfeas is 1.470301e+06
+newreldinfeas is 9.175883e+00
+limreldinfeas is 9.175883e+03
+After feas check, alphap=0.000000e+00 alphad=0.000000e+00 
+line search failure in corrector step.
+diagnrm is 3.649942e+03, adding diagadd 5.381546e-12 
+Perturbing C.
+Fnorm of Fd is 9.277215e+01 
+Norm of rhs is 3.449682e+03 
+Norm of dy is 1.067054e+01 
+Fnorm of work1 is 1.279361e+00 
+Before Fd, Fnorm of dZ is 1.341286e+01 
+After Fd, Fnorm of dZ is 9.179614e+01 
+Fnorm of dX is 1.375388e+03 
+Fnorm of dZ is 9.179614e+01 
+linesearch method 2 
+qreig evalue -4.411696e-01 
+qreig evalue 2.497972e-02 
+qreig evalue 9.483139e-02 
+qreig evalue 4.410748e-01 
+qreig evalue 1.011397e+00 
+qreig evalue -4.411737e-01 
+qreig evalue 1.118597e-02 
+qreig evalue 5.683805e-02 
+qreig evalue 9.519876e-02 
+qreig evalue 4.411737e-01 
+qreig evalue 1.011397e+00 
+qreig evalue -4.411737e-01 
+qreig evalue 8.232170e-03 
+qreig evalue 3.957859e-02 
+qreig evalue 7.043032e-02 
+qreig evalue 9.527673e-02 
+qreig evalue 4.411739e-01 
+qreig evalue 1.011397e+00 
+qreig evalue -4.411737e-01 
+qreig evalue 6.837644e-03 
+qreig evalue 2.634887e-02 
+qreig evalue 5.595353e-02 
+qreig evalue 8.281059e-02 
+qreig evalue 9.532963e-02 
+qreig evalue 4.411739e-01 
+qreig evalue 1.011397e+00 
+Stopping here, on tightness j=8 
+maxeigs[1]=-1.000000e+100 
+maxeigs[2]=-1.000000e+100 
+maxeigs[3]=-1.000000e+100 
+maxeigs[4]=-1.000000e+100 
+maxeigs[5]=1.011397e+00 
+maxeigs[6]=1.011397e+00 
+maxeigs[7]=1.011397e+00 
+maxeigs[8]=1.011397e+00 
+maxeig 1.021511e+00 
+Lancoz converged after 8 iters
+eigsearch: alpha=0.000000e+00 
+linesearch method 2 
+qreig evalue -1.139652e-02 
+qreig evalue 5.589252e-01 
+qreig evalue 9.051686e-01 
+qreig evalue 9.750203e-01 
+qreig evalue 1.441170e+00 
+qreig evalue -1.139690e-02 
+qreig evalue 5.588263e-01 
+qreig evalue 9.048012e-01 
+qreig evalue 9.431619e-01 
+qreig evalue 9.888140e-01 
+qreig evalue 1.441174e+00 
+qreig evalue -1.139690e-02 
+qreig evalue 5.588261e-01 
+qreig evalue 9.047233e-01 
+qreig evalue 9.295697e-01 
+qreig evalue 9.604214e-01 
+qreig evalue 9.917678e-01 
+qreig evalue 1.441174e+00 
+qreig evalue -1.139690e-02 
+qreig evalue 5.588261e-01 
+qreig evalue 9.046704e-01 
+qreig evalue 9.171894e-01 
+qreig evalue 9.440465e-01 
+qreig evalue 9.736511e-01 
+qreig evalue 9.931624e-01 
+qreig evalue 1.441174e+00 
+Stopping here, on tightness j=8 
+maxeigs[1]=-1.000000e+100 
+maxeigs[2]=-1.000000e+100 
+maxeigs[3]=-1.000000e+100 
+maxeigs[4]=-1.000000e+100 
+maxeigs[5]=1.441170e+00 
+maxeigs[6]=1.441174e+00 
+maxeigs[7]=1.441174e+00 
+maxeigs[8]=1.441174e+00 
+maxeig 1.455585e+00 
+Lancoz converged after 8 iters
+eigsearch: alpha=0.000000e+00 
+Taking an affine step because parameters.affine=1
+muk is 9.750149e+03 
+muplus is 9.750149e+03 
+New mu is 0.000000e+00 
+mu*n = target duality gap is 0.000000e+00 
+refinement: Relative error in A(X+dX)=a (Fphat) is 2.873158e-11 
+refinement: Before dX+dX1 Relative error in A(X+dX)=a is 2.873158e-11 
+refinement: better
+Fnorm of dX1 is 7.744957e+02
+Fnorm of dZ1 is 6.688339e+00
+refinement: Before adjust dX Relative error in A(X+dX)=a is 4.518900e-12 
+refinement: better
+Fnorm of dX is 1.907375e+03 
+Fnorm of dZ is 9.203946e+01 
+refinement: After adjust error in A(X+dX)=a is 4.518900e-12 
+refinement: better
+linesearch method 2 
+qreig evalue -6.501479e-01 
+qreig evalue 5.682681e-02 
+qreig evalue 1.756603e-01 
+qreig evalue 2.156883e-01 
+qreig evalue 1.000138e+00 
+qreig evalue -6.501503e-01 
+qreig evalue 1.888877e-02 
+qreig evalue 8.083398e-02 
+qreig evalue 1.815866e-01 
+qreig evalue 2.603233e-01 
+qreig evalue 1.000139e+00 
+qreig evalue -6.501503e-01 
+qreig evalue 1.235710e-02 
+qreig evalue 5.365671e-02 
+qreig evalue 8.545676e-02 
+qreig evalue 1.816643e-01 
+qreig evalue 2.608783e-01 
+qreig evalue 1.000139e+00 
+qreig evalue -6.501503e-01 
+qreig evalue 1.154624e-02 
+qreig evalue 4.427436e-02 
+qreig evalue 7.200170e-02 
+qreig evalue 8.740027e-02 
+qreig evalue 1.816657e-01 
+qreig evalue 2.608819e-01 
+qreig evalue 1.000139e+00 
+Stopping here, on tightness j=8 
+maxeigs[1]=-1.000000e+100 
+maxeigs[2]=-1.000000e+100 
+maxeigs[3]=-1.000000e+100 
+maxeigs[4]=-1.000000e+100 
+maxeigs[5]=1.000138e+00 
+maxeigs[6]=1.000139e+00 
+maxeigs[7]=1.000139e+00 
+maxeigs[8]=1.000139e+00 
+maxeig 1.010140e+00 
+Lancoz converged after 8 iters
+eigsearch: alpha=0.000000e+00 
+linesearch method 2 
+qreig evalue -1.101175e-02 
+qreig evalue 9.046180e-01 
+qreig evalue 9.788725e-01 
+qreig evalue 9.959736e-01 
+qreig evalue 1.013291e+00 
+qreig evalue -1.101175e-02 
+qreig evalue 9.046179e-01 
+qreig evalue 9.524299e-01 
+qreig evalue 9.796520e-01 
+qreig evalue 9.970689e-01 
+qreig evalue 1.013877e+00 
+qreig evalue -1.101175e-02 
+qreig evalue 9.046171e-01 
+qreig evalue 9.070582e-01 
+qreig evalue 9.778739e-01 
+qreig evalue 9.879756e-01 
+qreig evalue 9.990880e-01 
+qreig evalue 1.014297e+00 
+qreig evalue -1.101175e-02 
+qreig evalue 9.046168e-01 
+qreig evalue 9.063587e-01 
+qreig evalue 9.771733e-01 
+qreig evalue 9.830170e-01 
+qreig evalue 9.930513e-01 
+qreig evalue 9.999969e-01 
+qreig evalue 1.014339e+00 
+Stopping here, on tightness j=8 
+maxeigs[1]=-1.000000e+100 
+maxeigs[2]=-1.000000e+100 
+maxeigs[3]=-1.000000e+100 
+maxeigs[4]=-1.000000e+100 
+maxeigs[5]=1.013291e+00 
+maxeigs[6]=1.013877e+00 
+maxeigs[7]=1.014297e+00 
+maxeigs[8]=1.014339e+00 
+maxeig 1.024482e+00 
+Lancoz converged after 8 iters
+eigsearch: alpha=0.000000e+00 
+After linesearches, alphap=0.000000e+00 alphad=0.000000e+00 
+newrelpinfeas is 1.470301e+03
+limrelpinfeas is 1.470301e+06
+newreldinfeas is 9.175883e+00
+limreldinfeas is 9.175883e+03
+After feas check, alphap=0.000000e+00 alphad=0.000000e+00 
+line search failure in corrector step.
+diagnrm is 3.649942e+03, adding diagadd 5.381546e-11 
+Perturbing C.
+Fnorm of Fd is 9.277215e+01 
+Norm of rhs is 3.449682e+03 
+Norm of dy is 1.067054e+01 
+Fnorm of work1 is 1.279361e+00 
+Before Fd, Fnorm of dZ is 1.341286e+01 
+After Fd, Fnorm of dZ is 9.179614e+01 
+Fnorm of dX is 1.375388e+03 
+Fnorm of dZ is 9.179614e+01 
+linesearch method 2 
+qreig evalue -4.411696e-01 
+qreig evalue 2.497972e-02 
+qreig evalue 9.483139e-02 
+qreig evalue 4.410748e-01 
+qreig evalue 1.011397e+00 
+qreig evalue -4.411737e-01 
+qreig evalue 1.118597e-02 
+qreig evalue 5.683805e-02 
+qreig evalue 9.519876e-02 
+qreig evalue 4.411737e-01 
+qreig evalue 1.011397e+00 
+qreig evalue -4.411737e-01 
+qreig evalue 8.232170e-03 
+qreig evalue 3.957859e-02 
+qreig evalue 7.043032e-02 
+qreig evalue 9.527673e-02 
+qreig evalue 4.411739e-01 
+qreig evalue 1.011397e+00 
+qreig evalue -4.411737e-01 
+qreig evalue 6.837644e-03 
+qreig evalue 2.634887e-02 
+qreig evalue 5.595353e-02 
+qreig evalue 8.281059e-02 
+qreig evalue 9.532963e-02 
+qreig evalue 4.411739e-01 
+qreig evalue 1.011397e+00 
+Stopping here, on tightness j=8 
+maxeigs[1]=-1.000000e+100 
+maxeigs[2]=-1.000000e+100 
+maxeigs[3]=-1.000000e+100 
+maxeigs[4]=-1.000000e+100 
+maxeigs[5]=1.011397e+00 
+maxeigs[6]=1.011397e+00 
+maxeigs[7]=1.011397e+00 
+maxeigs[8]=1.011397e+00 
+maxeig 1.021511e+00 
+Lancoz converged after 8 iters
+eigsearch: alpha=0.000000e+00 
+linesearch method 2 
+qreig evalue -1.139652e-02 
+qreig evalue 5.589252e-01 
+qreig evalue 9.051686e-01 
+qreig evalue 9.750203e-01 
+qreig evalue 1.441170e+00 
+qreig evalue -1.139690e-02 
+qreig evalue 5.588263e-01 
+qreig evalue 9.048012e-01 
+qreig evalue 9.431619e-01 
+qreig evalue 9.888140e-01 
+qreig evalue 1.441174e+00 
+qreig evalue -1.139690e-02 
+qreig evalue 5.588261e-01 
+qreig evalue 9.047233e-01 
+qreig evalue 9.295697e-01 
+qreig evalue 9.604214e-01 
+qreig evalue 9.917678e-01 
+qreig evalue 1.441174e+00 
+qreig evalue -1.139690e-02 
+qreig evalue 5.588261e-01 
+qreig evalue 9.046704e-01 
+qreig evalue 9.171894e-01 
+qreig evalue 9.440465e-01 
+qreig evalue 9.736511e-01 
+qreig evalue 9.931624e-01 
+qreig evalue 1.441174e+00 
+Stopping here, on tightness j=8 
+maxeigs[1]=-1.000000e+100 
+maxeigs[2]=-1.000000e+100 
+maxeigs[3]=-1.000000e+100 
+maxeigs[4]=-1.000000e+100 
+maxeigs[5]=1.441170e+00 
+maxeigs[6]=1.441174e+00 
+maxeigs[7]=1.441174e+00 
+maxeigs[8]=1.441174e+00 
+maxeig 1.455585e+00 
+Lancoz converged after 8 iters
+eigsearch: alpha=0.000000e+00 
+Taking an affine step because parameters.affine=1
+muk is 9.750149e+03 
+muplus is 9.750149e+03 
+New mu is 0.000000e+00 
+mu*n = target duality gap is 0.000000e+00 
+refinement: Relative error in A(X+dX)=a (Fphat) is 2.870967e-10 
+refinement: Before dX+dX1 Relative error in A(X+dX)=a is 2.870967e-10 
+refinement: better
+Fnorm of dX1 is 7.744957e+02
+Fnorm of dZ1 is 6.688339e+00
+refinement: Before adjust dX Relative error in A(X+dX)=a is 4.737298e-11 
+refinement: better
+Fnorm of dX is 1.907375e+03 
+Fnorm of dZ is 9.203946e+01 
+refinement: After adjust error in A(X+dX)=a is 4.737298e-11 
+refinement: better
+linesearch method 2 
+qreig evalue -6.501479e-01 
+qreig evalue 5.682681e-02 
+qreig evalue 1.756603e-01 
+qreig evalue 2.156883e-01 
+qreig evalue 1.000138e+00 
+qreig evalue -6.501503e-01 
+qreig evalue 1.888877e-02 
+qreig evalue 8.083398e-02 
+qreig evalue 1.815866e-01 
+qreig evalue 2.603233e-01 
+qreig evalue 1.000139e+00 
+qreig evalue -6.501503e-01 
+qreig evalue 1.235710e-02 
+qreig evalue 5.365671e-02 
+qreig evalue 8.545676e-02 
+qreig evalue 1.816643e-01 
+qreig evalue 2.608783e-01 
+qreig evalue 1.000139e+00 
+qreig evalue -6.501503e-01 
+qreig evalue 1.154624e-02 
+qreig evalue 4.427436e-02 
+qreig evalue 7.200170e-02 
+qreig evalue 8.740027e-02 
+qreig evalue 1.816657e-01 
+qreig evalue 2.608819e-01 
+qreig evalue 1.000139e+00 
+Stopping here, on tightness j=8 
+maxeigs[1]=-1.000000e+100 
+maxeigs[2]=-1.000000e+100 
+maxeigs[3]=-1.000000e+100 
+maxeigs[4]=-1.000000e+100 
+maxeigs[5]=1.000138e+00 
+maxeigs[6]=1.000139e+00 
+maxeigs[7]=1.000139e+00 
+maxeigs[8]=1.000139e+00 
+maxeig 1.010140e+00 
+Lancoz converged after 8 iters
+eigsearch: alpha=0.000000e+00 
+linesearch method 2 
+qreig evalue -1.101175e-02 
+qreig evalue 9.046180e-01 
+qreig evalue 9.788725e-01 
+qreig evalue 9.959736e-01 
+qreig evalue 1.013291e+00 
+qreig evalue -1.101175e-02 
+qreig evalue 9.046179e-01 
+qreig evalue 9.524299e-01 
+qreig evalue 9.796520e-01 
+qreig evalue 9.970689e-01 
+qreig evalue 1.013877e+00 
+qreig evalue -1.101175e-02 
+qreig evalue 9.046171e-01 
+qreig evalue 9.070582e-01 
+qreig evalue 9.778739e-01 
+qreig evalue 9.879756e-01 
+qreig evalue 9.990880e-01 
+qreig evalue 1.014297e+00 
+qreig evalue -1.101175e-02 
+qreig evalue 9.046168e-01 
+qreig evalue 9.063587e-01 
+qreig evalue 9.771733e-01 
+qreig evalue 9.830170e-01 
+qreig evalue 9.930513e-01 
+qreig evalue 9.999969e-01 
+qreig evalue 1.014339e+00 
+Stopping here, on tightness j=8 
+maxeigs[1]=-1.000000e+100 
+maxeigs[2]=-1.000000e+100 
+maxeigs[3]=-1.000000e+100 
+maxeigs[4]=-1.000000e+100 
+maxeigs[5]=1.013291e+00 
+maxeigs[6]=1.013877e+00 
+maxeigs[7]=1.014297e+00 
+maxeigs[8]=1.014339e+00 
+maxeig 1.024482e+00 
+Lancoz converged after 8 iters
+eigsearch: alpha=0.000000e+00 
+After linesearches, alphap=0.000000e+00 alphad=0.000000e+00 
+newrelpinfeas is 1.470301e+03
+limrelpinfeas is 1.470301e+06
+newreldinfeas is 9.175883e+00
+limreldinfeas is 9.175883e+03
+After feas check, alphap=0.000000e+00 alphad=0.000000e+00 
+line search failure in corrector step.
+diagnrm is 3.649942e+03, adding diagadd 5.381546e-10 
+Perturbing C.
+Fnorm of Fd is 9.277215e+01 
+Norm of rhs is 3.449682e+03 
+Norm of dy is 1.067054e+01 
+Fnorm of work1 is 1.279361e+00 
+Before Fd, Fnorm of dZ is 1.341286e+01 
+After Fd, Fnorm of dZ is 9.179614e+01 
+Fnorm of dX is 1.375388e+03 
+Fnorm of dZ is 9.179614e+01 
+linesearch method 2 
+qreig evalue -4.411696e-01 
+qreig evalue 2.497972e-02 
+qreig evalue 9.483139e-02 
+qreig evalue 4.410748e-01 
+qreig evalue 1.011397e+00 
+qreig evalue -4.411737e-01 
+qreig evalue 1.118597e-02 
+qreig evalue 5.683805e-02 
+qreig evalue 9.519876e-02 
+qreig evalue 4.411737e-01 
+qreig evalue 1.011397e+00 
+qreig evalue -4.411737e-01 
+qreig evalue 8.232170e-03 
+qreig evalue 3.957859e-02 
+qreig evalue 7.043032e-02 
+qreig evalue 9.527673e-02 
+qreig evalue 4.411739e-01 
+qreig evalue 1.011397e+00 
+qreig evalue -4.411737e-01 
+qreig evalue 6.837644e-03 
+qreig evalue 2.634887e-02 
+qreig evalue 5.595353e-02 
+qreig evalue 8.281059e-02 
+qreig evalue 9.532963e-02 
+qreig evalue 4.411739e-01 
+qreig evalue 1.011397e+00 
+Stopping here, on tightness j=8 
+maxeigs[1]=-1.000000e+100 
+maxeigs[2]=-1.000000e+100 
+maxeigs[3]=-1.000000e+100 
+maxeigs[4]=-1.000000e+100 
+maxeigs[5]=1.011397e+00 
+maxeigs[6]=1.011397e+00 
+maxeigs[7]=1.011397e+00 
+maxeigs[8]=1.011397e+00 
+maxeig 1.021511e+00 
+Lancoz converged after 8 iters
+eigsearch: alpha=0.000000e+00 
+linesearch method 2 
+qreig evalue -1.139652e-02 
+qreig evalue 5.589252e-01 
+qreig evalue 9.051686e-01 
+qreig evalue 9.750203e-01 
+qreig evalue 1.441170e+00 
+qreig evalue -1.139690e-02 
+qreig evalue 5.588263e-01 
+qreig evalue 9.048012e-01 
+qreig evalue 9.431619e-01 
+qreig evalue 9.888140e-01 
+qreig evalue 1.441174e+00 
+qreig evalue -1.139690e-02 
+qreig evalue 5.588261e-01 
+qreig evalue 9.047233e-01 
+qreig evalue 9.295697e-01 
+qreig evalue 9.604214e-01 
+qreig evalue 9.917678e-01 
+qreig evalue 1.441174e+00 
+qreig evalue -1.139690e-02 
+qreig evalue 5.588261e-01 
+qreig evalue 9.046704e-01 
+qreig evalue 9.171894e-01 
+qreig evalue 9.440465e-01 
+qreig evalue 9.736511e-01 
+qreig evalue 9.931624e-01 
+qreig evalue 1.441174e+00 
+Stopping here, on tightness j=8 
+maxeigs[1]=-1.000000e+100 
+maxeigs[2]=-1.000000e+100 
+maxeigs[3]=-1.000000e+100 
+maxeigs[4]=-1.000000e+100 
+maxeigs[5]=1.441170e+00 
+maxeigs[6]=1.441174e+00 
+maxeigs[7]=1.441174e+00 
+maxeigs[8]=1.441174e+00 
+maxeig 1.455585e+00 
+Lancoz converged after 8 iters
+eigsearch: alpha=0.000000e+00 
+Taking an affine step because parameters.affine=1
+muk is 9.750149e+03 
+muplus is 9.750149e+03 
+New mu is 0.000000e+00 
+mu*n = target duality gap is 0.000000e+00 
+refinement: Relative error in A(X+dX)=a (Fphat) is 2.871139e-09 
+refinement: Before dX+dX1 Relative error in A(X+dX)=a is 2.871139e-09 
+refinement: better
+Fnorm of dX1 is 7.744957e+02
+Fnorm of dZ1 is 6.688339e+00
+refinement: Before adjust dX Relative error in A(X+dX)=a is 4.735262e-10 
+refinement: better
+Fnorm of dX is 1.907375e+03 
+Fnorm of dZ is 9.203946e+01 
+refinement: After adjust error in A(X+dX)=a is 4.735262e-10 
+refinement: better
+linesearch method 2 
+qreig evalue -6.501479e-01 
+qreig evalue 5.682681e-02 
+qreig evalue 1.756603e-01 
+qreig evalue 2.156883e-01 
+qreig evalue 1.000138e+00 
+qreig evalue -6.501503e-01 
+qreig evalue 1.888877e-02 
+qreig evalue 8.083398e-02 
+qreig evalue 1.815866e-01 
+qreig evalue 2.603233e-01 
+qreig evalue 1.000139e+00 
+qreig evalue -6.501503e-01 
+qreig evalue 1.235710e-02 
+qreig evalue 5.365671e-02 
+qreig evalue 8.545676e-02 
+qreig evalue 1.816643e-01 
+qreig evalue 2.608783e-01 
+qreig evalue 1.000139e+00 
+qreig evalue -6.501503e-01 
+qreig evalue 1.154624e-02 
+qreig evalue 4.427436e-02 
+qreig evalue 7.200170e-02 
+qreig evalue 8.740027e-02 
+qreig evalue 1.816657e-01 
+qreig evalue 2.608819e-01 
+qreig evalue 1.000139e+00 
+Stopping here, on tightness j=8 
+maxeigs[1]=-1.000000e+100 
+maxeigs[2]=-1.000000e+100 
+maxeigs[3]=-1.000000e+100 
+maxeigs[4]=-1.000000e+100 
+maxeigs[5]=1.000138e+00 
+maxeigs[6]=1.000139e+00 
+maxeigs[7]=1.000139e+00 
+maxeigs[8]=1.000139e+00 
+maxeig 1.010140e+00 
+Lancoz converged after 8 iters
+eigsearch: alpha=0.000000e+00 
+linesearch method 2 
+qreig evalue -1.101175e-02 
+qreig evalue 9.046180e-01 
+qreig evalue 9.788725e-01 
+qreig evalue 9.959736e-01 
+qreig evalue 1.013291e+00 
+qreig evalue -1.101175e-02 
+qreig evalue 9.046179e-01 
+qreig evalue 9.524299e-01 
+qreig evalue 9.796520e-01 
+qreig evalue 9.970689e-01 
+qreig evalue 1.013877e+00 
+qreig evalue -1.101175e-02 
+qreig evalue 9.046171e-01 
+qreig evalue 9.070582e-01 
+qreig evalue 9.778739e-01 
+qreig evalue 9.879756e-01 
+qreig evalue 9.990880e-01 
+qreig evalue 1.014297e+00 
+qreig evalue -1.101175e-02 
+qreig evalue 9.046168e-01 
+qreig evalue 9.063587e-01 
+qreig evalue 9.771733e-01 
+qreig evalue 9.830170e-01 
+qreig evalue 9.930513e-01 
+qreig evalue 9.999969e-01 
+qreig evalue 1.014339e+00 
+Stopping here, on tightness j=8 
+maxeigs[1]=-1.000000e+100 
+maxeigs[2]=-1.000000e+100 
+maxeigs[3]=-1.000000e+100 
+maxeigs[4]=-1.000000e+100 
+maxeigs[5]=1.013291e+00 
+maxeigs[6]=1.013877e+00 
+maxeigs[7]=1.014297e+00 
+maxeigs[8]=1.014339e+00 
+maxeig 1.024482e+00 
+Lancoz converged after 8 iters
+eigsearch: alpha=0.000000e+00 
+After linesearches, alphap=0.000000e+00 alphad=0.000000e+00 
+newrelpinfeas is 1.470301e+03
+limrelpinfeas is 1.470301e+06
+newreldinfeas is 9.175883e+00
+limreldinfeas is 9.175883e+03
+After feas check, alphap=0.000000e+00 alphad=0.000000e+00 
+line search failure in corrector step.
+diagnrm is 3.649942e+03, adding diagadd 5.381546e-09 
+Perturbing C.
+Fnorm of Fd is 9.277215e+01 
+Norm of rhs is 3.449682e+03 
+Norm of dy is 1.067054e+01 
+Fnorm of work1 is 1.279361e+00 
+Before Fd, Fnorm of dZ is 1.341286e+01 
+After Fd, Fnorm of dZ is 9.179614e+01 
+Fnorm of dX is 1.375388e+03 
+Fnorm of dZ is 9.179614e+01 
+linesearch method 2 
+qreig evalue -4.411696e-01 
+qreig evalue 2.497972e-02 
+qreig evalue 9.483139e-02 
+qreig evalue 4.410748e-01 
+qreig evalue 1.011397e+00 
+qreig evalue -4.411737e-01 
+qreig evalue 1.118597e-02 
+qreig evalue 5.683805e-02 
+qreig evalue 9.519876e-02 
+qreig evalue 4.411737e-01 
+qreig evalue 1.011397e+00 
+qreig evalue -4.411737e-01 
+qreig evalue 8.232170e-03 
+qreig evalue 3.957859e-02 
+qreig evalue 7.043032e-02 
+qreig evalue 9.527673e-02 
+qreig evalue 4.411739e-01 
+qreig evalue 1.011397e+00 
+qreig evalue -4.411737e-01 
+qreig evalue 6.837644e-03 
+qreig evalue 2.634887e-02 
+qreig evalue 5.595353e-02 
+qreig evalue 8.281059e-02 
+qreig evalue 9.532963e-02 
+qreig evalue 4.411739e-01 
+qreig evalue 1.011397e+00 
+Stopping here, on tightness j=8 
+maxeigs[1]=-1.000000e+100 
+maxeigs[2]=-1.000000e+100 
+maxeigs[3]=-1.000000e+100 
+maxeigs[4]=-1.000000e+100 
+maxeigs[5]=1.011397e+00 
+maxeigs[6]=1.011397e+00 
+maxeigs[7]=1.011397e+00 
+maxeigs[8]=1.011397e+00 
+maxeig 1.021511e+00 
+Lancoz converged after 8 iters
+eigsearch: alpha=0.000000e+00 
+linesearch method 2 
+qreig evalue -1.139652e-02 
+qreig evalue 5.589252e-01 
+qreig evalue 9.051686e-01 
+qreig evalue 9.750203e-01 
+qreig evalue 1.441170e+00 
+qreig evalue -1.139690e-02 
+qreig evalue 5.588263e-01 
+qreig evalue 9.048012e-01 
+qreig evalue 9.431619e-01 
+qreig evalue 9.888140e-01 
+qreig evalue 1.441174e+00 
+qreig evalue -1.139690e-02 
+qreig evalue 5.588261e-01 
+qreig evalue 9.047233e-01 
+qreig evalue 9.295697e-01 
+qreig evalue 9.604214e-01 
+qreig evalue 9.917678e-01 
+qreig evalue 1.441174e+00 
+qreig evalue -1.139690e-02 
+qreig evalue 5.588261e-01 
+qreig evalue 9.046704e-01 
+qreig evalue 9.171894e-01 
+qreig evalue 9.440465e-01 
+qreig evalue 9.736511e-01 
+qreig evalue 9.931624e-01 
+qreig evalue 1.441174e+00 
+Stopping here, on tightness j=8 
+maxeigs[1]=-1.000000e+100 
+maxeigs[2]=-1.000000e+100 
+maxeigs[3]=-1.000000e+100 
+maxeigs[4]=-1.000000e+100 
+maxeigs[5]=1.441170e+00 
+maxeigs[6]=1.441174e+00 
+maxeigs[7]=1.441174e+00 
+maxeigs[8]=1.441174e+00 
+maxeig 1.455585e+00 
+Lancoz converged after 8 iters
+eigsearch: alpha=0.000000e+00 
+Taking an affine step because parameters.affine=1
+muk is 9.750149e+03 
+muplus is 9.750149e+03 
+New mu is 0.000000e+00 
+mu*n = target duality gap is 0.000000e+00 
+refinement: Relative error in A(X+dX)=a (Fphat) is 2.871201e-08 
+refinement: Before dX+dX1 Relative error in A(X+dX)=a is 2.871201e-08 
+refinement: better
+Fnorm of dX1 is 7.744957e+02
+Fnorm of dZ1 is 6.688339e+00
+refinement: Before adjust dX Relative error in A(X+dX)=a is 4.735945e-09 
+refinement: better
+Fnorm of dX is 1.907375e+03 
+Fnorm of dZ is 9.203946e+01 
+refinement: After adjust error in A(X+dX)=a is 4.735945e-09 
+refinement: better
+linesearch method 2 
+qreig evalue -6.501479e-01 
+qreig evalue 5.682681e-02 
+qreig evalue 1.756603e-01 
+qreig evalue 2.156883e-01 
+qreig evalue 1.000138e+00 
+qreig evalue -6.501503e-01 
+qreig evalue 1.888877e-02 
+qreig evalue 8.083398e-02 
+qreig evalue 1.815866e-01 
+qreig evalue 2.603233e-01 
+qreig evalue 1.000139e+00 
+qreig evalue -6.501503e-01 
+qreig evalue 1.235710e-02 
+qreig evalue 5.365671e-02 
+qreig evalue 8.545676e-02 
+qreig evalue 1.816643e-01 
+qreig evalue 2.608783e-01 
+qreig evalue 1.000139e+00 
+qreig evalue -6.501503e-01 
+qreig evalue 1.154624e-02 
+qreig evalue 4.427436e-02 
+qreig evalue 7.200170e-02 
+qreig evalue 8.740027e-02 
+qreig evalue 1.816657e-01 
+qreig evalue 2.608819e-01 
+qreig evalue 1.000139e+00 
+Stopping here, on tightness j=8 
+maxeigs[1]=-1.000000e+100 
+maxeigs[2]=-1.000000e+100 
+maxeigs[3]=-1.000000e+100 
+maxeigs[4]=-1.000000e+100 
+maxeigs[5]=1.000138e+00 
+maxeigs[6]=1.000139e+00 
+maxeigs[7]=1.000139e+00 
+maxeigs[8]=1.000139e+00 
+maxeig 1.010140e+00 
+Lancoz converged after 8 iters
+eigsearch: alpha=0.000000e+00 
+linesearch method 2 
+qreig evalue -1.101175e-02 
+qreig evalue 9.046180e-01 
+qreig evalue 9.788725e-01 
+qreig evalue 9.959736e-01 
+qreig evalue 1.013291e+00 
+qreig evalue -1.101175e-02 
+qreig evalue 9.046179e-01 
+qreig evalue 9.524299e-01 
+qreig evalue 9.796520e-01 
+qreig evalue 9.970689e-01 
+qreig evalue 1.013877e+00 
+qreig evalue -1.101175e-02 
+qreig evalue 9.046171e-01 
+qreig evalue 9.070582e-01 
+qreig evalue 9.778739e-01 
+qreig evalue 9.879756e-01 
+qreig evalue 9.990880e-01 
+qreig evalue 1.014297e+00 
+qreig evalue -1.101175e-02 
+qreig evalue 9.046168e-01 
+qreig evalue 9.063587e-01 
+qreig evalue 9.771733e-01 
+qreig evalue 9.830170e-01 
+qreig evalue 9.930513e-01 
+qreig evalue 9.999969e-01 
+qreig evalue 1.014339e+00 
+Stopping here, on tightness j=8 
+maxeigs[1]=-1.000000e+100 
+maxeigs[2]=-1.000000e+100 
+maxeigs[3]=-1.000000e+100 
+maxeigs[4]=-1.000000e+100 
+maxeigs[5]=1.013291e+00 
+maxeigs[6]=1.013877e+00 
+maxeigs[7]=1.014297e+00 
+maxeigs[8]=1.014339e+00 
+maxeig 1.024482e+00 
+Lancoz converged after 8 iters
+eigsearch: alpha=0.000000e+00 
+After linesearches, alphap=0.000000e+00 alphad=0.000000e+00 
+newrelpinfeas is 1.470301e+03
+limrelpinfeas is 1.470301e+06
+newreldinfeas is 9.175883e+00
+limreldinfeas is 9.175883e+03
+After feas check, alphap=0.000000e+00 alphad=0.000000e+00 
+line search failure in corrector step.
+diagnrm is 3.649942e+03, adding diagadd 5.381546e-08 
+Perturbing C.
+Fnorm of Fd is 9.277215e+01 
+Norm of rhs is 3.449682e+03 
+Norm of dy is 1.067054e+01 
+Fnorm of work1 is 1.279361e+00 
+Before Fd, Fnorm of dZ is 1.341286e+01 
+After Fd, Fnorm of dZ is 9.179614e+01 
+Fnorm of dX is 1.375388e+03 
+Fnorm of dZ is 9.179614e+01 
+linesearch method 2 
+qreig evalue -4.411696e-01 
+qreig evalue 2.497972e-02 
+qreig evalue 9.483139e-02 
+qreig evalue 4.410748e-01 
+qreig evalue 1.011397e+00 
+qreig evalue -4.411737e-01 
+qreig evalue 1.118597e-02 
+qreig evalue 5.683805e-02 
+qreig evalue 9.519876e-02 
+qreig evalue 4.411737e-01 
+qreig evalue 1.011397e+00 
+qreig evalue -4.411737e-01 
+qreig evalue 8.232170e-03 
+qreig evalue 3.957859e-02 
+qreig evalue 7.043032e-02 
+qreig evalue 9.527673e-02 
+qreig evalue 4.411739e-01 
+qreig evalue 1.011397e+00 
+qreig evalue -4.411737e-01 
+qreig evalue 6.837644e-03 
+qreig evalue 2.634887e-02 
+qreig evalue 5.595353e-02 
+qreig evalue 8.281059e-02 
+qreig evalue 9.532963e-02 
+qreig evalue 4.411739e-01 
+qreig evalue 1.011397e+00 
+Stopping here, on tightness j=8 
+maxeigs[1]=-1.000000e+100 
+maxeigs[2]=-1.000000e+100 
+maxeigs[3]=-1.000000e+100 
+maxeigs[4]=-1.000000e+100 
+maxeigs[5]=1.011397e+00 
+maxeigs[6]=1.011397e+00 
+maxeigs[7]=1.011397e+00 
+maxeigs[8]=1.011397e+00 
+maxeig 1.021511e+00 
+Lancoz converged after 8 iters
+eigsearch: alpha=0.000000e+00 
+linesearch method 2 
+qreig evalue -1.139652e-02 
+qreig evalue 5.589252e-01 
+qreig evalue 9.051686e-01 
+qreig evalue 9.750203e-01 
+qreig evalue 1.441170e+00 
+qreig evalue -1.139690e-02 
+qreig evalue 5.588263e-01 
+qreig evalue 9.048012e-01 
+qreig evalue 9.431619e-01 
+qreig evalue 9.888140e-01 
+qreig evalue 1.441174e+00 
+qreig evalue -1.139690e-02 
+qreig evalue 5.588261e-01 
+qreig evalue 9.047233e-01 
+qreig evalue 9.295697e-01 
+qreig evalue 9.604214e-01 
+qreig evalue 9.917678e-01 
+qreig evalue 1.441174e+00 
+qreig evalue -1.139690e-02 
+qreig evalue 5.588261e-01 
+qreig evalue 9.046704e-01 
+qreig evalue 9.171894e-01 
+qreig evalue 9.440465e-01 
+qreig evalue 9.736511e-01 
+qreig evalue 9.931624e-01 
+qreig evalue 1.441174e+00 
+Stopping here, on tightness j=8 
+maxeigs[1]=-1.000000e+100 
+maxeigs[2]=-1.000000e+100 
+maxeigs[3]=-1.000000e+100 
+maxeigs[4]=-1.000000e+100 
+maxeigs[5]=1.441170e+00 
+maxeigs[6]=1.441174e+00 
+maxeigs[7]=1.441174e+00 
+maxeigs[8]=1.441174e+00 
+maxeig 1.455585e+00 
+Lancoz converged after 8 iters
+eigsearch: alpha=0.000000e+00 
+Taking an affine step because parameters.affine=1
+muk is 9.750149e+03 
+muplus is 9.750149e+03 
+New mu is 0.000000e+00 
+mu*n = target duality gap is 0.000000e+00 
+refinement: Relative error in A(X+dX)=a (Fphat) is 2.871200e-07 
+refinement: Before dX+dX1 Relative error in A(X+dX)=a is 2.871200e-07 
+refinement: better
+Fnorm of dX1 is 7.744957e+02
+Fnorm of dZ1 is 6.688339e+00
+refinement: Before adjust dX Relative error in A(X+dX)=a is 4.736251e-08 
+refinement: better
+Fnorm of dX is 1.907375e+03 
+Fnorm of dZ is 9.203946e+01 
+refinement: After adjust error in A(X+dX)=a is 4.736251e-08 
+refinement: better
+linesearch method 2 
+qreig evalue -6.501479e-01 
+qreig evalue 5.682681e-02 
+qreig evalue 1.756603e-01 
+qreig evalue 2.156883e-01 
+qreig evalue 1.000138e+00 
+qreig evalue -6.501503e-01 
+qreig evalue 1.888877e-02 
+qreig evalue 8.083398e-02 
+qreig evalue 1.815866e-01 
+qreig evalue 2.603233e-01 
+qreig evalue 1.000139e+00 
+qreig evalue -6.501503e-01 
+qreig evalue 1.235710e-02 
+qreig evalue 5.365671e-02 
+qreig evalue 8.545676e-02 
+qreig evalue 1.816643e-01 
+qreig evalue 2.608783e-01 
+qreig evalue 1.000139e+00 
+qreig evalue -6.501503e-01 
+qreig evalue 1.154624e-02 
+qreig evalue 4.427436e-02 
+qreig evalue 7.200170e-02 
+qreig evalue 8.740027e-02 
+qreig evalue 1.816657e-01 
+qreig evalue 2.608819e-01 
+qreig evalue 1.000139e+00 
+Stopping here, on tightness j=8 
+maxeigs[1]=-1.000000e+100 
+maxeigs[2]=-1.000000e+100 
+maxeigs[3]=-1.000000e+100 
+maxeigs[4]=-1.000000e+100 
+maxeigs[5]=1.000138e+00 
+maxeigs[6]=1.000139e+00 
+maxeigs[7]=1.000139e+00 
+maxeigs[8]=1.000139e+00 
+maxeig 1.010140e+00 
+Lancoz converged after 8 iters
+eigsearch: alpha=0.000000e+00 
+linesearch method 2 
+qreig evalue -1.101175e-02 
+qreig evalue 9.046180e-01 
+qreig evalue 9.788725e-01 
+qreig evalue 9.959736e-01 
+qreig evalue 1.013291e+00 
+qreig evalue -1.101175e-02 
+qreig evalue 9.046179e-01 
+qreig evalue 9.524299e-01 
+qreig evalue 9.796520e-01 
+qreig evalue 9.970689e-01 
+qreig evalue 1.013877e+00 
+qreig evalue -1.101175e-02 
+qreig evalue 9.046171e-01 
+qreig evalue 9.070582e-01 
+qreig evalue 9.778739e-01 
+qreig evalue 9.879756e-01 
+qreig evalue 9.990880e-01 
+qreig evalue 1.014297e+00 
+qreig evalue -1.101175e-02 
+qreig evalue 9.046168e-01 
+qreig evalue 9.063587e-01 
+qreig evalue 9.771733e-01 
+qreig evalue 9.830170e-01 
+qreig evalue 9.930513e-01 
+qreig evalue 9.999969e-01 
+qreig evalue 1.014339e+00 
+Stopping here, on tightness j=8 
+maxeigs[1]=-1.000000e+100 
+maxeigs[2]=-1.000000e+100 
+maxeigs[3]=-1.000000e+100 
+maxeigs[4]=-1.000000e+100 
+maxeigs[5]=1.013291e+00 
+maxeigs[6]=1.013877e+00 
+maxeigs[7]=1.014297e+00 
+maxeigs[8]=1.014339e+00 
+maxeig 1.024482e+00 
+Lancoz converged after 8 iters
+eigsearch: alpha=0.000000e+00 
+After linesearches, alphap=0.000000e+00 alphad=0.000000e+00 
+newrelpinfeas is 1.470301e+03
+limrelpinfeas is 1.470301e+06
+newreldinfeas is 9.175883e+00
+limreldinfeas is 9.175883e+03
+After feas check, alphap=0.000000e+00 alphad=0.000000e+00 
+line search failure in corrector step.
+diagnrm is 3.649942e+03, adding diagadd 5.381546e-07 
+Perturbing C.
+Fnorm of Fd is 9.277215e+01 
+Norm of rhs is 3.449682e+03 
+Norm of dy is 1.067054e+01 
+Fnorm of work1 is 1.279361e+00 
+Before Fd, Fnorm of dZ is 1.341286e+01 
+After Fd, Fnorm of dZ is 9.179614e+01 
+Fnorm of dX is 1.375388e+03 
+Fnorm of dZ is 9.179614e+01 
+linesearch method 2 
+qreig evalue -4.411696e-01 
+qreig evalue 2.497972e-02 
+qreig evalue 9.483139e-02 
+qreig evalue 4.410748e-01 
+qreig evalue 1.011397e+00 
+qreig evalue -4.411737e-01 
+qreig evalue 1.118597e-02 
+qreig evalue 5.683805e-02 
+qreig evalue 9.519876e-02 
+qreig evalue 4.411737e-01 
+qreig evalue 1.011397e+00 
+qreig evalue -4.411737e-01 
+qreig evalue 8.232170e-03 
+qreig evalue 3.957859e-02 
+qreig evalue 7.043032e-02 
+qreig evalue 9.527673e-02 
+qreig evalue 4.411739e-01 
+qreig evalue 1.011397e+00 
+qreig evalue -4.411737e-01 
+qreig evalue 6.837644e-03 
+qreig evalue 2.634887e-02 
+qreig evalue 5.595353e-02 
+qreig evalue 8.281059e-02 
+qreig evalue 9.532963e-02 
+qreig evalue 4.411739e-01 
+qreig evalue 1.011397e+00 
+Stopping here, on tightness j=8 
+maxeigs[1]=-1.000000e+100 
+maxeigs[2]=-1.000000e+100 
+maxeigs[3]=-1.000000e+100 
+maxeigs[4]=-1.000000e+100 
+maxeigs[5]=1.011397e+00 
+maxeigs[6]=1.011397e+00 
+maxeigs[7]=1.011397e+00 
+maxeigs[8]=1.011397e+00 
+maxeig 1.021511e+00 
+Lancoz converged after 8 iters
+eigsearch: alpha=0.000000e+00 
+linesearch method 2 
+qreig evalue -1.139652e-02 
+qreig evalue 5.589252e-01 
+qreig evalue 9.051686e-01 
+qreig evalue 9.750203e-01 
+qreig evalue 1.441170e+00 
+qreig evalue -1.139689e-02 
+qreig evalue 5.588263e-01 
+qreig evalue 9.048012e-01 
+qreig evalue 9.431619e-01 
+qreig evalue 9.888140e-01 
+qreig evalue 1.441174e+00 
+qreig evalue -1.139689e-02 
+qreig evalue 5.588261e-01 
+qreig evalue 9.047233e-01 
+qreig evalue 9.295697e-01 
+qreig evalue 9.604214e-01 
+qreig evalue 9.917678e-01 
+qreig evalue 1.441174e+00 
+qreig evalue -1.139689e-02 
+qreig evalue 5.588261e-01 
+qreig evalue 9.046704e-01 
+qreig evalue 9.171894e-01 
+qreig evalue 9.440465e-01 
+qreig evalue 9.736511e-01 
+qreig evalue 9.931624e-01 
+qreig evalue 1.441174e+00 
+Stopping here, on tightness j=8 
+maxeigs[1]=-1.000000e+100 
+maxeigs[2]=-1.000000e+100 
+maxeigs[3]=-1.000000e+100 
+maxeigs[4]=-1.000000e+100 
+maxeigs[5]=1.441170e+00 
+maxeigs[6]=1.441174e+00 
+maxeigs[7]=1.441174e+00 
+maxeigs[8]=1.441174e+00 
+maxeig 1.455585e+00 
+Lancoz converged after 8 iters
+eigsearch: alpha=0.000000e+00 
+Taking an affine step because parameters.affine=1
+muk is 9.750149e+03 
+muplus is 9.750149e+03 
+New mu is 0.000000e+00 
+mu*n = target duality gap is 0.000000e+00 
+refinement: Relative error in A(X+dX)=a (Fphat) is 2.871200e-06 
+refinement: Before dX+dX1 Relative error in A(X+dX)=a is 2.871200e-06 
+refinement: better
+Fnorm of dX1 is 7.744957e+02
+Fnorm of dZ1 is 6.688339e+00
+refinement: Before adjust dX Relative error in A(X+dX)=a is 4.736254e-07 
+refinement: better
+Fnorm of dX is 1.907375e+03 
+Fnorm of dZ is 9.203946e+01 
+refinement: After adjust error in A(X+dX)=a is 4.736254e-07 
+refinement: better
+linesearch method 2 
+qreig evalue -6.501479e-01 
+qreig evalue 5.682681e-02 
+qreig evalue 1.756603e-01 
+qreig evalue 2.156883e-01 
+qreig evalue 1.000138e+00 
+qreig evalue -6.501503e-01 
+qreig evalue 1.888877e-02 
+qreig evalue 8.083398e-02 
+qreig evalue 1.815866e-01 
+qreig evalue 2.603233e-01 
+qreig evalue 1.000139e+00 
+qreig evalue -6.501503e-01 
+qreig evalue 1.235710e-02 
+qreig evalue 5.365671e-02 
+qreig evalue 8.545676e-02 
+qreig evalue 1.816643e-01 
+qreig evalue 2.608783e-01 
+qreig evalue 1.000139e+00 
+qreig evalue -6.501503e-01 
+qreig evalue 1.154624e-02 
+qreig evalue 4.427436e-02 
+qreig evalue 7.200170e-02 
+qreig evalue 8.740027e-02 
+qreig evalue 1.816657e-01 
+qreig evalue 2.608819e-01 
+qreig evalue 1.000139e+00 
+Stopping here, on tightness j=8 
+maxeigs[1]=-1.000000e+100 
+maxeigs[2]=-1.000000e+100 
+maxeigs[3]=-1.000000e+100 
+maxeigs[4]=-1.000000e+100 
+maxeigs[5]=1.000138e+00 
+maxeigs[6]=1.000139e+00 
+maxeigs[7]=1.000139e+00 
+maxeigs[8]=1.000139e+00 
+maxeig 1.010140e+00 
+Lancoz converged after 8 iters
+eigsearch: alpha=0.000000e+00 
+linesearch method 2 
+qreig evalue -1.101175e-02 
+qreig evalue 9.046180e-01 
+qreig evalue 9.788725e-01 
+qreig evalue 9.959736e-01 
+qreig evalue 1.013291e+00 
+qreig evalue -1.101175e-02 
+qreig evalue 9.046179e-01 
+qreig evalue 9.524299e-01 
+qreig evalue 9.796520e-01 
+qreig evalue 9.970689e-01 
+qreig evalue 1.013877e+00 
+qreig evalue -1.101175e-02 
+qreig evalue 9.046171e-01 
+qreig evalue 9.070582e-01 
+qreig evalue 9.778739e-01 
+qreig evalue 9.879756e-01 
+qreig evalue 9.990880e-01 
+qreig evalue 1.014297e+00 
+qreig evalue -1.101175e-02 
+qreig evalue 9.046168e-01 
+qreig evalue 9.063587e-01 
+qreig evalue 9.771733e-01 
+qreig evalue 9.830170e-01 
+qreig evalue 9.930513e-01 
+qreig evalue 9.999969e-01 
+qreig evalue 1.014339e+00 
+Stopping here, on tightness j=8 
+maxeigs[1]=-1.000000e+100 
+maxeigs[2]=-1.000000e+100 
+maxeigs[3]=-1.000000e+100 
+maxeigs[4]=-1.000000e+100 
+maxeigs[5]=1.013291e+00 
+maxeigs[6]=1.013877e+00 
+maxeigs[7]=1.014297e+00 
+maxeigs[8]=1.014339e+00 
+maxeig 1.024482e+00 
+Lancoz converged after 8 iters
+eigsearch: alpha=0.000000e+00 
+After linesearches, alphap=0.000000e+00 alphad=0.000000e+00 
+newrelpinfeas is 1.470301e+03
+limrelpinfeas is 1.470301e+06
+newreldinfeas is 9.175883e+00
+limreldinfeas is 9.175883e+03
+After feas check, alphap=0.000000e+00 alphad=0.000000e+00 
+line search failure in corrector step.
+diagnrm is 3.649942e+03, adding diagadd 5.381546e-06 
+Perturbing C.
+Fnorm of Fd is 9.277215e+01 
+Norm of rhs is 3.449682e+03 
+Norm of dy is 1.067054e+01 
+Fnorm of work1 is 1.279361e+00 
+Before Fd, Fnorm of dZ is 1.341286e+01 
+After Fd, Fnorm of dZ is 9.179614e+01 
+Fnorm of dX is 1.375388e+03 
+Fnorm of dZ is 9.179614e+01 
+linesearch method 2 
+qreig evalue -4.411696e-01 
+qreig evalue 2.497972e-02 
+qreig evalue 9.483139e-02 
+qreig evalue 4.410748e-01 
+qreig evalue 1.011396e+00 
+qreig evalue -4.411737e-01 
+qreig evalue 1.118597e-02 
+qreig evalue 5.683805e-02 
+qreig evalue 9.519876e-02 
+qreig evalue 4.411737e-01 
+qreig evalue 1.011397e+00 
+qreig evalue -4.411737e-01 
+qreig evalue 8.232170e-03 
+qreig evalue 3.957859e-02 
+qreig evalue 7.043032e-02 
+qreig evalue 9.527673e-02 
+qreig evalue 4.411739e-01 
+qreig evalue 1.011397e+00 
+qreig evalue -4.411737e-01 
+qreig evalue 6.837644e-03 
+qreig evalue 2.634887e-02 
+qreig evalue 5.595353e-02 
+qreig evalue 8.281059e-02 
+qreig evalue 9.532963e-02 
+qreig evalue 4.411739e-01 
+qreig evalue 1.011397e+00 
+Stopping here, on tightness j=8 
+maxeigs[1]=-1.000000e+100 
+maxeigs[2]=-1.000000e+100 
+maxeigs[3]=-1.000000e+100 
+maxeigs[4]=-1.000000e+100 
+maxeigs[5]=1.011396e+00 
+maxeigs[6]=1.011397e+00 
+maxeigs[7]=1.011397e+00 
+maxeigs[8]=1.011397e+00 
+maxeig 1.021511e+00 
+Lancoz converged after 8 iters
+eigsearch: alpha=0.000000e+00 
+linesearch method 2 
+qreig evalue -1.139646e-02 
+qreig evalue 5.589252e-01 
+qreig evalue 9.051686e-01 
+qreig evalue 9.750203e-01 
+qreig evalue 1.441170e+00 
+qreig evalue -1.139684e-02 
+qreig evalue 5.588263e-01 
+qreig evalue 9.048012e-01 
+qreig evalue 9.431619e-01 
+qreig evalue 9.888140e-01 
+qreig evalue 1.441174e+00 
+qreig evalue -1.139684e-02 
+qreig evalue 5.588261e-01 
+qreig evalue 9.047233e-01 
+qreig evalue 9.295697e-01 
+qreig evalue 9.604214e-01 
+qreig evalue 9.917678e-01 
+qreig evalue 1.441174e+00 
+qreig evalue -1.139684e-02 
+qreig evalue 5.588261e-01 
+qreig evalue 9.046704e-01 
+qreig evalue 9.171894e-01 
+qreig evalue 9.440465e-01 
+qreig evalue 9.736511e-01 
+qreig evalue 9.931624e-01 
+qreig evalue 1.441174e+00 
+Stopping here, on tightness j=8 
+maxeigs[1]=-1.000000e+100 
+maxeigs[2]=-1.000000e+100 
+maxeigs[3]=-1.000000e+100 
+maxeigs[4]=-1.000000e+100 
+maxeigs[5]=1.441170e+00 
+maxeigs[6]=1.441174e+00 
+maxeigs[7]=1.441174e+00 
+maxeigs[8]=1.441174e+00 
+maxeig 1.455585e+00 
+Lancoz converged after 8 iters
+eigsearch: alpha=0.000000e+00 
+Taking an affine step because parameters.affine=1
+muk is 9.750149e+03 
+muplus is 9.750149e+03 
+New mu is 0.000000e+00 
+mu*n = target duality gap is 0.000000e+00 
+refinement: Relative error in A(X+dX)=a (Fphat) is 2.871199e-05 
+refinement: Before dX+dX1 Relative error in A(X+dX)=a is 2.871199e-05 
+refinement: better
+Fnorm of dX1 is 7.744957e+02
+Fnorm of dZ1 is 6.688339e+00
+refinement: Before adjust dX Relative error in A(X+dX)=a is 4.736251e-06 
+refinement: better
+Fnorm of dX is 1.907375e+03 
+Fnorm of dZ is 9.203946e+01 
+refinement: After adjust error in A(X+dX)=a is 4.736251e-06 
+refinement: better
+linesearch method 2 
+qreig evalue -6.501479e-01 
+qreig evalue 5.682681e-02 
+qreig evalue 1.756603e-01 
+qreig evalue 2.156883e-01 
+qreig evalue 1.000138e+00 
+qreig evalue -6.501503e-01 
+qreig evalue 1.888877e-02 
+qreig evalue 8.083398e-02 
+qreig evalue 1.815866e-01 
+qreig evalue 2.603233e-01 
+qreig evalue 1.000139e+00 
+qreig evalue -6.501503e-01 
+qreig evalue 1.235710e-02 
+qreig evalue 5.365671e-02 
+qreig evalue 8.545676e-02 
+qreig evalue 1.816643e-01 
+qreig evalue 2.608783e-01 
+qreig evalue 1.000139e+00 
+qreig evalue -6.501503e-01 
+qreig evalue 1.154624e-02 
+qreig evalue 4.427436e-02 
+qreig evalue 7.200170e-02 
+qreig evalue 8.740027e-02 
+qreig evalue 1.816657e-01 
+qreig evalue 2.608819e-01 
+qreig evalue 1.000139e+00 
+Stopping here, on tightness j=8 
+maxeigs[1]=-1.000000e+100 
+maxeigs[2]=-1.000000e+100 
+maxeigs[3]=-1.000000e+100 
+maxeigs[4]=-1.000000e+100 
+maxeigs[5]=1.000138e+00 
+maxeigs[6]=1.000139e+00 
+maxeigs[7]=1.000139e+00 
+maxeigs[8]=1.000139e+00 
+maxeig 1.010140e+00 
+Lancoz converged after 8 iters
+eigsearch: alpha=0.000000e+00 
+linesearch method 2 
+qreig evalue -1.101169e-02 
+qreig evalue 9.046180e-01 
+qreig evalue 9.788725e-01 
+qreig evalue 9.959736e-01 
+qreig evalue 1.013291e+00 
+qreig evalue -1.101169e-02 
+qreig evalue 9.046179e-01 
+qreig evalue 9.524299e-01 
+qreig evalue 9.796520e-01 
+qreig evalue 9.970689e-01 
+qreig evalue 1.013877e+00 
+qreig evalue -1.101169e-02 
+qreig evalue 9.046171e-01 
+qreig evalue 9.070582e-01 
+qreig evalue 9.778739e-01 
+qreig evalue 9.879756e-01 
+qreig evalue 9.990880e-01 
+qreig evalue 1.014297e+00 
+qreig evalue -1.101169e-02 
+qreig evalue 9.046168e-01 
+qreig evalue 9.063587e-01 
+qreig evalue 9.771733e-01 
+qreig evalue 9.830170e-01 
+qreig evalue 9.930513e-01 
+qreig evalue 9.999969e-01 
+qreig evalue 1.014339e+00 
+Stopping here, on tightness j=8 
+maxeigs[1]=-1.000000e+100 
+maxeigs[2]=-1.000000e+100 
+maxeigs[3]=-1.000000e+100 
+maxeigs[4]=-1.000000e+100 
+maxeigs[5]=1.013291e+00 
+maxeigs[6]=1.013877e+00 
+maxeigs[7]=1.014297e+00 
+maxeigs[8]=1.014339e+00 
+maxeig 1.024482e+00 
+Lancoz converged after 8 iters
+eigsearch: alpha=0.000000e+00 
+After linesearches, alphap=0.000000e+00 alphad=0.000000e+00 
+newrelpinfeas is 1.470301e+03
+limrelpinfeas is 1.470301e+06
+newreldinfeas is 9.175883e+00
+limreldinfeas is 9.175883e+03
+After feas check, alphap=0.000000e+00 alphad=0.000000e+00 
+line search failure in corrector step.
+diagnrm is 3.649942e+03, adding diagadd 5.381546e-05 
+Perturbing C.
+Fnorm of Fd is 9.277215e+01 
+Norm of rhs is 3.449682e+03 
+Norm of dy is 1.067053e+01 
+Fnorm of work1 is 1.279360e+00 
+Before Fd, Fnorm of dZ is 1.341285e+01 
+After Fd, Fnorm of dZ is 9.179614e+01 
+Fnorm of dX is 1.375388e+03 
+Fnorm of dZ is 9.179614e+01 
+linesearch method 2 
+qreig evalue -4.411695e-01 
+qreig evalue 2.497973e-02 
+qreig evalue 9.483139e-02 
+qreig evalue 4.410748e-01 
+qreig evalue 1.011396e+00 
+qreig evalue -4.411737e-01 
+qreig evalue 1.118598e-02 
+qreig evalue 5.683805e-02 
+qreig evalue 9.519876e-02 
+qreig evalue 4.411737e-01 
+qreig evalue 1.011396e+00 
+qreig evalue -4.411737e-01 
+qreig evalue 8.232173e-03 
+qreig evalue 3.957860e-02 
+qreig evalue 7.043034e-02 
+qreig evalue 9.527673e-02 
+qreig evalue 4.411739e-01 
+qreig evalue 1.011396e+00 
+qreig evalue -4.411737e-01 
+qreig evalue 6.837646e-03 
+qreig evalue 2.634888e-02 
+qreig evalue 5.595353e-02 
+qreig evalue 8.281059e-02 
+qreig evalue 9.532963e-02 
+qreig evalue 4.411739e-01 
+qreig evalue 1.011396e+00 
+Stopping here, on tightness j=8 
+maxeigs[1]=-1.000000e+100 
+maxeigs[2]=-1.000000e+100 
+maxeigs[3]=-1.000000e+100 
+maxeigs[4]=-1.000000e+100 
+maxeigs[5]=1.011396e+00 
+maxeigs[6]=1.011396e+00 
+maxeigs[7]=1.011396e+00 
+maxeigs[8]=1.011396e+00 
+maxeig 1.021510e+00 
+Lancoz converged after 8 iters
+eigsearch: alpha=0.000000e+00 
+linesearch method 2 
+qreig evalue -1.139593e-02 
+qreig evalue 5.589252e-01 
+qreig evalue 9.051686e-01 
+qreig evalue 9.750203e-01 
+qreig evalue 1.441170e+00 
+qreig evalue -1.139630e-02 
+qreig evalue 5.588263e-01 
+qreig evalue 9.048012e-01 
+qreig evalue 9.431619e-01 
+qreig evalue 9.888140e-01 
+qreig evalue 1.441174e+00 
+qreig evalue -1.139630e-02 
+qreig evalue 5.588261e-01 
+qreig evalue 9.047233e-01 
+qreig evalue 9.295697e-01 
+qreig evalue 9.604214e-01 
+qreig evalue 9.917678e-01 
+qreig evalue 1.441174e+00 
+qreig evalue -1.139630e-02 
+qreig evalue 5.588261e-01 
+qreig evalue 9.046704e-01 
+qreig evalue 9.171894e-01 
+qreig evalue 9.440465e-01 
+qreig evalue 9.736511e-01 
+qreig evalue 9.931624e-01 
+qreig evalue 1.441174e+00 
+Stopping here, on tightness j=8 
+maxeigs[1]=-1.000000e+100 
+maxeigs[2]=-1.000000e+100 
+maxeigs[3]=-1.000000e+100 
+maxeigs[4]=-1.000000e+100 
+maxeigs[5]=1.441170e+00 
+maxeigs[6]=1.441174e+00 
+maxeigs[7]=1.441174e+00 
+maxeigs[8]=1.441174e+00 
+maxeig 1.455585e+00 
+Lancoz converged after 8 iters
+eigsearch: alpha=0.000000e+00 
+Taking an affine step because parameters.affine=1
+muk is 9.750149e+03 
+muplus is 9.750149e+03 
+New mu is 0.000000e+00 
+mu*n = target duality gap is 0.000000e+00 
+refinement: Relative error in A(X+dX)=a (Fphat) is 2.871198e-04 
+refinement: Before dX+dX1 Relative error in A(X+dX)=a is 2.871198e-04 
+refinement: better
+Fnorm of dX1 is 7.744957e+02
+Fnorm of dZ1 is 6.688338e+00
+refinement: Before adjust dX Relative error in A(X+dX)=a is 4.736250e-05 
+refinement: better
+Fnorm of dX is 1.907375e+03 
+Fnorm of dZ is 9.203946e+01 
+refinement: After adjust error in A(X+dX)=a is 4.736250e-05 
+refinement: better
+linesearch method 2 
+qreig evalue -6.501479e-01 
+qreig evalue 5.682680e-02 
+qreig evalue 1.756603e-01 
+qreig evalue 2.156883e-01 
+qreig evalue 1.000138e+00 
+qreig evalue -6.501503e-01 
+qreig evalue 1.888877e-02 
+qreig evalue 8.083399e-02 
+qreig evalue 1.815866e-01 
+qreig evalue 2.603233e-01 
+qreig evalue 1.000139e+00 
+qreig evalue -6.501503e-01 
+qreig evalue 1.235710e-02 
+qreig evalue 5.365671e-02 
+qreig evalue 8.545677e-02 
+qreig evalue 1.816643e-01 
+qreig evalue 2.608783e-01 
+qreig evalue 1.000139e+00 
+qreig evalue -6.501503e-01 
+qreig evalue 1.154624e-02 
+qreig evalue 4.427434e-02 
+qreig evalue 7.200169e-02 
+qreig evalue 8.740028e-02 
+qreig evalue 1.816657e-01 
+qreig evalue 2.608819e-01 
+qreig evalue 1.000139e+00 
+Stopping here, on tightness j=8 
+maxeigs[1]=-1.000000e+100 
+maxeigs[2]=-1.000000e+100 
+maxeigs[3]=-1.000000e+100 
+maxeigs[4]=-1.000000e+100 
+maxeigs[5]=1.000138e+00 
+maxeigs[6]=1.000139e+00 
+maxeigs[7]=1.000139e+00 
+maxeigs[8]=1.000139e+00 
+maxeig 1.010140e+00 
+Lancoz converged after 8 iters
+eigsearch: alpha=0.000000e+00 
+linesearch method 2 
+qreig evalue -1.101114e-02 
+qreig evalue 9.046180e-01 
+qreig evalue 9.788725e-01 
+qreig evalue 9.959736e-01 
+qreig evalue 1.013291e+00 
+qreig evalue -1.101114e-02 
+qreig evalue 9.046179e-01 
+qreig evalue 9.524299e-01 
+qreig evalue 9.796520e-01 
+qreig evalue 9.970689e-01 
+qreig evalue 1.013877e+00 
+qreig evalue -1.101114e-02 
+qreig evalue 9.046171e-01 
+qreig evalue 9.070582e-01 
+qreig evalue 9.778740e-01 
+qreig evalue 9.879756e-01 
+qreig evalue 9.990880e-01 
+qreig evalue 1.014297e+00 
+qreig evalue -1.101114e-02 
+qreig evalue 9.046168e-01 
+qreig evalue 9.063587e-01 
+qreig evalue 9.771733e-01 
+qreig evalue 9.830170e-01 
+qreig evalue 9.930513e-01 
+qreig evalue 9.999969e-01 
+qreig evalue 1.014339e+00 
+Stopping here, on tightness j=8 
+maxeigs[1]=-1.000000e+100 
+maxeigs[2]=-1.000000e+100 
+maxeigs[3]=-1.000000e+100 
+maxeigs[4]=-1.000000e+100 
+maxeigs[5]=1.013291e+00 
+maxeigs[6]=1.013877e+00 
+maxeigs[7]=1.014297e+00 
+maxeigs[8]=1.014339e+00 
+maxeig 1.024482e+00 
+Lancoz converged after 8 iters
+eigsearch: alpha=0.000000e+00 
+After linesearches, alphap=0.000000e+00 alphad=0.000000e+00 
+newrelpinfeas is 1.470301e+03
+limrelpinfeas is 1.470301e+06
+newreldinfeas is 9.175883e+00
+limreldinfeas is 9.175883e+03
+After feas check, alphap=0.000000e+00 alphad=0.000000e+00 
+line search failure in corrector step.
+diagnrm is 3.649942e+03, adding diagadd 5.381546e-04 
+Perturbing C.
+Fnorm of Fd is 9.277215e+01 
+Norm of rhs is 3.449682e+03 
+Norm of dy is 1.067048e+01 
+Fnorm of work1 is 1.279356e+00 
+Before Fd, Fnorm of dZ is 1.341281e+01 
+After Fd, Fnorm of dZ is 9.179614e+01 
+Fnorm of dX is 1.375385e+03 
+Fnorm of dZ is 9.179614e+01 
+linesearch method 2 
+qreig evalue -4.411694e-01 
+qreig evalue 2.497979e-02 
+qreig evalue 9.483138e-02 
+qreig evalue 4.410746e-01 
+qreig evalue 1.011391e+00 
+qreig evalue -4.411735e-01 
+qreig evalue 1.118603e-02 
+qreig evalue 5.683809e-02 
+qreig evalue 9.519876e-02 
+qreig evalue 4.411735e-01 
+qreig evalue 1.011391e+00 
+qreig evalue -4.411735e-01 
+qreig evalue 8.232206e-03 
+qreig evalue 3.957865e-02 
+qreig evalue 7.043044e-02 
+qreig evalue 9.527673e-02 
+qreig evalue 4.411737e-01 
+qreig evalue 1.011391e+00 
+qreig evalue -4.411735e-01 
+qreig evalue 6.837671e-03 
+qreig evalue 2.634891e-02 
+qreig evalue 5.595353e-02 
+qreig evalue 8.281063e-02 
+qreig evalue 9.532962e-02 
+qreig evalue 4.411737e-01 
+qreig evalue 1.011391e+00 
+Stopping here, on tightness j=8 
+maxeigs[1]=-1.000000e+100 
+maxeigs[2]=-1.000000e+100 
+maxeigs[3]=-1.000000e+100 
+maxeigs[4]=-1.000000e+100 
+maxeigs[5]=1.011391e+00 
+maxeigs[6]=1.011391e+00 
+maxeigs[7]=1.011391e+00 
+maxeigs[8]=1.011391e+00 
+maxeig 1.021505e+00 
+Lancoz converged after 8 iters
+eigsearch: alpha=0.000000e+00 
+linesearch method 2 
+qreig evalue -1.139055e-02 
+qreig evalue 5.589254e-01 
+qreig evalue 9.051686e-01 
+qreig evalue 9.750202e-01 
+qreig evalue 1.441169e+00 
+qreig evalue -1.139092e-02 
+qreig evalue 5.588265e-01 
+qreig evalue 9.048012e-01 
+qreig evalue 9.431619e-01 
+qreig evalue 9.888140e-01 
+qreig evalue 1.441174e+00 
+qreig evalue -1.139092e-02 
+qreig evalue 5.588263e-01 
+qreig evalue 9.047233e-01 
+qreig evalue 9.295696e-01 
+qreig evalue 9.604214e-01 
+qreig evalue 9.917678e-01 
+qreig evalue 1.441174e+00 
+qreig evalue -1.139092e-02 
+qreig evalue 5.588263e-01 
+qreig evalue 9.046704e-01 
+qreig evalue 9.171894e-01 
+qreig evalue 9.440465e-01 
+qreig evalue 9.736511e-01 
+qreig evalue 9.931623e-01 
+qreig evalue 1.441174e+00 
+Stopping here, on tightness j=8 
+maxeigs[1]=-1.000000e+100 
+maxeigs[2]=-1.000000e+100 
+maxeigs[3]=-1.000000e+100 
+maxeigs[4]=-1.000000e+100 
+maxeigs[5]=1.441169e+00 
+maxeigs[6]=1.441174e+00 
+maxeigs[7]=1.441174e+00 
+maxeigs[8]=1.441174e+00 
+maxeig 1.455585e+00 
+Lancoz converged after 8 iters
+eigsearch: alpha=0.000000e+00 
+Taking an affine step because parameters.affine=1
+muk is 9.750149e+03 
+muplus is 9.750149e+03 
+New mu is 0.000000e+00 
+mu*n = target duality gap is 0.000000e+00 
+refinement: Relative error in A(X+dX)=a (Fphat) is 2.871183e-03 
+refinement: Before dX+dX1 Relative error in A(X+dX)=a is 2.871183e-03 
+refinement: better
+Fnorm of dX1 is 7.744955e+02
+Fnorm of dZ1 is 6.688331e+00
+refinement: Before adjust dX Relative error in A(X+dX)=a is 4.736237e-04 
+refinement: better
+Fnorm of dX is 1.907375e+03 
+Fnorm of dZ is 9.203946e+01 
+refinement: After adjust error in A(X+dX)=a is 4.736237e-04 
+refinement: better
+linesearch method 2 
+qreig evalue -6.501478e-01 
+qreig evalue 5.682674e-02 
+qreig evalue 1.756603e-01 
+qreig evalue 2.156886e-01 
+qreig evalue 1.000138e+00 
+qreig evalue -6.501502e-01 
+qreig evalue 1.888879e-02 
+qreig evalue 8.083406e-02 
+qreig evalue 1.815866e-01 
+qreig evalue 2.603235e-01 
+qreig evalue 1.000139e+00 
+qreig evalue -6.501502e-01 
+qreig evalue 1.235709e-02 
+qreig evalue 5.365672e-02 
+qreig evalue 8.545688e-02 
+qreig evalue 1.816643e-01 
+qreig evalue 2.608785e-01 
+qreig evalue 1.000139e+00 
+qreig evalue -6.501502e-01 
+qreig evalue 1.154621e-02 
+qreig evalue 4.427420e-02 
+qreig evalue 7.200153e-02 
+qreig evalue 8.740038e-02 
+qreig evalue 1.816657e-01 
+qreig evalue 2.608821e-01 
+qreig evalue 1.000139e+00 
+Stopping here, on tightness j=8 
+maxeigs[1]=-1.000000e+100 
+maxeigs[2]=-1.000000e+100 
+maxeigs[3]=-1.000000e+100 
+maxeigs[4]=-1.000000e+100 
+maxeigs[5]=1.000138e+00 
+maxeigs[6]=1.000139e+00 
+maxeigs[7]=1.000139e+00 
+maxeigs[8]=1.000139e+00 
+maxeig 1.010140e+00 
+Lancoz converged after 8 iters
+eigsearch: alpha=0.000000e+00 
+linesearch method 2 
+qreig evalue -1.100564e-02 
+qreig evalue 9.046180e-01 
+qreig evalue 9.788727e-01 
+qreig evalue 9.959735e-01 
+qreig evalue 1.013292e+00 
+qreig evalue -1.100564e-02 
+qreig evalue 9.046179e-01 
+qreig evalue 9.524291e-01 
+qreig evalue 9.796522e-01 
+qreig evalue 9.970687e-01 
+qreig evalue 1.013877e+00 
+qreig evalue -1.100564e-02 
+qreig evalue 9.046171e-01 
+qreig evalue 9.070581e-01 
+qreig evalue 9.778742e-01 
+qreig evalue 9.879756e-01 
+qreig evalue 9.990878e-01 
+qreig evalue 1.014298e+00 
+qreig evalue -1.100564e-02 
+qreig evalue 9.046168e-01 
+qreig evalue 9.063586e-01 
+qreig evalue 9.771735e-01 
+qreig evalue 9.830171e-01 
+qreig evalue 9.930513e-01 
+qreig evalue 9.999966e-01 
+qreig evalue 1.014339e+00 
+Stopping here, on tightness j=8 
+maxeigs[1]=-1.000000e+100 
+maxeigs[2]=-1.000000e+100 
+maxeigs[3]=-1.000000e+100 
+maxeigs[4]=-1.000000e+100 
+maxeigs[5]=1.013292e+00 
+maxeigs[6]=1.013877e+00 
+maxeigs[7]=1.014298e+00 
+maxeigs[8]=1.014339e+00 
+maxeig 1.024482e+00 
+Lancoz converged after 8 iters
+eigsearch: alpha=0.000000e+00 
+After linesearches, alphap=0.000000e+00 alphad=0.000000e+00 
+newrelpinfeas is 1.470301e+03
+limrelpinfeas is 1.470301e+06
+newreldinfeas is 9.175883e+00
+limreldinfeas is 9.175883e+03
+After feas check, alphap=0.000000e+00 alphad=0.000000e+00 
+line search failure in corrector step.
+diagnrm is 3.649942e+03, adding diagadd 5.381546e-03 
+Perturbing C.
+Fnorm of Fd is 9.277215e+01 
+Norm of rhs is 3.449682e+03 
+Norm of dy is 1.066991e+01 
+Fnorm of work1 is 1.279312e+00 
+Before Fd, Fnorm of dZ is 1.341234e+01 
+After Fd, Fnorm of dZ is 9.179614e+01 
+Fnorm of dX is 1.375349e+03 
+Fnorm of dZ is 9.179614e+01 
+linesearch method 2 
+qreig evalue -4.411676e-01 
+qreig evalue 2.498047e-02 
+qreig evalue 9.483134e-02 
+qreig evalue 4.410729e-01 
+qreig evalue 1.011337e+00 
+qreig evalue -4.411718e-01 
+qreig evalue 1.118651e-02 
+qreig evalue 5.683846e-02 
+qreig evalue 9.519873e-02 
+qreig evalue 4.411717e-01 
+qreig evalue 1.011337e+00 
+qreig evalue -4.411718e-01 
+qreig evalue 8.232527e-03 
+qreig evalue 3.957914e-02 
+qreig evalue 7.043146e-02 
+qreig evalue 9.527671e-02 
+qreig evalue 4.411720e-01 
+qreig evalue 1.011337e+00 
+qreig evalue -4.411718e-01 
+qreig evalue 6.837919e-03 
+qreig evalue 2.634927e-02 
+qreig evalue 5.595350e-02 
+qreig evalue 8.281101e-02 
+qreig evalue 9.532961e-02 
+qreig evalue 4.411720e-01 
+qreig evalue 1.011337e+00 
+Stopping here, on tightness j=8 
+maxeigs[1]=-1.000000e+100 
+maxeigs[2]=-1.000000e+100 
+maxeigs[3]=-1.000000e+100 
+maxeigs[4]=-1.000000e+100 
+maxeigs[5]=1.011337e+00 
+maxeigs[6]=1.011337e+00 
+maxeigs[7]=1.011337e+00 
+maxeigs[8]=1.011337e+00 
+maxeig 1.021451e+00 
+Lancoz converged after 8 iters
+eigsearch: alpha=0.000000e+00 
+linesearch method 2 
+qreig evalue -1.133678e-02 
+qreig evalue 5.589271e-01 
+qreig evalue 9.051687e-01 
+qreig evalue 9.750195e-01 
+qreig evalue 1.441168e+00 
+qreig evalue -1.133715e-02 
+qreig evalue 5.588283e-01 
+qreig evalue 9.048013e-01 
+qreig evalue 9.431615e-01 
+qreig evalue 9.888135e-01 
+qreig evalue 1.441172e+00 
+qreig evalue -1.133716e-02 
+qreig evalue 5.588280e-01 
+qreig evalue 9.047233e-01 
+qreig evalue 9.295685e-01 
+qreig evalue 9.604209e-01 
+qreig evalue 9.917675e-01 
+qreig evalue 1.441172e+00 
+qreig evalue -1.133716e-02 
+qreig evalue 5.588280e-01 
+qreig evalue 9.046704e-01 
+qreig evalue 9.171890e-01 
+qreig evalue 9.440465e-01 
+qreig evalue 9.736507e-01 
+qreig evalue 9.931621e-01 
+qreig evalue 1.441172e+00 
+Stopping here, on tightness j=8 
+maxeigs[1]=-1.000000e+100 
+maxeigs[2]=-1.000000e+100 
+maxeigs[3]=-1.000000e+100 
+maxeigs[4]=-1.000000e+100 
+maxeigs[5]=1.441168e+00 
+maxeigs[6]=1.441172e+00 
+maxeigs[7]=1.441172e+00 
+maxeigs[8]=1.441172e+00 
+maxeig 1.455584e+00 
+Lancoz converged after 8 iters
+eigsearch: alpha=0.000000e+00 
+Taking an affine step because parameters.affine=1
+muk is 9.750149e+03 
+muplus is 9.750149e+03 
+New mu is 0.000000e+00 
+mu*n = target duality gap is 0.000000e+00 
+refinement: Relative error in A(X+dX)=a (Fphat) is 2.871031e-02 
+refinement: Before dX+dX1 Relative error in A(X+dX)=a is 2.871031e-02 
+refinement: better
+Fnorm of dX1 is 7.744937e+02
+Fnorm of dZ1 is 6.688263e+00
+refinement: Before adjust dX Relative error in A(X+dX)=a is 4.736115e-03 
+refinement: better
+Fnorm of dX is 1.907375e+03 
+Fnorm of dZ is 9.203946e+01 
+refinement: After adjust error in A(X+dX)=a is 4.736115e-03 
+refinement: better
+linesearch method 2 
+qreig evalue -6.501466e-01 
+qreig evalue 5.682615e-02 
+qreig evalue 1.756605e-01 
+qreig evalue 2.156910e-01 
+qreig evalue 1.000137e+00 
+qreig evalue -6.501490e-01 
+qreig evalue 1.888896e-02 
+qreig evalue 8.083478e-02 
+qreig evalue 1.815866e-01 
+qreig evalue 2.603254e-01 
+qreig evalue 1.000139e+00 
+qreig evalue -6.501490e-01 
+qreig evalue 1.235702e-02 
+qreig evalue 5.365686e-02 
+qreig evalue 8.545803e-02 
+qreig evalue 1.816643e-01 
+qreig evalue 2.608805e-01 
+qreig evalue 1.000139e+00 
+qreig evalue -6.501490e-01 
+qreig evalue 1.154599e-02 
+qreig evalue 4.427275e-02 
+qreig evalue 7.200000e-02 
+qreig evalue 8.740138e-02 
+qreig evalue 1.816657e-01 
+qreig evalue 2.608840e-01 
+qreig evalue 1.000139e+00 
+Stopping here, on tightness j=8 
+maxeigs[1]=-1.000000e+100 
+maxeigs[2]=-1.000000e+100 
+maxeigs[3]=-1.000000e+100 
+maxeigs[4]=-1.000000e+100 
+maxeigs[5]=1.000137e+00 
+maxeigs[6]=1.000139e+00 
+maxeigs[7]=1.000139e+00 
+maxeigs[8]=1.000139e+00 
+maxeig 1.010140e+00 
+Lancoz converged after 8 iters
+eigsearch: alpha=0.000000e+00 
+linesearch method 2 
+qreig evalue -1.095060e-02 
+qreig evalue 9.046180e-01 
+qreig evalue 9.788747e-01 
+qreig evalue 9.959730e-01 
+qreig evalue 1.013295e+00 
+qreig evalue -1.095060e-02 
+qreig evalue 9.046179e-01 
+qreig evalue 9.524211e-01 
+qreig evalue 9.796536e-01 
+qreig evalue 9.970674e-01 
+qreig evalue 1.013880e+00 
+qreig evalue -1.095060e-02 
+qreig evalue 9.046171e-01 
+qreig evalue 9.070574e-01 
+qreig evalue 9.778763e-01 
+qreig evalue 9.879750e-01 
+qreig evalue 9.990853e-01 
+qreig evalue 1.014300e+00 
+qreig evalue -1.095060e-02 
+qreig evalue 9.046168e-01 
+qreig evalue 9.063586e-01 
+qreig evalue 9.771759e-01 
+qreig evalue 9.830183e-01 
+qreig evalue 9.930508e-01 
+qreig evalue 9.999937e-01 
+qreig evalue 1.014341e+00 
+Stopping here, on tightness j=8 
+maxeigs[1]=-1.000000e+100 
+maxeigs[2]=-1.000000e+100 
+maxeigs[3]=-1.000000e+100 
+maxeigs[4]=-1.000000e+100 
+maxeigs[5]=1.013295e+00 
+maxeigs[6]=1.013880e+00 
+maxeigs[7]=1.014300e+00 
+maxeigs[8]=1.014341e+00 
+maxeig 1.024484e+00 
+Lancoz converged after 8 iters
+eigsearch: alpha=0.000000e+00 
+After linesearches, alphap=0.000000e+00 alphad=0.000000e+00 
+newrelpinfeas is 1.470301e+03
+limrelpinfeas is 1.470301e+06
+newreldinfeas is 9.175883e+00
+limreldinfeas is 9.175883e+03
+After feas check, alphap=0.000000e+00 alphad=0.000000e+00 
+line search failure in corrector step.
+diagnrm is 3.649942e+03, adding diagadd 5.381546e-02 
+Perturbing C.
+Fnorm of Fd is 9.277215e+01 
+Norm of rhs is 3.449682e+03 
+Norm of dy is 1.066428e+01 
+Fnorm of work1 is 1.278870e+00 
+Before Fd, Fnorm of dZ is 1.340771e+01 
+After Fd, Fnorm of dZ is 9.179614e+01 
+Fnorm of dX is 1.374996e+03 
+Fnorm of dZ is 9.179614e+01 
+linesearch method 2 
+qreig evalue -4.411502e-01 
+qreig evalue 2.498724e-02 
+qreig evalue 9.483095e-02 
+qreig evalue 4.410554e-01 
+qreig evalue 1.010799e+00 
+qreig evalue -4.411543e-01 
+qreig evalue 1.119140e-02 
+qreig evalue 5.684211e-02 
+qreig evalue 9.519842e-02 
+qreig evalue 4.411543e-01 
+qreig evalue 1.010800e+00 
+qreig evalue -4.411543e-01 
+qreig evalue 8.235738e-03 
+qreig evalue 3.958409e-02 
+qreig evalue 7.044174e-02 
+qreig evalue 9.527649e-02 
+qreig evalue 4.411545e-01 
+qreig evalue 1.010800e+00 
+qreig evalue -4.411543e-01 
+qreig evalue 6.840395e-03 
+qreig evalue 2.635287e-02 
+qreig evalue 5.595326e-02 
+qreig evalue 8.281485e-02 
+qreig evalue 9.532947e-02 
+qreig evalue 4.411545e-01 
+qreig evalue 1.010800e+00 
+Stopping here, on tightness j=8 
+maxeigs[1]=-1.000000e+100 
+maxeigs[2]=-1.000000e+100 
+maxeigs[3]=-1.000000e+100 
+maxeigs[4]=-1.000000e+100 
+maxeigs[5]=1.010799e+00 
+maxeigs[6]=1.010800e+00 
+maxeigs[7]=1.010800e+00 
+maxeigs[8]=1.010800e+00 
+maxeig 1.020908e+00 
+Lancoz converged after 8 iters
+eigsearch: alpha=0.000000e+00 
+linesearch method 2 
+qreig evalue -1.079942e-02 
+qreig evalue 5.589446e-01 
+qreig evalue 9.051691e-01 
+qreig evalue 9.750128e-01 
+qreig evalue 1.441150e+00 
+qreig evalue -1.079979e-02 
+qreig evalue 5.588457e-01 
+qreig evalue 9.048016e-01 
+qreig evalue 9.431579e-01 
+qreig evalue 9.888086e-01 
+qreig evalue 1.441154e+00 
+qreig evalue -1.079979e-02 
+qreig evalue 5.588455e-01 
+qreig evalue 9.047235e-01 
+qreig evalue 9.295583e-01 
+qreig evalue 9.604159e-01 
+qreig evalue 9.917643e-01 
+qreig evalue 1.441154e+00 
+qreig evalue -1.079979e-02 
+qreig evalue 5.588455e-01 
+qreig evalue 9.046705e-01 
+qreig evalue 9.171851e-01 
+qreig evalue 9.440467e-01 
+qreig evalue 9.736471e-01 
+qreig evalue 9.931596e-01 
+qreig evalue 1.441154e+00 
+Stopping here, on tightness j=8 
+maxeigs[1]=-1.000000e+100 
+maxeigs[2]=-1.000000e+100 
+maxeigs[3]=-1.000000e+100 
+maxeigs[4]=-1.000000e+100 
+maxeigs[5]=1.441150e+00 
+maxeigs[6]=1.441154e+00 
+maxeigs[7]=1.441154e+00 
+maxeigs[8]=1.441154e+00 
+maxeig 1.455566e+00 
+Lancoz converged after 8 iters
+eigsearch: alpha=0.000000e+00 
+Taking an affine step because parameters.affine=1
+muk is 9.750149e+03 
+muplus is 9.750149e+03 
+New mu is 0.000000e+00 
+mu*n = target duality gap is 0.000000e+00 
+refinement: Relative error in A(X+dX)=a (Fphat) is 2.869516e-01 
+refinement: Before dX+dX1 Relative error in A(X+dX)=a is 2.869516e-01 
+refinement: better
+Fnorm of dX1 is 7.744763e+02
+Fnorm of dZ1 is 6.687582e+00
+refinement: Before adjust dX Relative error in A(X+dX)=a is 4.734890e-02 
+refinement: better
+Fnorm of dX is 1.907373e+03 
+Fnorm of dZ is 9.203942e+01 
+refinement: After adjust error in A(X+dX)=a is 4.734890e-02 
+refinement: better
+linesearch method 2 
+qreig evalue -6.501354e-01 
+qreig evalue 5.682025e-02 
+qreig evalue 1.756623e-01 
+qreig evalue 2.157152e-01 
+qreig evalue 1.000133e+00 
+qreig evalue -6.501378e-01 
+qreig evalue 1.889071e-02 
+qreig evalue 8.084191e-02 
+qreig evalue 1.815865e-01 
+qreig evalue 2.603448e-01 
+qreig evalue 1.000134e+00 
+qreig evalue -6.501378e-01 
+qreig evalue 1.235636e-02 
+qreig evalue 5.365821e-02 
+qreig evalue 8.546953e-02 
+qreig evalue 1.816643e-01 
+qreig evalue 2.609001e-01 
+qreig evalue 1.000134e+00 
+qreig evalue -6.501378e-01 
+qreig evalue 1.154375e-02 
+qreig evalue 4.425825e-02 
+qreig evalue 7.198477e-02 
+qreig evalue 8.741135e-02 
+qreig evalue 1.816657e-01 
+qreig evalue 2.609036e-01 
+qreig evalue 1.000134e+00 
+Stopping here, on tightness j=8 
+maxeigs[1]=-1.000000e+100 
+maxeigs[2]=-1.000000e+100 
+maxeigs[3]=-1.000000e+100 
+maxeigs[4]=-1.000000e+100 
+maxeigs[5]=1.000133e+00 
+maxeigs[6]=1.000134e+00 
+maxeigs[7]=1.000134e+00 
+maxeigs[8]=1.000134e+00 
+maxeig 1.010136e+00 
+Lancoz converged after 8 iters
+eigsearch: alpha=0.000000e+00 
+linesearch method 2 
+qreig evalue -1.040090e-02 
+qreig evalue 9.046180e-01 
+qreig evalue 9.788941e-01 
+qreig evalue 9.959675e-01 
+qreig evalue 1.013329e+00 
+qreig evalue -1.040090e-02 
+qreig evalue 9.046179e-01 
+qreig evalue 9.523412e-01 
+qreig evalue 9.796675e-01 
+qreig evalue 9.970539e-01 
+qreig evalue 1.013908e+00 
+qreig evalue -1.040090e-02 
+qreig evalue 9.046171e-01 
+qreig evalue 9.070503e-01 
+qreig evalue 9.778973e-01 
+qreig evalue 9.879697e-01 
+qreig evalue 9.990604e-01 
+qreig evalue 1.014323e+00 
+qreig evalue -1.040090e-02 
+qreig evalue 9.046168e-01 
+qreig evalue 9.063576e-01 
+qreig evalue 9.771991e-01 
+qreig evalue 9.830297e-01 
+qreig evalue 9.930464e-01 
+qreig evalue 9.999644e-01 
+qreig evalue 1.014363e+00 
+Stopping here, on tightness j=8 
+maxeigs[1]=-1.000000e+100 
+maxeigs[2]=-1.000000e+100 
+maxeigs[3]=-1.000000e+100 
+maxeigs[4]=-1.000000e+100 
+maxeigs[5]=1.013329e+00 
+maxeigs[6]=1.013908e+00 
+maxeigs[7]=1.014323e+00 
+maxeigs[8]=1.014363e+00 
+maxeig 1.024506e+00 
+Lancoz converged after 8 iters
+eigsearch: alpha=0.000000e+00 
+After linesearches, alphap=0.000000e+00 alphad=0.000000e+00 
+newrelpinfeas is 1.470301e+03
+limrelpinfeas is 1.470301e+06
+newreldinfeas is 9.175883e+00
+limreldinfeas is 9.175883e+03
+After feas check, alphap=0.000000e+00 alphad=0.000000e+00 
+line search failure in corrector step.
+diagnrm is 3.649942e+03, adding diagadd 5.381546e-01 
+Perturbing C.
+Fnorm of Fd is 9.277215e+01 
+Norm of rhs is 3.449682e+03 
+Norm of dy is 1.060831e+01 
+Fnorm of work1 is 1.274482e+00 
+Before Fd, Fnorm of dZ is 1.336171e+01 
+After Fd, Fnorm of dZ is 9.179617e+01 
+Fnorm of dX is 1.371489e+03 
+Fnorm of dZ is 9.179617e+01 
+linesearch method 2 
+qreig evalue -4.409759e-01 
+qreig evalue 2.505482e-02 
+qreig evalue 9.482701e-02 
+qreig evalue 4.408802e-01 
+qreig evalue 1.005458e+00 
+qreig evalue -4.409800e-01 
+qreig evalue 1.124010e-02 
+qreig evalue 5.687914e-02 
+qreig evalue 9.519536e-02 
+qreig evalue 4.409800e-01 
+qreig evalue 1.005459e+00 
+qreig evalue -4.409800e-01 
+qreig evalue 8.267679e-03 
+qreig evalue 3.963379e-02 
+qreig evalue 7.054533e-02 
+qreig evalue 9.527440e-02 
+qreig evalue 4.409802e-01 
+qreig evalue 1.005459e+00 
+qreig evalue -4.409800e-01 
+qreig evalue 6.864994e-03 
+qreig evalue 2.638898e-02 
+qreig evalue 5.595133e-02 
+qreig evalue 8.285455e-02 
+qreig evalue 9.532813e-02 
+qreig evalue 4.409802e-01 
+qreig evalue 1.005459e+00 
+Stopping here, on tightness j=8 
+maxeigs[1]=-1.000000e+100 
+maxeigs[2]=-1.000000e+100 
+maxeigs[3]=-1.000000e+100 
+maxeigs[4]=-1.000000e+100 
+maxeigs[5]=1.005458e+00 
+maxeigs[6]=1.005459e+00 
+maxeigs[7]=1.005459e+00 
+maxeigs[8]=1.005459e+00 
+maxeig 1.015513e+00 
+Lancoz converged after 8 iters
+eigsearch: alpha=0.000000e+00 
+linesearch method 2 
+qreig evalue -5.458346e-03 
+qreig evalue 5.591198e-01 
+qreig evalue 9.051730e-01 
+qreig evalue 9.749452e-01 
+qreig evalue 1.440976e+00 
+qreig evalue -5.458737e-03 
+qreig evalue 5.590200e-01 
+qreig evalue 9.048046e-01 
+qreig evalue 9.431209e-01 
+qreig evalue 9.887599e-01 
+qreig evalue 1.440980e+00 
+qreig evalue -5.458737e-03 
+qreig evalue 5.590198e-01 
+qreig evalue 9.047256e-01 
+qreig evalue 9.294547e-01 
+qreig evalue 9.603662e-01 
+qreig evalue 9.917323e-01 
+qreig evalue 1.440980e+00 
+qreig evalue -5.458737e-03 
+qreig evalue 5.590198e-01 
+qreig evalue 9.046719e-01 
+qreig evalue 9.171455e-01 
+qreig evalue 9.440487e-01 
+qreig evalue 9.736110e-01 
+qreig evalue 9.931350e-01 
+qreig evalue 1.440980e+00 
+Stopping here, on tightness j=8 
+maxeigs[1]=-1.000000e+100 
+maxeigs[2]=-1.000000e+100 
+maxeigs[3]=-1.000000e+100 
+maxeigs[4]=-1.000000e+100 
+maxeigs[5]=1.440976e+00 
+maxeigs[6]=1.440980e+00 
+maxeigs[7]=1.440980e+00 
+maxeigs[8]=1.440980e+00 
+maxeig 1.455390e+00 
+Lancoz converged after 8 iters
+eigsearch: alpha=0.000000e+00 
+Taking an affine step because parameters.affine=1
+muk is 9.750149e+03 
+muplus is 9.750149e+03 
+New mu is 0.000000e+00 
+mu*n = target duality gap is 0.000000e+00 
+refinement: Relative error in A(X+dX)=a (Fphat) is 2.854456e+00 
+refinement: Before dX+dX1 Relative error in A(X+dX)=a is 2.854456e+00 
+refinement: better
+Fnorm of dX1 is 7.743211e+02
+Fnorm of dZ1 is 6.680788e+00
+refinement: Before adjust dX Relative error in A(X+dX)=a is 4.722777e-01 
+refinement: better
+Fnorm of dX is 1.907352e+03 
+Fnorm of dZ is 9.203910e+01 
+refinement: After adjust error in A(X+dX)=a is 4.722777e-01 
+refinement: better
+linesearch method 2 
+qreig evalue -6.500239e-01 
+qreig evalue 5.676125e-02 
+qreig evalue 1.756804e-01 
+qreig evalue 2.159584e-01 
+qreig evalue 1.000092e+00 
+qreig evalue -6.500263e-01 
+qreig evalue 1.890816e-02 
+qreig evalue 8.091306e-02 
+qreig evalue 1.815858e-01 
+qreig evalue 2.605385e-01 
+qreig evalue 1.000093e+00 
+qreig evalue -6.500263e-01 
+qreig evalue 1.234983e-02 
+qreig evalue 5.367263e-02 
+qreig evalue 8.558462e-02 
+qreig evalue 1.816644e-01 
+qreig evalue 2.610961e-01 
+qreig evalue 1.000093e+00 
+qreig evalue -6.500263e-01 
+qreig evalue 1.152141e-02 
+qreig evalue 4.411555e-02 
+qreig evalue 7.183989e-02 
+qreig evalue 8.751293e-02 
+qreig evalue 1.816658e-01 
+qreig evalue 2.610997e-01 
+qreig evalue 1.000093e+00 
+Stopping here, on tightness j=8 
+maxeigs[1]=-1.000000e+100 
+maxeigs[2]=-1.000000e+100 
+maxeigs[3]=-1.000000e+100 
+maxeigs[4]=-1.000000e+100 
+maxeigs[5]=1.000092e+00 
+maxeigs[6]=1.000093e+00 
+maxeigs[7]=1.000093e+00 
+maxeigs[8]=1.000093e+00 
+maxeig 1.010094e+00 
+Lancoz converged after 8 iters
+eigsearch: alpha=0.000000e+00 
+linesearch method 2 
+qreig evalue -4.968706e-03 
+qreig evalue 9.046180e-01 
+qreig evalue 9.790852e-01 
+qreig evalue 9.959068e-01 
+qreig evalue 1.013660e+00 
+qreig evalue -4.968706e-03 
+qreig evalue 9.046179e-01 
+qreig evalue 9.515034e-01 
+qreig evalue 9.798046e-01 
+qreig evalue 9.969155e-01 
+qreig evalue 1.014184e+00 
+qreig evalue -4.968706e-03 
+qreig evalue 9.046171e-01 
+qreig evalue 9.069818e-01 
+qreig evalue 9.781057e-01 
+qreig evalue 9.879159e-01 
+qreig evalue 9.988110e-01 
+qreig evalue 1.014548e+00 
+qreig evalue -4.968706e-03 
+qreig evalue 9.046168e-01 
+qreig evalue 9.063482e-01 
+qreig evalue 9.774288e-01 
+qreig evalue 9.831355e-01 
+qreig evalue 9.929994e-01 
+qreig evalue 9.996720e-01 
+qreig evalue 1.014580e+00 
+Stopping here, on tightness j=8 
+maxeigs[1]=-1.000000e+100 
+maxeigs[2]=-1.000000e+100 
+maxeigs[3]=-1.000000e+100 
+maxeigs[4]=-1.000000e+100 
+maxeigs[5]=1.013660e+00 
+maxeigs[6]=1.014184e+00 
+maxeigs[7]=1.014548e+00 
+maxeigs[8]=1.014580e+00 
+maxeig 1.024726e+00 
+Lancoz converged after 8 iters
+eigsearch: alpha=0.000000e+00 
+After linesearches, alphap=0.000000e+00 alphad=0.000000e+00 
+newrelpinfeas is 1.470301e+03
+limrelpinfeas is 1.470301e+06
+newreldinfeas is 9.175883e+00
+limreldinfeas is 9.175883e+03
+After feas check, alphap=0.000000e+00 alphad=0.000000e+00 
+line search failure in corrector step.
+Too many line search failures, giving up. 
+Total Iterations: 0 
+Failure: return code is 9 
+XZ Gap: 9.0676386e+05 
+Real Gap: 7.5330000e+04 
+Primal objective value: -7.5330000e+04 
+Dual objective value: 0.0000000e+00 
+Relative primal infeasibility: 1.47e+03 
+Relative dual infeasibility: 9.18e+00 
+Real Relative Gap: 1.00e-00 
+XZ Relative Gap: 1.20e+01 
+DIMACS error measures: 1.47e+03 0.00e+00 4.64e+01 0.00e+00 1.00e-00 1.20e+01
+Elements time: 0.024755 
+Factor time: 0.000596 
+Other time: 0.241998 
+Total time: 0.267349 
+[Warning: File 'param.csdp' not found.] 
+[> In csdp (line 215)
+  In cca (line 108)
+  In compute_mapping (line 277)
+  In MagnetVision (line 62)
+  In main (line 121)
+  In rp_gridMain_Run2Img (line 11)] 
+=========================================================================================
+slurmstepd: *** JOB 1953690 CANCELLED AT 2015-10-14T04:59:23 DUE TO TIME LIMIT on wh-520-8-42 ***

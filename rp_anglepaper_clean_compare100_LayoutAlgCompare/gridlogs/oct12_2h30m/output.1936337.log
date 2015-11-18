@@ -1,0 +1,346 @@
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2015 The MathWorks, Inc.
+                   R2015a (8.5.0.197613) 64-bit (glnxa64)
+                             February 12, 2015
+
+ 
+To get started, type one of these: helpwin, helpdesk, or demo.
+For product information, visit www.mathworks.com.
+ 
+
+	Academic License
+
+
+img1 =
+
+image10.pgm.atts
+
+
+img2 =
+
+dummy
+
+
+minGap =
+
+    20
+
+
+startTime =
+
+12-Oct-2015 20:42:06
+
+## Starting Data/image10.pgm.atts
+
+ 266 longest primitives returned (105 lines, 161 arcs read, but returning only 3000 max elements for computational reasons)
+
+ Time taken by traditional algorithm = 655.338157 (sec)
+dimRedAlg =
+
+PCA
+
+
+dimRedAlg =
+
+LDA
+
+
+dimRedAlg =
+
+MDS
+
+
+dimRedAlg =
+
+ProbPCA
+
+
+dimRedAlg =
+
+FactorAnalysis
+
+
+dimRedAlg =
+
+Sammon
+
+
+dimRedAlg =
+
+Isomap
+
+Constructing neighborhood graph...
+Computing shortest paths...
+Constructing low-dimensional embedding...
+
+ Wanted to embed 263 magnets embedded 263 magnet
+ #*#*# ERROR: Failed Execution. Alg: Isomap, File: Data/image10.pgm.atts
+
+magnetVisionException = 
+
+  MException with properties:
+
+    identifier: 'MATLAB:badsubscript'
+       message: 'Index exceeds matrix dimensions.'
+         cause: {}
+         stack: [3x1 struct]
+
+
+dimRedAlg =
+
+LandmarkIsomap
+
+
+ Wanted to embed 263 magnets embedded 263 magnet
+ #*#*# ERROR: Failed Execution. Alg: LandmarkIsomap, File: Data/image10.pgm.atts
+
+magnetVisionException = 
+
+  MException with properties:
+
+    identifier: 'MATLAB:badsubscript'
+       message: 'Index exceeds matrix dimensions.'
+         cause: {}
+         stack: [3x1 struct]
+
+
+dimRedAlg =
+
+LLE
+
+
+ Wanted to embed 263 magnets embedded 263 magnet
+ #*#*# ERROR: Failed Execution. Alg: LLE, File: Data/image10.pgm.atts
+
+magnetVisionException = 
+
+  MException with properties:
+
+    identifier: 'MATLAB:badsubscript'
+       message: 'Index exceeds matrix dimensions.'
+         cause: {}
+         stack: [3x1 struct]
+
+
+dimRedAlg =
+
+Laplacian
+
+
+dimRedAlg =
+
+HessianLLE
+
+
+dimRedAlg =
+
+LTSA
+
+
+dimRedAlg =
+
+DiffusionMaps
+
+
+dimRedAlg =
+
+KernelPCA
+
+
+dimRedAlg =
+
+SNE
+
+
+dimRedAlg =
+
+SymSNE
+
+
+dimRedAlg =
+
+tSNE
+
+
+dimRedAlg =
+
+NPE
+
+
+dimRedAlg =
+
+LPP
+
+
+dimRedAlg =
+
+SPE
+
+
+dimRedAlg =
+
+LLTSA
+
+
+dimRedAlg =
+
+CCA
+
+Running normal LLE...
+Running Conformal Eigenmaps...
+CSDP OUTPUT =============================================================================
+Iedge :6632, ivertex: 20514
+Elements time: 0.727680 
+Factor time: 0.018918 
+Other time: 0.259685 
+Total time: 1.006283 
+=========================================================================================
+
+ Wanted to embed 263 magnets embedded 263 magnet
+ #*#*# ERROR: Failed Execution. Alg: CCA, File: Data/image10.pgm.atts
+
+magnetVisionException = 
+
+  MException with properties:
+
+    identifier: 'MATLAB:badsubscript'
+       message: 'Index exceeds matrix dimensions.'
+         cause: {}
+         stack: [3x1 struct]
+
+
+dimRedAlg =
+
+MVU
+
+Running normal LLE...
+Running Maximum Variance Unfolding...
+CSDP OUTPUT =============================================================================
+Iedge :2364, ivertex: 3156
+Elements time: 1.030517 
+Factor time: 0.000899 
+Other time: 0.293239 
+Total time: 1.324656 
+=========================================================================================
+
+ Wanted to embed 263 magnets embedded 263 magnet
+ #*#*# ERROR: Failed Execution. Alg: MVU, File: Data/image10.pgm.atts
+
+magnetVisionException = 
+
+  MException with properties:
+
+    identifier: 'MATLAB:badsubscript'
+       message: 'Index exceeds matrix dimensions.'
+         cause: {}
+         stack: [3x1 struct]
+
+
+dimRedAlg =
+
+LandmarkMVU
+
+
+dimRedAlg =
+
+FastMVU
+
+Elements time: 0.000791 
+Factor time: 0.000053 
+Other time: 0.018829 
+Total time: 0.019673 
+
+ Wanted to embed 263 magnets embedded 263 magnet
+ #*#*# ERROR: Failed Execution. Alg: FastMVU, File: Data/image10.pgm.atts
+
+magnetVisionException = 
+
+  MException with properties:
+
+    identifier: 'MATLAB:badsubscript'
+       message: 'Index exceeds matrix dimensions.'
+         cause: {}
+         stack: [3x1 struct]
+
+
+dimRedAlg =
+
+LLC
+
+
+dimRedAlg =
+
+GPLVM
+
+
+dimRedAlg =
+
+Autoencoder
+
+
+dimRedAlg =
+
+NCA
+
+
+dimRedAlg =
+
+MCML
+
+
+ Wanted to embed 266 magnets embedded 266 magnet
+ Writing coordinates of magnets in text file Coords.txt
+ Image mask in VisionDots.bmp
+ Relaxing nanodisk array with pi/4 orientation as initial states for all disks and external field along x.
+ Time Taken = 2.837000 picoseconds
+ Relaxing nanodisk array with pi/4 orientation as initial states for all disks and external field along y.
+ Time Taken = 3.207000 picoseconds
+ Time taken by nanomagnet computing = 559.147007 (sec)
+ Detection Rate 0.497377 at 0.099103 false alarm
+dimRedAlg =
+
+LMNN
+
+
+ Wanted to embed 266 magnets embedded 266 magnet
+ Writing coordinates of magnets in text file Coords.txt
+ Image mask in VisionDots.bmp
+ Relaxing nanodisk array with pi/4 orientation as initial states for all disks and external field along x.
+ Time Taken = 4.530000 picoseconds
+ Relaxing nanodisk array with pi/4 orientation as initial states for all disks and external field along y.
+ Time Taken = 7.652000 picoseconds
+ Time taken by nanomagnet computing = 1752.389202 (sec)
+ Detection Rate 0.219612 at 0.098039 false alarm
+startTime =
+
+12-Oct-2015 20:42:06
+
+
+endTIme =
+
+12-Oct-2015 21:35:50
+
+Elapsed time is 1868.553347 seconds.
+
+startTime =
+
+12-Oct-2015 21:35:50
+
+## Starting Data/dummy
+{Error using fscanf
+Invalid file identifier. Use fopen to generate a valid file identifier.
+
+Error in ReadEdgeAttsFile (line 31)
+paren = fscanf(infile, ' %c', 1);
+
+
+Error in main (line 54)
+Lines = ReadEdgeAttsFile (ImageFile);
+
+
+Error in rp_gridMain_Run2Img (line 20)
+	main(['Data' filesep img2], minGap);
+
+} 
+>> 

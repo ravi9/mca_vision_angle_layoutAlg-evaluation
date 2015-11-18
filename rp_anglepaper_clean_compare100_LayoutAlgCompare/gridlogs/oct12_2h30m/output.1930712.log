@@ -1,0 +1,265 @@
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2015 The MathWorks, Inc.
+                   R2015a (8.5.0.197613) 64-bit (glnxa64)
+                             February 12, 2015
+
+ 
+To get started, type one of these: helpwin, helpdesk, or demo.
+For product information, visit www.mathworks.com.
+ 
+
+	Academic License
+
+
+img1 =
+
+S004I008.PGM.atts
+
+
+img2 =
+
+dummy
+
+
+minGap =
+
+    20
+
+
+startTime =
+
+12-Oct-2015 13:28:46
+
+## Starting Data/S004I008.PGM.atts
+
+ 458 longest primitives returned (204 lines, 254 arcs read, but returning only 3000 max elements for computational reasons)
+
+ Time taken by traditional algorithm = 1087.025009 (sec)
+dimRedAlg =
+
+PCA
+
+
+ Wanted to embed 458 magnets embedded 458 magnet
+ Writing coordinates of magnets in text file Coords.txt
+ Image mask in VisionDots.bmp
+ Relaxing nanodisk array with pi/4 orientation as initial states for all disks and external field along x.
+ Time Taken = 5.401000 picoseconds
+ Relaxing nanodisk array with pi/4 orientation as initial states for all disks and external field along y.
+ Time Taken = 8.910000 picoseconds
+ Time taken by nanomagnet computing = 2.972287 (sec)
+ Detection Rate 0.514533 at 0.097335 false alarm
+dimRedAlg =
+
+LDA
+
+
+ Wanted to embed 458 magnets embedded 458 magnet
+ Writing coordinates of magnets in text file Coords.txt
+ Image mask in VisionDots.bmp
+ Relaxing nanodisk array with pi/4 orientation as initial states for all disks and external field along x.
+ Time Taken = 1.213000 picoseconds
+ Relaxing nanodisk array with pi/4 orientation as initial states for all disks and external field along y.
+ Time Taken = 7.944000 picoseconds
+ Time taken by nanomagnet computing = 2.578691 (sec)
+ Detection Rate 0.619964 at 0.097735 false alarm
+dimRedAlg =
+
+MDS
+
+
+ Wanted to embed 458 magnets embedded 458 magnet
+ Writing coordinates of magnets in text file Coords.txt
+ Image mask in VisionDots.bmp
+ Relaxing nanodisk array with pi/4 orientation as initial states for all disks and external field along x.
+ Time Taken = 5.401000 picoseconds
+ Relaxing nanodisk array with pi/4 orientation as initial states for all disks and external field along y.
+ Time Taken = 8.910000 picoseconds
+ Time taken by nanomagnet computing = 1.119666 (sec)
+ Detection Rate 0.514533 at 0.097335 false alarm
+dimRedAlg =
+
+ProbPCA
+
+
+ Wanted to embed 458 magnets embedded 458 magnet
+ Writing coordinates of magnets in text file Coords.txt
+ Image mask in VisionDots.bmp
+ Relaxing nanodisk array with pi/4 orientation as initial states for all disks and external field along x.
+ Time Taken = 3.354000 picoseconds
+ Relaxing nanodisk array with pi/4 orientation as initial states for all disks and external field along y.
+ Time Taken = 9.462000 picoseconds
+ Time taken by nanomagnet computing = 104.382018 (sec)
+ Detection Rate 0.593702 at 0.099095 false alarm
+dimRedAlg =
+
+FactorAnalysis
+
+ 
+
+ Wanted to embed 458 magnets embedded 458 magnet
+ Writing coordinates of magnets in text file Coords.txt
+ Image mask in VisionDots.bmp
+ Relaxing nanodisk array with pi/4 orientation as initial states for all disks and external field along x.
+ Time Taken = 6.056000 picoseconds
+ Relaxing nanodisk array with pi/4 orientation as initial states for all disks and external field along y.
+ Time Taken = 120.055000 picoseconds
+ Time taken by nanomagnet computing = 168.305813 (sec)
+ Detection Rate 0.619199 at 0.075002 false alarm
+dimRedAlg =
+
+Sammon
+
+
+ Wanted to embed 458 magnets embedded 458 magnet
+ Writing coordinates of magnets in text file Coords.txt
+ Image mask in VisionDots.bmp
+ Relaxing nanodisk array with pi/4 orientation as initial states for all disks and external field along x.
+ Time Taken = 10.799000 picoseconds
+ Relaxing nanodisk array with pi/4 orientation as initial states for all disks and external field along y.
+ Time Taken = 11.549000 picoseconds
+ Time taken by nanomagnet computing = 215.557710 (sec)
+ Detection Rate 0.930138 at 0.094373 false alarm
+dimRedAlg =
+
+Isomap
+
+Constructing neighborhood graph...
+Computing shortest paths...
+Constructing low-dimensional embedding...
+
+ Wanted to embed 454 magnets embedded 454 magnet
+ #*#*# ERROR: Failed Execution. Alg: Isomap, File: Data/S004I008.PGM.atts
+
+magnetVisionException = 
+
+  MException with properties:
+
+    identifier: 'MATLAB:badsubscript'
+       message: 'Index exceeds matrix dimensions.'
+         cause: {}
+         stack: [3x1 struct]
+
+
+dimRedAlg =
+
+LandmarkIsomap
+
+
+ Wanted to embed 454 magnets embedded 454 magnet
+ #*#*# ERROR: Failed Execution. Alg: LandmarkIsomap, File: Data/S004I008.PGM.atts
+
+magnetVisionException = 
+
+  MException with properties:
+
+    identifier: 'MATLAB:badsubscript'
+       message: 'Index exceeds matrix dimensions.'
+         cause: {}
+         stack: [3x1 struct]
+
+
+dimRedAlg =
+
+LLE
+
+
+ Wanted to embed 454 magnets embedded 454 magnet
+ #*#*# ERROR: Failed Execution. Alg: LLE, File: Data/S004I008.PGM.atts
+
+magnetVisionException = 
+
+  MException with properties:
+
+    identifier: 'MATLAB:badsubscript'
+       message: 'Index exceeds matrix dimensions.'
+         cause: {}
+         stack: [3x1 struct]
+
+
+dimRedAlg =
+
+Laplacian
+
+
+ Wanted to embed 458 magnets embedded 458 magnet
+ Writing coordinates of magnets in text file Coords.txt
+ Image mask in VisionDots.bmp
+ Relaxing nanodisk array with pi/4 orientation as initial states for all disks and external field along x.
+ Time Taken = 23.037000 picoseconds
+ Relaxing nanodisk array with pi/4 orientation as initial states for all disks and external field along y.
+ Time Taken = 16.187000 picoseconds
+ Time taken by nanomagnet computing = 0.462767 (sec)
+ Detection Rate 0.541178 at 0.097815 false alarm
+dimRedAlg =
+
+HessianLLE
+
+
+ #*#*# ERROR: Failed Execution. Alg: HessianLLE, File: Data/S004I008.PGM.atts
+
+magnetVisionException = 
+
+  MException with properties:
+
+    identifier: 'MATLAB:eigs:AminusBSingular'
+       message: 'The shifted operator is singular. The shift is an eigenva...'
+         cause: {0x1 cell}
+         stack: [8x1 struct]
+
+
+dimRedAlg =
+
+LTSA
+
+Find nearest neighbors...
+Compute local information matrices for all datapoints...
+Construct alignment matrix...
+Perform eigenanalysis...
+
+ #*#*# ERROR: Failed Execution. Alg: LTSA, File: Data/S004I008.PGM.atts
+
+magnetVisionException = 
+
+  MException with properties:
+
+    identifier: 'MATLAB:eigs:AminusBSingular'
+       message: 'The shifted operator is singular. The shift is an eigenva...'
+         cause: {0x1 cell}
+         stack: [8x1 struct]
+
+
+dimRedAlg =
+
+DiffusionMaps
+
+
+ Wanted to embed 458 magnets embedded 458 magnet
+ Writing coordinates of magnets in text file Coords.txt
+ Image mask in VisionDots.bmp
+ Relaxing nanodisk array with pi/4 orientation as initial states for all disks and external field along x.
+ Time Taken = 6.087000 picoseconds
+ Relaxing nanodisk array with pi/4 orientation as initial states for all disks and external field along y.
+ Time Taken = 4.003000 picoseconds
+ Time taken by nanomagnet computing = 4.473280 (sec)
+ Detection Rate 0.642657 at 0.075802 false alarm
+dimRedAlg =
+
+KernelPCA
+
+
+ Wanted to embed 458 magnets embedded 458 magnet
+ Writing coordinates of magnets in text file Coords.txt
+ Image mask in VisionDots.bmp
+ Relaxing nanodisk array with pi/4 orientation as initial states for all disks and external field along x.
+ Time Taken = 5.083000 picoseconds
+ Relaxing nanodisk array with pi/4 orientation as initial states for all disks and external field along y.
+ Time Taken = 4.819000 picoseconds
+ Time taken by nanomagnet computing = 5.585703 (sec)
+ Detection Rate 0.922998 at 0.098535 false alarm
+dimRedAlg =
+
+SNE
+
+slurmstepd: *** JOB 1930712 CANCELLED AT 2015-10-12T15:59:06 DUE TO TIME LIMIT on wh-520-10-21 ***

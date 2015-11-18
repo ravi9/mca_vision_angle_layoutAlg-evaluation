@@ -1,0 +1,374 @@
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2015 The MathWorks, Inc.
+                   R2015a (8.5.0.197613) 64-bit (glnxa64)
+                             February 12, 2015
+
+ 
+To get started, type one of these: helpwin, helpdesk, or demo.
+For product information, visit www.mathworks.com.
+ 
+
+	Academic License
+
+
+img1 =
+
+boatbilledheron.pgm.atts
+
+
+img2 =
+
+dummy
+
+
+minGap =
+
+    20
+
+
+startTime =
+
+12-Oct-2015 20:40:25
+
+## Starting Data/boatbilledheron.pgm.atts
+
+ 257 longest primitives returned (104 lines, 153 arcs read, but returning only 3000 max elements for computational reasons)
+
+ Time taken by traditional algorithm = 25.056367 (sec)
+dimRedAlg =
+
+PCA
+
+
+dimRedAlg =
+
+LDA
+
+
+dimRedAlg =
+
+MDS
+
+
+dimRedAlg =
+
+ProbPCA
+
+
+dimRedAlg =
+
+FactorAnalysis
+
+
+dimRedAlg =
+
+Sammon
+
+
+dimRedAlg =
+
+Isomap
+
+Constructing neighborhood graph...
+Computing shortest paths...
+Constructing low-dimensional embedding...
+
+ Wanted to embed 256 magnets embedded 256 magnet
+ #*#*# ERROR: Failed Execution. Alg: Isomap, File: Data/boatbilledheron.pgm.atts
+
+magnetVisionException = 
+
+  MException with properties:
+
+    identifier: 'MATLAB:badsubscript'
+       message: 'Index exceeds matrix dimensions.'
+         cause: {}
+         stack: [3x1 struct]
+
+
+dimRedAlg =
+
+LandmarkIsomap
+
+
+ Wanted to embed 256 magnets embedded 256 magnet
+ #*#*# ERROR: Failed Execution. Alg: LandmarkIsomap, File: Data/boatbilledheron.pgm.atts
+
+magnetVisionException = 
+
+  MException with properties:
+
+    identifier: 'MATLAB:badsubscript'
+       message: 'Index exceeds matrix dimensions.'
+         cause: {}
+         stack: [3x1 struct]
+
+
+dimRedAlg =
+
+LLE
+
+
+ Wanted to embed 256 magnets embedded 256 magnet
+ #*#*# ERROR: Failed Execution. Alg: LLE, File: Data/boatbilledheron.pgm.atts
+
+magnetVisionException = 
+
+  MException with properties:
+
+    identifier: 'MATLAB:badsubscript'
+       message: 'Index exceeds matrix dimensions.'
+         cause: {}
+         stack: [3x1 struct]
+
+
+dimRedAlg =
+
+Laplacian
+
+
+dimRedAlg =
+
+HessianLLE
+
+
+ #*#*# ERROR: Failed Execution. Alg: HessianLLE, File: Data/boatbilledheron.pgm.atts
+
+magnetVisionException = 
+
+  MException with properties:
+
+    identifier: 'MATLAB:eigs:AminusBSingular'
+       message: 'The shifted operator is singular. The shift is an eigenva...'
+         cause: {0x1 cell}
+         stack: [8x1 struct]
+
+
+dimRedAlg =
+
+LTSA
+
+Find nearest neighbors...
+Compute local information matrices for all datapoints...
+Construct alignment matrix...
+Perform eigenanalysis...
+
+ #*#*# ERROR: Failed Execution. Alg: LTSA, File: Data/boatbilledheron.pgm.atts
+
+magnetVisionException = 
+
+  MException with properties:
+
+    identifier: 'MATLAB:eigs:AminusBSingular'
+       message: 'The shifted operator is singular. The shift is an eigenva...'
+         cause: {0x1 cell}
+         stack: [8x1 struct]
+
+
+dimRedAlg =
+
+DiffusionMaps
+
+
+dimRedAlg =
+
+KernelPCA
+
+
+dimRedAlg =
+
+SNE
+
+
+dimRedAlg =
+
+SymSNE
+
+
+dimRedAlg =
+
+tSNE
+
+
+dimRedAlg =
+
+NPE
+
+
+dimRedAlg =
+
+LPP
+
+
+dimRedAlg =
+
+SPE
+
+
+dimRedAlg =
+
+LLTSA
+
+
+dimRedAlg =
+
+CCA
+
+Running normal LLE...
+Running Conformal Eigenmaps...
+CSDP OUTPUT =============================================================================
+Iedge :6517, ivertex: 19968
+Elements time: 0.630656 
+Factor time: 0.001085 
+Other time: 0.248103 
+Total time: 0.879844 
+=========================================================================================
+
+ Wanted to embed 256 magnets embedded 256 magnet
+ #*#*# ERROR: Failed Execution. Alg: CCA, File: Data/boatbilledheron.pgm.atts
+
+magnetVisionException = 
+
+  MException with properties:
+
+    identifier: 'MATLAB:badsubscript'
+       message: 'Index exceeds matrix dimensions.'
+         cause: {}
+         stack: [3x1 struct]
+
+
+dimRedAlg =
+
+MVU
+
+Running normal LLE...
+Running Maximum Variance Unfolding...
+CSDP OUTPUT =============================================================================
+Iedge :2268, ivertex: 3072
+Elements time: 0.633407 
+Factor time: 0.001211 
+Other time: 0.215180 
+Total time: 0.849798 
+=========================================================================================
+
+ Wanted to embed 256 magnets embedded 256 magnet
+ #*#*# ERROR: Failed Execution. Alg: MVU, File: Data/boatbilledheron.pgm.atts
+
+magnetVisionException = 
+
+  MException with properties:
+
+    identifier: 'MATLAB:badsubscript'
+       message: 'Index exceeds matrix dimensions.'
+         cause: {}
+         stack: [3x1 struct]
+
+
+dimRedAlg =
+
+LandmarkMVU
+
+
+dimRedAlg =
+
+FastMVU
+
+Elements time: 0.001120 
+Factor time: 0.000060 
+Other time: 0.012257 
+Total time: 0.013437 
+
+ Wanted to embed 256 magnets embedded 256 magnet
+ #*#*# ERROR: Failed Execution. Alg: FastMVU, File: Data/boatbilledheron.pgm.atts
+
+magnetVisionException = 
+
+  MException with properties:
+
+    identifier: 'MATLAB:badsubscript'
+       message: 'Index exceeds matrix dimensions.'
+         cause: {}
+         stack: [3x1 struct]
+
+
+dimRedAlg =
+
+LLC
+
+
+dimRedAlg =
+
+GPLVM
+
+
+dimRedAlg =
+
+Autoencoder
+
+
+dimRedAlg =
+
+NCA
+
+
+dimRedAlg =
+
+MCML
+
+
+ Wanted to embed 257 magnets embedded 257 magnet
+ Writing coordinates of magnets in text file Coords.txt
+ Image mask in VisionDots.bmp
+ Relaxing nanodisk array with pi/4 orientation as initial states for all disks and external field along x.
+ Time Taken = 4.166000 picoseconds
+ Relaxing nanodisk array with pi/4 orientation as initial states for all disks and external field along y.
+ Time Taken = 2.860000 picoseconds
+ Time taken by nanomagnet computing = 95.094154 (sec)
+ Detection Rate 0.381111 at 0.087663 false alarm
+dimRedAlg =
+
+LMNN
+
+
+ Wanted to embed 257 magnets embedded 257 magnet
+ Writing coordinates of magnets in text file Coords.txt
+ Image mask in VisionDots.bmp
+ Relaxing nanodisk array with pi/4 orientation as initial states for all disks and external field along x.
+ Time Taken = 2.457000 picoseconds
+ Relaxing nanodisk array with pi/4 orientation as initial states for all disks and external field along y.
+ Time Taken = 51.055000 picoseconds
+ Time taken by nanomagnet computing = 100.761917 (sec)
+ Detection Rate 0.479592 at 0.098494 false alarm
+startTime =
+
+12-Oct-2015 20:40:25
+
+
+endTIme =
+
+12-Oct-2015 20:53:20
+
+Elapsed time is 576.058735 seconds.
+
+startTime =
+
+12-Oct-2015 20:53:20
+
+## Starting Data/dummy
+{Error using fscanf
+Invalid file identifier. Use fopen to generate a valid file identifier.
+
+Error in ReadEdgeAttsFile (line 31)
+paren = fscanf(infile, ' %c', 1);
+
+
+Error in main (line 54)
+Lines = ReadEdgeAttsFile (ImageFile);
+
+
+Error in rp_gridMain_Run2Img (line 20)
+	main(['Data' filesep img2], minGap);
+
+} 
+>> 

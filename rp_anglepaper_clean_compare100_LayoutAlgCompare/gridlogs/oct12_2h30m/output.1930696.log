@@ -1,0 +1,271 @@
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2015 The MathWorks, Inc.
+                   R2015a (8.5.0.197613) 64-bit (glnxa64)
+                             February 12, 2015
+
+ 
+To get started, type one of these: helpwin, helpdesk, or demo.
+For product information, visit www.mathworks.com.
+ 
+
+	Academic License
+
+
+img1 =
+
+202.pgm.atts
+
+
+img2 =
+
+dummy
+
+
+minGap =
+
+    20
+
+
+startTime =
+
+12-Oct-2015 13:26:48
+
+## Starting Data/202.pgm.atts
+
+ 902 longest primitives returned (309 lines, 593 arcs read, but returning only 3000 max elements for computational reasons)
+
+ Time taken by traditional algorithm = 1186.371455 (sec)
+dimRedAlg =
+
+PCA
+
+
+ Wanted to embed 902 magnets embedded 902 magnet
+ Writing coordinates of magnets in text file Coords.txt
+ Image mask in VisionDots.bmp
+ Relaxing nanodisk array with pi/4 orientation as initial states for all disks and external field along x.
+ Time Taken = 7.672000 picoseconds
+ Relaxing nanodisk array with pi/4 orientation as initial states for all disks and external field along y.
+ Time Taken = 17.118000 picoseconds
+ Time taken by nanomagnet computing = 1.443559 (sec)
+ Detection Rate 0.550546 at 0.098064 false alarm
+dimRedAlg =
+
+LDA
+
+
+ Wanted to embed 902 magnets embedded 902 magnet
+ Writing coordinates of magnets in text file Coords.txt
+ Image mask in VisionDots.bmp
+ Relaxing nanodisk array with pi/4 orientation as initial states for all disks and external field along x.
+ Time Taken = 13.720000 picoseconds
+ Relaxing nanodisk array with pi/4 orientation as initial states for all disks and external field along y.
+ Time Taken = 15.049000 picoseconds
+ Time taken by nanomagnet computing = 7.409753 (sec)
+ Detection Rate 0.492974 at 0.095735 false alarm
+dimRedAlg =
+
+MDS
+
+
+ Wanted to embed 902 magnets embedded 902 magnet
+ Writing coordinates of magnets in text file Coords.txt
+ Image mask in VisionDots.bmp
+ Relaxing nanodisk array with pi/4 orientation as initial states for all disks and external field along x.
+ Time Taken = 7.672000 picoseconds
+ Relaxing nanodisk array with pi/4 orientation as initial states for all disks and external field along y.
+ Time Taken = 17.118000 picoseconds
+ Time taken by nanomagnet computing = 1.513484 (sec)
+ Detection Rate 0.550546 at 0.098064 false alarm
+dimRedAlg =
+
+ProbPCA
+
+
+ Wanted to embed 902 magnets embedded 902 magnet
+ Writing coordinates of magnets in text file Coords.txt
+ Image mask in VisionDots.bmp
+ Relaxing nanodisk array with pi/4 orientation as initial states for all disks and external field along x.
+ Time Taken = 1.296000 picoseconds
+ Relaxing nanodisk array with pi/4 orientation as initial states for all disks and external field along y.
+ Time Taken = 11.020000 picoseconds
+ Time taken by nanomagnet computing = 83.418565 (sec)
+ Detection Rate 0.529059 at 0.096289 false alarm
+dimRedAlg =
+
+FactorAnalysis
+
+ 
+
+ Wanted to embed 902 magnets embedded 902 magnet
+ Writing coordinates of magnets in text file Coords.txt
+ Image mask in VisionDots.bmp
+ Relaxing nanodisk array with pi/4 orientation as initial states for all disks and external field along x.
+ Time Taken = 7.610000 picoseconds
+ Relaxing nanodisk array with pi/4 orientation as initial states for all disks and external field along y.
+ Time Taken = 8.043000 picoseconds
+ Time taken by nanomagnet computing = 155.034770 (sec)
+ Detection Rate 0.551705 at 0.091852 false alarm
+dimRedAlg =
+
+Sammon
+
+
+ Wanted to embed 902 magnets embedded 902 magnet
+ Writing coordinates of magnets in text file Coords.txt
+ Image mask in VisionDots.bmp
+ Relaxing nanodisk array with pi/4 orientation as initial states for all disks and external field along x.
+ Time Taken = 3.271000 picoseconds
+ Relaxing nanodisk array with pi/4 orientation as initial states for all disks and external field along y.
+ Time Taken = 9.483000 picoseconds
+ Time taken by nanomagnet computing = 176.254652 (sec)
+ Detection Rate 0.625921 at 0.095346 false alarm
+dimRedAlg =
+
+Isomap
+
+Constructing neighborhood graph...
+Computing shortest paths...
+Constructing low-dimensional embedding...
+
+ Wanted to embed 890 magnets embedded 890 magnet
+ #*#*# ERROR: Failed Execution. Alg: Isomap, File: Data/202.pgm.atts
+
+magnetVisionException = 
+
+  MException with properties:
+
+    identifier: 'MATLAB:badsubscript'
+       message: 'Index exceeds matrix dimensions.'
+         cause: {}
+         stack: [3x1 struct]
+
+
+dimRedAlg =
+
+LandmarkIsomap
+
+
+ Wanted to embed 890 magnets embedded 890 magnet
+ #*#*# ERROR: Failed Execution. Alg: LandmarkIsomap, File: Data/202.pgm.atts
+
+magnetVisionException = 
+
+  MException with properties:
+
+    identifier: 'MATLAB:badsubscript'
+       message: 'Index exceeds matrix dimensions.'
+         cause: {}
+         stack: [3x1 struct]
+
+
+dimRedAlg =
+
+LLE
+
+
+ Wanted to embed 890 magnets embedded 890 magnet
+ #*#*# ERROR: Failed Execution. Alg: LLE, File: Data/202.pgm.atts
+
+magnetVisionException = 
+
+  MException with properties:
+
+    identifier: 'MATLAB:badsubscript'
+       message: 'Index exceeds matrix dimensions.'
+         cause: {}
+         stack: [3x1 struct]
+
+
+dimRedAlg =
+
+Laplacian
+
+
+ Wanted to embed 902 magnets embedded 902 magnet
+ Writing coordinates of magnets in text file Coords.txt
+ Image mask in VisionDots.bmp
+ Relaxing nanodisk array with pi/4 orientation as initial states for all disks and external field along x.
+ Time Taken = 5.300000 picoseconds
+ Relaxing nanodisk array with pi/4 orientation as initial states for all disks and external field along y.
+ Time Taken = 27.271000 picoseconds
+ Time taken by nanomagnet computing = 0.565873 (sec)
+ Detection Rate 0.587517 at 0.096345 false alarm
+dimRedAlg =
+
+HessianLLE
+
+
+ #*#*# ERROR: Failed Execution. Alg: HessianLLE, File: Data/202.pgm.atts
+
+magnetVisionException = 
+
+  MException with properties:
+
+    identifier: 'MATLAB:eigs:AminusBSingular'
+       message: 'The shifted operator is singular. The shift is an eigenva...'
+         cause: {0x1 cell}
+         stack: [8x1 struct]
+
+
+dimRedAlg =
+
+LTSA
+
+Find nearest neighbors...
+Compute local information matrices for all datapoints...
+Construct alignment matrix...
+Perform eigenanalysis...
+
+ #*#*# ERROR: Failed Execution. Alg: LTSA, File: Data/202.pgm.atts
+
+magnetVisionException = 
+
+  MException with properties:
+
+    identifier: 'MATLAB:eigs:AminusBSingular'
+       message: 'The shifted operator is singular. The shift is an eigenva...'
+         cause: {0x1 cell}
+         stack: [8x1 struct]
+
+
+dimRedAlg =
+
+DiffusionMaps
+
+
+ Wanted to embed 902 magnets embedded 902 magnet
+ Writing coordinates of magnets in text file Coords.txt
+ Image mask in VisionDots.bmp
+ Relaxing nanodisk array with pi/4 orientation as initial states for all disks and external field along x.
+ Time Taken = 10.513000 picoseconds
+ Relaxing nanodisk array with pi/4 orientation as initial states for all disks and external field along y.
+ Time Taken = 76.628000 picoseconds
+ Time taken by nanomagnet computing = 2.240334 (sec)
+ Detection Rate 0.578513 at 0.098619 false alarm
+dimRedAlg =
+
+KernelPCA
+
+
+ Wanted to embed 902 magnets embedded 902 magnet
+ Writing coordinates of magnets in text file Coords.txt
+ Image mask in VisionDots.bmp
+ Relaxing nanodisk array with pi/4 orientation as initial states for all disks and external field along x.
+ Time Taken = 3.443000 picoseconds
+ Relaxing nanodisk array with pi/4 orientation as initial states for all disks and external field along y.
+ Time Taken = 6.903000 picoseconds
+ Time taken by nanomagnet computing = 9.420685 (sec)
+ Detection Rate 0.389154 at 0.089245 false alarm
+dimRedAlg =
+
+SNE
+
+
+ Wanted to embed 902 magnets embedded 902 magnet
+ Writing coordinates of magnets in text file Coords.txt
+ Image mask in VisionDots.bmp
+ Relaxing nanodisk array with pi/4 orientation as initial states for all disks and external field along x.
+ Time Taken = 9.704000 picoseconds
+ Relaxing nanodisk array with pi/4 orientation as initial states for all disks and external field along y.slurmstepd: *** JOB 1930696 CANCELLED AT 2015-10-12T15:56:36 DUE TO TIME LIMIT on wh-520-10-35 ***

@@ -1,0 +1,443 @@
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2015 The MathWorks, Inc.
+                   R2015a (8.5.0.197613) 64-bit (glnxa64)
+                             February 12, 2015
+
+ 
+To get started, type one of these: helpwin, helpdesk, or demo.
+For product information, visit www.mathworks.com.
+ 
+
+	Academic License
+
+
+img1 =
+
+S006I01A.PGM.atts
+
+
+img2 =
+
+dummy
+
+
+minGap =
+
+    20
+
+
+startTime =
+
+12-Oct-2015 13:32:24
+
+## Starting Data/S006I01A.PGM.atts
+
+ 336 longest primitives returned (171 lines, 165 arcs read, but returning only 3000 max elements for computational reasons)
+
+ Time taken by traditional algorithm = 1447.296281 (sec)
+dimRedAlg =
+
+PCA
+
+
+ Wanted to embed 336 magnets embedded 336 magnet
+ Writing coordinates of magnets in text file Coords.txt
+ Image mask in VisionDots.bmp
+ Relaxing nanodisk array with pi/4 orientation as initial states for all disks and external field along x.
+ Time Taken = 7.454000 picoseconds
+ Relaxing nanodisk array with pi/4 orientation as initial states for all disks and external field along y.
+ Time Taken = 1.725000 picoseconds
+ Time taken by nanomagnet computing = 9.072238 (sec)
+ Detection Rate 0.569556 at 0.099761 false alarm
+dimRedAlg =
+
+LDA
+
+
+ Wanted to embed 336 magnets embedded 336 magnet
+ Writing coordinates of magnets in text file Coords.txt
+ Image mask in VisionDots.bmp
+ Relaxing nanodisk array with pi/4 orientation as initial states for all disks and external field along x.
+ Time Taken = 1.809000 picoseconds
+ Relaxing nanodisk array with pi/4 orientation as initial states for all disks and external field along y.
+ Time Taken = 5.530000 picoseconds
+ Time taken by nanomagnet computing = 1.411979 (sec)
+ Detection Rate 0.675406 at 0.099335 false alarm
+dimRedAlg =
+
+MDS
+
+
+ Wanted to embed 336 magnets embedded 336 magnet
+ Writing coordinates of magnets in text file Coords.txt
+ Image mask in VisionDots.bmp
+ Relaxing nanodisk array with pi/4 orientation as initial states for all disks and external field along x.
+ Time Taken = 7.454000 picoseconds
+ Relaxing nanodisk array with pi/4 orientation as initial states for all disks and external field along y.
+ Time Taken = 1.725000 picoseconds
+ Time taken by nanomagnet computing = 3.499598 (sec)
+ Detection Rate 0.569556 at 0.099761 false alarm
+dimRedAlg =
+
+ProbPCA
+
+
+ Wanted to embed 336 magnets embedded 336 magnet
+ Writing coordinates of magnets in text file Coords.txt
+ Image mask in VisionDots.bmp
+ Relaxing nanodisk array with pi/4 orientation as initial states for all disks and external field along x.
+ Time Taken = 4.883000 picoseconds
+ Relaxing nanodisk array with pi/4 orientation as initial states for all disks and external field along y.
+ Time Taken = 1.917000 picoseconds
+ Time taken by nanomagnet computing = 157.030511 (sec)
+ Detection Rate 0.580862 at 0.085619 false alarm
+dimRedAlg =
+
+FactorAnalysis
+
+ 
+
+ Wanted to embed 336 magnets embedded 336 magnet
+ Writing coordinates of magnets in text file Coords.txt
+ Image mask in VisionDots.bmp
+ Relaxing nanodisk array with pi/4 orientation as initial states for all disks and external field along x.
+ Time Taken = 2.457000 picoseconds
+ Relaxing nanodisk array with pi/4 orientation as initial states for all disks and external field along y.
+ Time Taken = 47.095000 picoseconds
+ Time taken by nanomagnet computing = 261.793798 (sec)
+ Detection Rate 0.696379 at 0.094991 false alarm
+dimRedAlg =
+
+Sammon
+
+
+ Wanted to embed 336 magnets embedded 336 magnet
+ Writing coordinates of magnets in text file Coords.txt
+ Image mask in VisionDots.bmp
+ Relaxing nanodisk array with pi/4 orientation as initial states for all disks and external field along x.
+ Time Taken = 4.250000 picoseconds
+ Relaxing nanodisk array with pi/4 orientation as initial states for all disks and external field along y.
+ Time Taken = 4.172000 picoseconds
+ Time taken by nanomagnet computing = 225.332385 (sec)
+ Detection Rate 0.918401 at 0.183507 false alarm
+dimRedAlg =
+
+Isomap
+
+Constructing neighborhood graph...
+Computing shortest paths...
+Constructing low-dimensional embedding...
+
+ Wanted to embed 336 magnets embedded 336 magnet
+ Writing coordinates of magnets in text file Coords.txt
+ Image mask in VisionDots.bmp
+ Relaxing nanodisk array with pi/4 orientation as initial states for all disks and external field along x.
+ Time Taken = 7.101000 picoseconds
+ Relaxing nanodisk array with pi/4 orientation as initial states for all disks and external field along y.
+ Time Taken = 8.033000 picoseconds
+ Time taken by nanomagnet computing = 9.499221 (sec)
+ Detection Rate 0.253318 at 0.100102 false alarm
+dimRedAlg =
+
+LandmarkIsomap
+
+
+ Wanted to embed 336 magnets embedded 336 magnet
+ Writing coordinates of magnets in text file Coords.txt
+ Image mask in VisionDots.bmp
+ Relaxing nanodisk array with pi/4 orientation as initial states for all disks and external field along x.
+ Time Taken = 2.675000 picoseconds
+ Relaxing nanodisk array with pi/4 orientation as initial states for all disks and external field along y.
+ Time Taken = 4.238000 picoseconds
+ Time taken by nanomagnet computing = 0.783122 (sec)
+ Detection Rate 0.678355 at 0.203527 false alarm
+dimRedAlg =
+
+LLE
+
+
+ Wanted to embed 336 magnets embedded 336 magnet
+ Writing coordinates of magnets in text file Coords.txt
+ Image mask in VisionDots.bmp
+ Relaxing nanodisk array with pi/4 orientation as initial states for all disks and external field along x.
+ Time Taken = 6.546000 picoseconds
+ Relaxing nanodisk array with pi/4 orientation as initial states for all disks and external field along y.
+ Time Taken = 10.223000 picoseconds
+ Time taken by nanomagnet computing = 1.098717 (sec)
+ Detection Rate 0.529576 at 0.097802 false alarm
+dimRedAlg =
+
+Laplacian
+
+
+ Wanted to embed 336 magnets embedded 336 magnet
+ Writing coordinates of magnets in text file Coords.txt
+ Image mask in VisionDots.bmp
+ Relaxing nanodisk array with pi/4 orientation as initial states for all disks and external field along x.
+ Time Taken = 2.622000 picoseconds
+ Relaxing nanodisk array with pi/4 orientation as initial states for all disks and external field along y.
+ Time Taken = 2.189000 picoseconds
+ Time taken by nanomagnet computing = 1.004484 (sec)
+ Detection Rate 0.396362 at 0.093031 false alarm
+dimRedAlg =
+
+HessianLLE
+
+
+ Wanted to embed 336 magnets embedded 336 magnet
+ Writing coordinates of magnets in text file Coords.txt
+ Image mask in VisionDots.bmp
+ Relaxing nanodisk array with pi/4 orientation as initial states for all disks and external field along x.
+ Time Taken = 5.578000 picoseconds
+ Relaxing nanodisk array with pi/4 orientation as initial states for all disks and external field along y.
+ Time Taken = 5.869000 picoseconds
+ Time taken by nanomagnet computing = 17.150683 (sec)
+ Detection Rate 0.504506 at 0.099932 false alarm
+dimRedAlg =
+
+LTSA
+
+Find nearest neighbors...
+Compute local information matrices for all datapoints...
+Construct alignment matrix...
+Perform eigenanalysis...
+
+ Wanted to embed 336 magnets embedded 336 magnet
+ Writing coordinates of magnets in text file Coords.txt
+ Image mask in VisionDots.bmp
+ Relaxing nanodisk array with pi/4 orientation as initial states for all disks and external field along x.
+ Time Taken = 5.721000 picoseconds
+ Relaxing nanodisk array with pi/4 orientation as initial states for all disks and external field along y.
+ Time Taken = 3.074000 picoseconds
+ Time taken by nanomagnet computing = 0.782903 (sec)
+ Detection Rate 0.654432 at 0.099676 false alarm
+dimRedAlg =
+
+DiffusionMaps
+
+
+ Wanted to embed 336 magnets embedded 336 magnet
+ Writing coordinates of magnets in text file Coords.txt
+ Image mask in VisionDots.bmp
+ Relaxing nanodisk array with pi/4 orientation as initial states for all disks and external field along x.
+ Time Taken = 5.939000 picoseconds
+ Relaxing nanodisk array with pi/4 orientation as initial states for all disks and external field along y.
+ Time Taken = 1.154000 picoseconds
+ Time taken by nanomagnet computing = 4.795482 (sec)
+ Detection Rate 0.742422 at 0.096524 false alarm
+dimRedAlg =
+
+KernelPCA
+
+
+ Wanted to embed 336 magnets embedded 336 magnet
+ Writing coordinates of magnets in text file Coords.txt
+ Image mask in VisionDots.bmp
+ Relaxing nanodisk array with pi/4 orientation as initial states for all disks and external field along x.
+ Time Taken = 9.166000 picoseconds
+ Relaxing nanodisk array with pi/4 orientation as initial states for all disks and external field along y.
+ Time Taken = 5.116000 picoseconds
+ Time taken by nanomagnet computing = 12.711730 (sec)
+ Detection Rate 0.913977 at 0.099421 false alarm
+dimRedAlg =
+
+SNE
+
+
+ Wanted to embed 336 magnets embedded 336 magnet
+ Writing coordinates of magnets in text file Coords.txt
+ Image mask in VisionDots.bmp
+ Relaxing nanodisk array with pi/4 orientation as initial states for all disks and external field along x.
+ Time Taken = 5.578000 picoseconds
+ Relaxing nanodisk array with pi/4 orientation as initial states for all disks and external field along y.
+ Time Taken = 2.656000 picoseconds
+ Time taken by nanomagnet computing = 269.565572 (sec)
+ Detection Rate 0.725873 at 0.118930 false alarm
+dimRedAlg =
+
+SymSNE
+
+
+ Wanted to embed 336 magnets embedded 336 magnet
+ Writing coordinates of magnets in text file Coords.txt
+ Image mask in VisionDots.bmp
+ Relaxing nanodisk array with pi/4 orientation as initial states for all disks and external field along x.
+ Time Taken = 1.525000 picoseconds
+ Relaxing nanodisk array with pi/4 orientation as initial states for all disks and external field along y.
+ Time Taken = 0.579000 picoseconds
+ Time taken by nanomagnet computing = 286.447039 (sec)
+ Detection Rate 0.526135 at 0.244505 false alarm
+dimRedAlg =
+
+tSNE
+
+Mean value of sigma: 0.49586
+Minimum value of sigma: 0.17717
+Maximum value of sigma: 1.7082
+
+ Wanted to embed 336 magnets embedded 336 magnet
+ Writing coordinates of magnets in text file Coords.txt
+ Image mask in VisionDots.bmp
+ Relaxing nanodisk array with pi/4 orientation as initial states for all disks and external field along x.
+ Time Taken = 0.684000 picoseconds
+ Relaxing nanodisk array with pi/4 orientation as initial states for all disks and external field along y.
+ Time Taken = 3.262000 picoseconds
+ Time taken by nanomagnet computing = 101.592044 (sec)
+ Detection Rate 0.388989 at 0.197819 false alarm
+dimRedAlg =
+
+NPE
+
+
+ Wanted to embed 336 magnets embedded 336 magnet
+ Writing coordinates of magnets in text file Coords.txt
+ Image mask in VisionDots.bmp
+ Relaxing nanodisk array with pi/4 orientation as initial states for all disks and external field along x.
+ Time Taken = 3.676000 picoseconds
+ Relaxing nanodisk array with pi/4 orientation as initial states for all disks and external field along y.
+ Time Taken = 10.690000 picoseconds
+ Time taken by nanomagnet computing = 5.986512 (sec)
+ Detection Rate 0.369327 at 0.099591 false alarm
+dimRedAlg =
+
+LPP
+
+
+ Wanted to embed 336 magnets embedded 336 magnet
+ Writing coordinates of magnets in text file Coords.txt
+ Image mask in VisionDots.bmp
+ Relaxing nanodisk array with pi/4 orientation as initial states for all disks and external field along x.
+ Time Taken = 2.258000 picoseconds
+ Relaxing nanodisk array with pi/4 orientation as initial states for all disks and external field along y.
+ Time Taken = 7.468000 picoseconds
+ Time taken by nanomagnet computing = 7.835233 (sec)
+ Detection Rate 0.574144 at 0.092776 false alarm
+dimRedAlg =
+
+SPE
+
+
+ Wanted to embed 336 magnets embedded 336 magnet
+ Writing coordinates of magnets in text file Coords.txt
+ Image mask in VisionDots.bmp
+ Relaxing nanodisk array with pi/4 orientation as initial states for all disks and external field along x.
+ Time Taken = 2.845000 picoseconds
+ Relaxing nanodisk array with pi/4 orientation as initial states for all disks and external field along y.
+ Time Taken = 3.157000 picoseconds
+ Time taken by nanomagnet computing = 14.932274 (sec)
+ Detection Rate 0.706046 at 0.153689 false alarm
+dimRedAlg =
+
+LLTSA
+
+
+ Wanted to embed 336 magnets embedded 336 magnet
+ Writing coordinates of magnets in text file Coords.txt
+ Image mask in VisionDots.bmp
+ Relaxing nanodisk array with pi/4 orientation as initial states for all disks and external field along x.
+ Time Taken = 8.337000 picoseconds
+ Relaxing nanodisk array with pi/4 orientation as initial states for all disks and external field along y.
+ Time Taken = 5.682000 picoseconds
+ Time taken by nanomagnet computing = 17.497575 (sec)
+ Detection Rate 0.473374 at 0.097291 false alarm
+dimRedAlg =
+
+CCA
+
+Running normal LLE...
+Running Conformal Eigenmaps...
+CSDP OUTPUT =============================================================================
+Iedge :7521, ivertex: 26208
+Elements time: 2.015965 
+Factor time: 0.000788 
+Other time: 0.680574 
+Total time: 2.697327 
+=========================================================================================
+
+ Wanted to embed 336 magnets embedded 336 magnet
+ Writing coordinates of magnets in text file Coords.txt
+ Image mask in VisionDots.bmp
+ Relaxing nanodisk array with pi/4 orientation as initial states for all disks and external field along x.
+ Time Taken = 11.803000 picoseconds
+ Relaxing nanodisk array with pi/4 orientation as initial states for all disks and external field along y.
+ Time Taken = 6.699000 picoseconds
+ Time taken by nanomagnet computing = 8.223974 (sec)
+ Detection Rate 0.310667 at 0.099080 false alarm
+dimRedAlg =
+
+MVU
+
+Running normal LLE...
+Running Maximum Variance Unfolding...
+CSDP OUTPUT =============================================================================
+Iedge :2931, ivertex: 4032
+Elements time: 2.560182 
+Factor time: 0.009314 
+Other time: 0.844470 
+Total time: 3.413966 
+=========================================================================================
+
+ Wanted to embed 336 magnets embedded 336 magnet
+ Writing coordinates of magnets in text file Coords.txt
+ Image mask in VisionDots.bmp
+ Relaxing nanodisk array with pi/4 orientation as initial states for all disks and external field along x.
+ Time Taken = 5.130000 picoseconds
+ Relaxing nanodisk array with pi/4 orientation as initial states for all disks and external field along y.
+ Time Taken = 2.591000 picoseconds
+ Time taken by nanomagnet computing = 6.252046 (sec)
+ Detection Rate 0.636081 at 0.098228 false alarm
+dimRedAlg =
+
+LandmarkMVU
+
+Elements time: 0.629244 
+Factor time: 0.297790 
+Other time: 0.512695 
+Total time: 1.439729 
+Elements time: 0.494230 
+Factor time: 0.404039 
+Other time: 0.766347 
+Total time: 1.664616 
+
+ Wanted to embed 336 magnets embedded 336 magnet
+ Writing coordinates of magnets in text file Coords.txt
+ Image mask in VisionDots.bmp
+ Relaxing nanodisk array with pi/4 orientation as initial states for all disks and external field along x.
+ Time Taken = 3.764000 picoseconds
+ Relaxing nanodisk array with pi/4 orientation as initial states for all disks and external field along y.
+ Time Taken = 1.123000 picoseconds
+ Time taken by nanomagnet computing = 5.970688 (sec)
+ Detection Rate 0.389972 at 0.095417 false alarm
+dimRedAlg =
+
+FastMVU
+
+Elements time: 0.001650 
+Factor time: 0.000056 
+Other time: 0.006570 
+Total time: 0.008276 
+
+ Wanted to embed 336 magnets embedded 336 magnet
+ Writing coordinates of magnets in text file Coords.txt
+ Image mask in VisionDots.bmp
+ Relaxing nanodisk array with pi/4 orientation as initial states for all disks and external field along x.
+ Time Taken = 7.618000 picoseconds
+ Relaxing nanodisk array with pi/4 orientation as initial states for all disks and external field along y.
+ Time Taken = 3.602000 picoseconds
+ Time taken by nanomagnet computing = 2.270954 (sec)
+ Detection Rate 0.644273 at 0.095843 false alarm
+dimRedAlg =
+
+LLC
+
+Running EM algorithm and compute local factor analyzers...
+.................... 
+Constructing mixture of factor analyzers...
+
+ Wanted to embed 336 magnets embedded 336 magnet
+ Writing coordinates of magnets in text file Coords.txt
+ Image mask in VisionDots.bmp
+ Relaxing nanodisk array with pi/4 orientation as initial states for all disks and external field along x.
+ Time Taken = 20.698000 picoseconds
+ Relaxing nanodisk array with pi/4 orientation as initial states for all disks and external field along y.slurmstepd: *** JOB 1930738 CANCELLED AT 2015-10-12T16:02:36 DUE TO TIME LIMIT on wh-520-10-12 ***

@@ -1,0 +1,77 @@
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2015 The MathWorks, Inc.
+                   R2015a (8.5.0.197613) 64-bit (glnxa64)
+                             February 12, 2015
+
+ 
+To get started, type one of these: helpwin, helpdesk, or demo.
+For product information, visit www.mathworks.com.
+ 
+
+	Academic License
+
+
+img1 =
+
+131.pgm.atts
+
+
+img2 =
+
+dummy
+
+
+minGap =
+
+    20
+
+
+startTime =
+
+12-Oct-2015 13:26:42
+
+## Starting Data/131.pgm.atts
+
+ 594 longest primitives returned (284 lines, 310 arcs read, but returning only 3000 max elements for computational reasons)
+
+ Time taken by traditional algorithm = 1524.163929 (sec)
+dimRedAlg =
+
+PCA
+
+
+ Wanted to embed 594 magnets embedded 594 magnet
+ Writing coordinates of magnets in text file Coords.txt
+ Image mask in VisionDots.bmp
+ Relaxing nanodisk array with pi/4 orientation as initial states for all disks and external field along x.
+ Time Taken = 7.315000 picoseconds
+ Relaxing nanodisk array with pi/4 orientation as initial states for all disks and external field along y.
+ Time Taken = 80.681000 picoseconds
+ Time taken by nanomagnet computing = 6.207387 (sec)
+ Detection Rate 0.155313 at 0.097712 false alarm
+dimRedAlg =
+
+LDA
+
+
+ Wanted to embed 594 magnets embedded 594 magnet
+ Writing coordinates of magnets in text file Coords.txt
+ Image mask in VisionDots.bmp
+ Relaxing nanodisk array with pi/4 orientation as initial states for all disks and external field along x.
+ Time Taken = 24.692000 picoseconds
+ Relaxing nanodisk array with pi/4 orientation as initial states for all disks and external field along y.
+ Time Taken = 16.276000 picoseconds
+ Time taken by nanomagnet computing = 5.200474 (sec)
+ Detection Rate 0.188575 at 0.067053 false alarm
+dimRedAlg =
+
+MDS
+
+
+ Wanted to embed 594 magnets embedded 594 magnet
+ Writing coordinates of magnets in text file Coords.txt
+ Image mask in VisionDots.bmp
+ Relaxing nanodisk array with pi/4 orientation as initial states for all disks and external field along x.
+ Time Taken = 7.315000 picoseconds
+ Relaxing nanodisk array with pi/4 orientation as initial states for all disks and external field along y.slurmstepd: *** JOB 1930695 CANCELLED AT 2015-10-12T15:56:36 DUE TO TIME LIMIT on wh-520-10-37 ***

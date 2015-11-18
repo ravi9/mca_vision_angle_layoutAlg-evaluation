@@ -1,0 +1,189 @@
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2015 The MathWorks, Inc.
+                   R2015a (8.5.0.197613) 64-bit (glnxa64)
+                             February 12, 2015
+
+ 
+To get started, type one of these: helpwin, helpdesk, or demo.
+For product information, visit www.mathworks.com.
+ 
+
+	Academic License
+
+
+img1 =
+
+125.pgm.atts
+
+
+img2 =
+
+dummy
+
+
+minGap =
+
+    20
+
+
+startTime =
+
+12-Oct-2015 13:26:11
+
+## Starting Data/125.pgm.atts
+
+ 711 longest primitives returned (326 lines, 385 arcs read, but returning only 3000 max elements for computational reasons)
+
+ Time taken by traditional algorithm = 1979.665433 (sec)
+dimRedAlg =
+
+PCA
+
+
+ Wanted to embed 711 magnets embedded 711 magnet
+ Writing coordinates of magnets in text file Coords.txt
+ Image mask in VisionDots.bmp
+ Relaxing nanodisk array with pi/4 orientation as initial states for all disks and external field along x.
+ Time Taken = 22.693000 picoseconds
+ Relaxing nanodisk array with pi/4 orientation as initial states for all disks and external field along y.
+ Time Taken = 7.216000 picoseconds
+ Time taken by nanomagnet computing = 9.132316 (sec)
+ Detection Rate 0.423434 at 0.093442 false alarm
+dimRedAlg =
+
+LDA
+
+
+ Wanted to embed 711 magnets embedded 711 magnet
+ Writing coordinates of magnets in text file Coords.txt
+ Image mask in VisionDots.bmp
+ Relaxing nanodisk array with pi/4 orientation as initial states for all disks and external field along x.
+ Time Taken = 4.590000 picoseconds
+ Relaxing nanodisk array with pi/4 orientation as initial states for all disks and external field along y.
+ Time Taken = 7.540000 picoseconds
+ Time taken by nanomagnet computing = 9.393707 (sec)
+ Detection Rate 0.505940 at 0.099412 false alarm
+dimRedAlg =
+
+MDS
+
+
+ Wanted to embed 711 magnets embedded 711 magnet
+ Writing coordinates of magnets in text file Coords.txt
+ Image mask in VisionDots.bmp
+ Relaxing nanodisk array with pi/4 orientation as initial states for all disks and external field along x.
+ Time Taken = 22.693000 picoseconds
+ Relaxing nanodisk array with pi/4 orientation as initial states for all disks and external field along y.
+ Time Taken = 7.216000 picoseconds
+ Time taken by nanomagnet computing = 4.240161 (sec)
+ Detection Rate 0.423434 at 0.093442 false alarm
+dimRedAlg =
+
+ProbPCA
+
+
+ Wanted to embed 711 magnets embedded 711 magnet
+ Writing coordinates of magnets in text file Coords.txt
+ Image mask in VisionDots.bmp
+ Relaxing nanodisk array with pi/4 orientation as initial states for all disks and external field along x.
+ Time Taken = 2.487000 picoseconds
+ Relaxing nanodisk array with pi/4 orientation as initial states for all disks and external field along y.
+ Time Taken = 12.581000 picoseconds
+ Time taken by nanomagnet computing = 225.316102 (sec)
+ Detection Rate 0.507692 at 0.060699 false alarm
+dimRedAlg =
+
+FactorAnalysis
+
+ 
+
+ Wanted to embed 711 magnets embedded 711 magnet
+ Writing coordinates of magnets in text file Coords.txt
+ Image mask in VisionDots.bmp
+ Relaxing nanodisk array with pi/4 orientation as initial states for all disks and external field along x.
+ Time Taken = 8.869000 picoseconds
+ Relaxing nanodisk array with pi/4 orientation as initial states for all disks and external field along y.
+ Time Taken = 5.439000 picoseconds
+ Time taken by nanomagnet computing = 418.624594 (sec)
+ Detection Rate 0.606102 at 0.083397 false alarm
+dimRedAlg =
+
+Sammon
+
+
+ Wanted to embed 711 magnets embedded 711 magnet
+ Writing coordinates of magnets in text file Coords.txt
+ Image mask in VisionDots.bmp
+ Relaxing nanodisk array with pi/4 orientation as initial states for all disks and external field along x.
+ Time Taken = 9.133000 picoseconds
+ Relaxing nanodisk array with pi/4 orientation as initial states for all disks and external field along y.
+ Time Taken = 4.323000 picoseconds
+ Time taken by nanomagnet computing = 323.544088 (sec)
+ Detection Rate 0.718208 at 0.081359 false alarm
+dimRedAlg =
+
+Isomap
+
+Constructing neighborhood graph...
+Computing shortest paths...
+Constructing low-dimensional embedding...
+
+ Wanted to embed 693 magnets embedded 693 magnet
+ #*#*# ERROR: Failed Execution. Alg: Isomap, File: Data/125.pgm.atts
+
+magnetVisionException = 
+
+  MException with properties:
+
+    identifier: 'MATLAB:badsubscript'
+       message: 'Index exceeds matrix dimensions.'
+         cause: {}
+         stack: [3x1 struct]
+
+
+dimRedAlg =
+
+LandmarkIsomap
+
+
+ Wanted to embed 693 magnets embedded 693 magnet
+ #*#*# ERROR: Failed Execution. Alg: LandmarkIsomap, File: Data/125.pgm.atts
+
+magnetVisionException = 
+
+  MException with properties:
+
+    identifier: 'MATLAB:badsubscript'
+       message: 'Index exceeds matrix dimensions.'
+         cause: {}
+         stack: [3x1 struct]
+
+
+dimRedAlg =
+
+LLE
+
+
+ Wanted to embed 693 magnets embedded 693 magnet
+ #*#*# ERROR: Failed Execution. Alg: LLE, File: Data/125.pgm.atts
+
+magnetVisionException = 
+
+  MException with properties:
+
+    identifier: 'MATLAB:badsubscript'
+       message: 'Index exceeds matrix dimensions.'
+         cause: {}
+         stack: [3x1 struct]
+
+
+dimRedAlg =
+
+Laplacian
+
+
+ Wanted to embed 711 magnets embedded 711 magnet
+ Writing coordinates of magnets in text file Coords.txt
+ Image mask in VisionDots.bmp
+ Relaxing nanodisk array with pi/4 orientation as initial states for all disks and external field along x.slurmstepd: *** JOB 1930693 CANCELLED AT 2015-10-12T15:56:06 DUE TO TIME LIMIT on wh-520-10-37 ***

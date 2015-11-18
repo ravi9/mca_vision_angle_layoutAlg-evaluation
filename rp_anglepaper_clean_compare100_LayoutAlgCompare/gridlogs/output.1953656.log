@@ -1,0 +1,390 @@
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2015 The MathWorks, Inc.
+                   R2015a (8.5.0.197613) 64-bit (glnxa64)
+                             February 12, 2015
+
+ 
+To get started, type one of these: helpwin, helpdesk, or demo.
+For product information, visit www.mathworks.com.
+ 
+
+	Academic License
+
+
+img1 =
+
+S004I001.PGM.atts
+
+
+img2 =
+
+dummy
+
+
+minGap =
+
+    20
+
+
+startTime =
+
+13-Oct-2015 16:54:31
+
+## Starting Data/S004I001.PGM.atts
+
+ 408 longest primitives returned (183 lines, 225 arcs read, but returning only 3000 max elements for computational reasons)
+
+ Time taken by traditional algorithm = 783.617260 (sec)
+dimRedAlg =
+
+PCA
+
+
+dimRedAlg =
+
+LDA
+
+
+dimRedAlg =
+
+MDS
+
+
+dimRedAlg =
+
+ProbPCA
+
+
+dimRedAlg =
+
+FactorAnalysis
+
+
+dimRedAlg =
+
+Sammon
+
+
+dimRedAlg =
+
+Isomap
+
+Constructing neighborhood graph...
+Computing shortest paths...
+Constructing low-dimensional embedding...
+
+ Wanted to embed 403 magnets embedded 403 magnet
+ #*#*# ERROR: Failed Execution. Alg: Isomap, File: Data/S004I001.PGM.atts
+
+magnetVisionException = 
+
+  MException with properties:
+
+    identifier: 'MATLAB:badsubscript'
+       message: 'Index exceeds matrix dimensions.'
+         cause: {}
+         stack: [3x1 struct]
+
+
+dimRedAlg =
+
+LandmarkIsomap
+
+
+ Wanted to embed 403 magnets embedded 403 magnet
+ #*#*# ERROR: Failed Execution. Alg: LandmarkIsomap, File: Data/S004I001.PGM.atts
+
+magnetVisionException = 
+
+  MException with properties:
+
+    identifier: 'MATLAB:badsubscript'
+       message: 'Index exceeds matrix dimensions.'
+         cause: {}
+         stack: [3x1 struct]
+
+
+dimRedAlg =
+
+LLE
+
+
+ Wanted to embed 403 magnets embedded 403 magnet
+ #*#*# ERROR: Failed Execution. Alg: LLE, File: Data/S004I001.PGM.atts
+
+magnetVisionException = 
+
+  MException with properties:
+
+    identifier: 'MATLAB:badsubscript'
+       message: 'Index exceeds matrix dimensions.'
+         cause: {}
+         stack: [3x1 struct]
+
+
+dimRedAlg =
+
+Laplacian
+
+
+dimRedAlg =
+
+HessianLLE
+
+
+ #*#*# ERROR: Failed Execution. Alg: HessianLLE, File: Data/S004I001.PGM.atts
+
+magnetVisionException = 
+
+  MException with properties:
+
+    identifier: 'MATLAB:eigs:AminusBSingular'
+       message: 'The shifted operator is singular. The shift is an eigenva...'
+         cause: {0x1 cell}
+         stack: [8x1 struct]
+
+
+dimRedAlg =
+
+LTSA
+
+Find nearest neighbors...
+Compute local information matrices for all datapoints...
+Construct alignment matrix...
+Perform eigenanalysis...
+
+ #*#*# ERROR: Failed Execution. Alg: LTSA, File: Data/S004I001.PGM.atts
+
+magnetVisionException = 
+
+  MException with properties:
+
+    identifier: 'MATLAB:eigs:AminusBSingular'
+       message: 'The shifted operator is singular. The shift is an eigenva...'
+         cause: {0x1 cell}
+         stack: [8x1 struct]
+
+
+dimRedAlg =
+
+DiffusionMaps
+
+
+dimRedAlg =
+
+KernelPCA
+
+
+dimRedAlg =
+
+SNE
+
+
+dimRedAlg =
+
+SymSNE
+
+
+dimRedAlg =
+
+tSNE
+
+
+dimRedAlg =
+
+NPE
+
+
+dimRedAlg =
+
+LPP
+
+
+dimRedAlg =
+
+SPE
+
+
+dimRedAlg =
+
+LLTSA
+
+
+dimRedAlg =
+
+CCA
+
+Running normal LLE...
+Running Conformal Eigenmaps...
+CSDP OUTPUT =============================================================================
+Iedge :10578, ivertex: 31434
+Iter:  0 Ap: 0.00e+00 Pobj: -7.5330000e+04 Ad: 0.00e+00 Dobj:  0.0000000e+00 
+Iter:  1 Ap: 9.58e-01 Pobj: -8.8836020e+04 Ad: 8.17e-01 Dobj:  1.1682567e+01 
+Iter:  2 Ap: 9.64e-01 Pobj: -5.7758502e+04 Ad: 9.01e-01 Dobj:  2.8021737e+01 
+Iter:  3 Ap: 9.19e-01 Pobj: -1.3385611e+04 Ad: 8.80e-01 Dobj:  5.0821431e+01 
+Iter:  4 Ap: 1.00e+00 Pobj: -3.1549505e+03 Ad: 7.95e-01 Dobj:  3.6568019e+01 
+Iter:  5 Ap: 1.00e+00 Pobj: -1.8811916e+02 Ad: 9.01e-01 Dobj:  5.5931652e+00 
+Iter:  6 Ap: 9.98e-01 Pobj: -9.6263726e+00 Ad: 9.51e-01 Dobj:  4.5201606e-01 
+Iter:  7 Ap: 1.00e+00 Pobj: -1.3859103e+00 Ad: 9.92e-01 Dobj:  7.7440331e-02 
+Iter:  8 Ap: 1.00e+00 Pobj: -7.1696301e-01 Ad: 1.00e+00 Dobj:  3.0073045e-02 
+Iter:  9 Ap: 1.00e+00 Pobj: -2.0426122e-01 Ad: 1.00e+00 Dobj:  2.2038923e-02 
+Iter: 10 Ap: 1.00e+00 Pobj: -5.3202107e-02 Ad: 1.00e+00 Dobj:  1.5733540e-02 
+Iter: 11 Ap: 1.00e+00 Pobj: -6.6019661e-03 Ad: 1.00e+00 Dobj:  1.3752852e-02 
+Iter: 12 Ap: 1.00e+00 Pobj:  8.3465663e-03 Ad: 1.00e+00 Dobj:  1.3053294e-02 
+Iter: 13 Ap: 1.00e+00 Pobj:  1.1995928e-02 Ad: 1.00e+00 Dobj:  1.2856608e-02 
+Iter: 14 Ap: 1.00e+00 Pobj:  1.2718439e-02 Ad: 1.00e+00 Dobj:  1.2817220e-02 
+Iter: 15 Ap: 1.00e+00 Pobj:  1.2807602e-02 Ad: 1.00e+00 Dobj:  1.2812133e-02 
+Iter: 16 Ap: 1.00e+00 Pobj:  1.2812630e-02 Ad: 1.00e+00 Dobj:  1.2812451e-02 
+Iter: 17 Ap: 1.00e+00 Pobj:  1.2812861e-02 Ad: 9.72e-01 Dobj:  1.2812853e-02 
+Iter: 18 Ap: 9.57e-01 Pobj:  1.2812871e-02 Ad: 9.58e-01 Dobj:  1.2812871e-02 
+Success: SDP solved
+Primal objective value: 1.2812871e-02 
+Dual objective value: 1.2812871e-02 
+Relative primal infeasibility: 3.12e-15 
+Relative dual infeasibility: 7.50e-10 
+Real Relative Gap: -3.78e-10 
+XZ Relative Gap: 5.10e-10 
+DIMACS error measures: 3.12e-15 0.00e+00 3.79e-09 0.00e+00 -3.78e-10 5.10e-10
+Elements time: 0.465303 
+Factor time: 0.000803 
+Other time: 0.179392 
+Total time: 0.645497 
+[Warning: File 'param.csdp' not found.] 
+[> In csdp (line 215)
+  In cca (line 108)
+  In compute_mapping (line 277)
+  In MagnetVision (line 62)
+  In main (line 121)
+  In rp_gridMain_Run2Img (line 11)] 
+=========================================================================================
+
+ Wanted to embed 403 magnets embedded 403 magnet
+ #*#*# ERROR: Failed Execution. Alg: CCA, File: Data/S004I001.PGM.atts
+
+magnetVisionException = 
+
+  MException with properties:
+
+    identifier: 'MATLAB:badsubscript'
+       message: 'Index exceeds matrix dimensions.'
+         cause: {}
+         stack: [3x1 struct]
+
+
+dimRedAlg =
+
+MVU
+
+Running normal LLE...
+Running Maximum Variance Unfolding...
+CSDP OUTPUT =============================================================================
+Iedge :3598, ivertex: 4836
+Elements time: 0.675338 
+Factor time: 0.000849 
+Other time: 0.256212 
+Total time: 0.932398 
+=========================================================================================
+
+ Wanted to embed 403 magnets embedded 403 magnet
+ #*#*# ERROR: Failed Execution. Alg: MVU, File: Data/S004I001.PGM.atts
+
+magnetVisionException = 
+
+  MException with properties:
+
+    identifier: 'MATLAB:badsubscript'
+       message: 'Index exceeds matrix dimensions.'
+         cause: {}
+         stack: [3x1 struct]
+
+
+dimRedAlg =
+
+LandmarkMVU
+
+
+dimRedAlg =
+
+FastMVU
+
+Elements time: 0.000786 
+Factor time: 0.000050 
+Other time: 0.013978 
+Total time: 0.014814 
+
+ Wanted to embed 403 magnets embedded 403 magnet
+ #*#*# ERROR: Failed Execution. Alg: FastMVU, File: Data/S004I001.PGM.atts
+
+magnetVisionException = 
+
+  MException with properties:
+
+    identifier: 'MATLAB:badsubscript'
+       message: 'Index exceeds matrix dimensions.'
+         cause: {}
+         stack: [3x1 struct]
+
+
+dimRedAlg =
+
+LLC
+
+
+dimRedAlg =
+
+GPLVM
+
+
+dimRedAlg =
+
+Autoencoder
+
+
+dimRedAlg =
+
+NCA
+
+
+dimRedAlg =
+
+MCML
+
+
+dimRedAlg =
+
+LMNN
+
+
+startTime =
+
+13-Oct-2015 16:54:31
+
+
+endTIme =
+
+13-Oct-2015 17:10:12
+
+Elapsed time is 1.049126 seconds.
+
+startTime =
+
+13-Oct-2015 17:10:12
+
+## Starting Data/dummy
+{Error using fscanf
+Invalid file identifier. Use fopen to generate a valid file identifier.
+
+Error in ReadEdgeAttsFile (line 31)
+paren = fscanf(infile, ' %c', 1);
+
+
+Error in main (line 54)
+Lines = ReadEdgeAttsFile (ImageFile);
+
+
+Error in rp_gridMain_Run2Img (line 20)
+	main(['Data' filesep img2], minGap);
+
+} 
+>> 
